@@ -140,7 +140,7 @@ a.vsi-icon-footer{
     background: #0189c3;
     text-decoration: none; 
 }
-.vsi-bg-ytb{
+.vsi-bg-ytb:hover{
     background: #da1818;
     text-decoration: none; 
 }
@@ -174,13 +174,13 @@ a.vsi-icon-footer{
     text-align: center;
     display: block;
 }
-.vsi-logo{
+.vsi-logo-footer{
     width: 130px;
     max-width: 130px;
     padding: 0;
     margin: 0 auto;
 }
-.vsi-logo img{
+.vsi-logo-footer img{
     max-width: 130px;
     padding: 0;
     text-align: center;
