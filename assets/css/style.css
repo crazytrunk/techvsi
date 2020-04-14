@@ -1,0 +1,49 @@
+/* vis-fe1-fonts start*/
+
+	/* Oswald */
+	@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+	/* Oswald */
+
+	/* name font */
+	/* font-family: 'Oswald', sans-serif; */
+	/* name font */
+
+	/* Raleway */
+	@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Raleway:wght@600&display=swap');
+	/* Raleway */
+
+	/* name font */
+	/* font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif; */
+	/* name font */
+
+	/* Indie Flower */
+	@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald:wght@600&family=Raleway:wght@600&display=swap');
+	/* Indie Flower */
+
+	/* name font */
+	/* font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Indie Flower', cursive; */
+	/* name font */
+
+/* vis-fe1-fonts end*/
+*, body {
+	font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 575.98px) {
+	
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+@media (min-width: 1200px) {
+	
+}
