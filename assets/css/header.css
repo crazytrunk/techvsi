@@ -6,7 +6,7 @@
 .luxbar-fixed{
     box-shadow: none !important;
 }
-.vsi-header{
+.vsi-fe1-header{
     width: 100%;
     max-width: 100%;
     height: 95px;
@@ -18,7 +18,7 @@
 .luxbar-header{
     height: 95px !important;
 }
-.vsi-nav{
+.vsi-fe1-nav{
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
@@ -27,20 +27,20 @@
     transition: all 0.5s linear;
     
 }
-.vsi-logo{
+.vsi-fe1-logo{
     padding: 0;
     margin: 0;
     float: right;
     text-align: right;
     height: 95px;
 }
-.vsi-logo img{
+.vsi-fe1-logo img{
     max-width: 130px;
     padding: 0;
     margin: 0;
     height: 95p;
 }
-.vsi-font{
+.vsi-fe1-font{
     text-transform: uppercase;
     padding-left: 0;
     margin-bottom: 0;
@@ -61,7 +61,7 @@
 .luxbar-item a{
     padding: 0px !important;
 }
-.vsi-font a{
+.vsi-fe1-font a{
     height: 100%;
     line-height: 95px;
     color: var(--light-black);
@@ -72,7 +72,7 @@
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
-.vsi-active{
+.vsi-fe1-active{
     color: var(--light-red) !important;
 }
 .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
@@ -81,7 +81,7 @@
 }
 
 @media (max-width: 575.98px) {
-    .vsi-header{
+    .vsi-fe1-header{
         background-color: var(--white) !important;
     }
     .luxbar-item {
@@ -104,7 +104,7 @@
  
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .vsi-header{
+    .vsi-fe1-header{
         background-color: var(--white) !important;
     }
     .luxbar-item {
@@ -130,7 +130,7 @@
   
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .vsi-header{
+    .vsi-fe1-header{
         background-color: var(--white) !important;
     }
     .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
@@ -139,7 +139,7 @@
     }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .vsi-header{
+    .vsi-fe1-header{
         background-color: var(--white) !important;
     }
     .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
@@ -148,7 +148,7 @@
     }
 }
 @media (min-width: 1200px) {
-    .vsi-header{
+    .vsi-fe1-header{
         background-color: var(--white) !important;
     }
     .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
