@@ -1,0 +1,161 @@
+
+.luxbar-menu-material-cyan, .luxbar-menu-material-cyan .dropdown ul{
+    background-color: var(--white) !important;
+    color: var(--black) !important;
+}
+.luxbar-fixed{
+    box-shadow: none !important;
+}
+.vsi-fe1-header{
+    width: 100%;
+    max-width: 100%;
+    height: 95px;
+    background-color: var(--white);
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s linear;
+}
+.luxbar-header{
+    height: 95px !important;
+}
+.vsi-fe1-nav{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+    height: 95px;
+    transition: all 0.5s linear;
+    
+}
+.vsi-fe1-logo{
+    padding: 0;
+    margin: 0;
+    float: right;
+    text-align: right;
+    height: 95px;
+}
+.vsi-fe1-logo img{
+    max-width: 130px;
+    padding: 0;
+    margin: 0;
+    height: 95p;
+}
+.vsi-fe1-font{
+    text-transform: uppercase;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-family: 'Oswald', 'sans-serif';
+    float: right; 
+    color: var(---light-black);
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.luxbar-item{
+    height: 95px !important;
+}
+.luxbar-menu-material-cyan .active, .luxbar-menu-material-cyan .luxbar-item:hover{
+    text-decoration: none !important;
+    background-color: #eee !important;
+}
+.luxbar-item a{
+    padding: 0px !important;
+}
+.vsi-fe1-font a{
+    height: 100%;
+    line-height: 95px;
+    color: var(--light-black);
+    font-size: 15px;
+    font-weight: inherit;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.vsi-fe1-active{
+    color: var(--light-red) !important;
+}
+.luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+    overflow: unset;
+    height: 95px !important;
+}
+
+@media (max-width: 575.98px) {
+    .vsi-fe1-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-item {
+        height: 95px !important;
+        text-align: center !important;
+    }
+    .luxbar-checkbox:checked ~ .luxbar-menu li .luxbar-hamburger span {
+        background-color: var(--light-black) !important;
+    }
+    .luxbar-menu-material-cyan .luxbar-hamburger span, .luxbar-menu-material-cyan .luxbar-hamburger span::before, .luxbar-menu-material-cyan .luxbar-hamburger span::after {
+        background-color: var(--light-black) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: unset;
+        height: 95px !important;
+    }
+    .luxbar-hamburger{
+        padding: 18px 24px 0px 24px !important;
+    }
+ 
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-fe1-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-item {
+        height: 95px !important;
+        text-align: center !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: unset;
+        height: 95px !important;
+    }
+    .luxbar-checkbox:checked ~ .luxbar-menu li .luxbar-hamburger span {
+        background-color: var(--light-black) !important;
+    }
+    .luxbar-menu-material-cyan .luxbar-hamburger span, .luxbar-menu-material-cyan .luxbar-hamburger span::before, .luxbar-menu-material-cyan .luxbar-hamburger span::after {
+        background-color: var(--light-black) !important;
+    }
+    menu {
+        height: 95px !important;
+    }
+    .luxbar-hamburger{
+        padding: 18px 24px 0px 24px !important;
+    }
+  
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .vsi-fe1-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: unset;
+        height: 95px !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .vsi-fe1-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: unset;
+        height: 95px !important;
+    }
+}
+@media (min-width: 1200px) {
+    .vsi-fe1-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: unset;
+        height: 95px !important;
+    }
+    .luxbar-checkbox:checked ~ .luxbar-menu {
+        height: 95px;
+    }
+}
