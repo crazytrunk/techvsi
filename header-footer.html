@@ -13,18 +13,43 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/fontawesome-free-5.13.0-web/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/luxbar.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
-
+	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
 	<!-- import JS -->
 	<script type="text/javascript" src="assets/lib/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/lib/fontawesome-free-5.13.0-web/js/all.min.js"></script>
+	<script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+	<header id="luxbar" class="luxbar-fixed vsi-header">
+		<div class="vsi-nav">
+			<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
+			<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
+				<ul class="luxbar-navigation">
+					<li class="luxbar-header">
+						<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
+							<img src="assets/images/logo.png" alt="Outsourcing Logo">
+						</a>
+						<label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
+							for="luxbar-checkbox"> <span></span> </label>
+					</li>
+					<li class="luxbar-item vsi-font"><a href="#" class="vsi-active">home</a></li>
+					<li class="luxbar-item vsi-font"><a href="#">about</a></li>
+					<li class="luxbar-item vsi-font"><a href="#">project</a></li>
+					<li class="luxbar-item vsi-font"><a href="#">team</a></li>
+					<li class="luxbar-item vsi-font"><a href="#">contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<main>
+		
+	</main>
 	<footer>
 		<section>
 			<div class="vsi-footer">
@@ -54,7 +79,7 @@
 								<i class="fab fa-linkedin-in"></i>
 							</a>
 							<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-ytb">
-								<i class="fa fa-youtube"></i>
+								<i class="fab fa-youtube"></i>
 							</a>
 						</div>
 					</div>
@@ -76,8 +101,8 @@
 			</div>
 		</section>
 	</footer>
-
 	<script type="text/javascript" src="assets/js/script.js"></script>
+	<script type="text/javascript" src="assets/js/header.js"></script>
 	<script type="text/javascript" src="assets/js/home.js"></script>
 </body>
 
