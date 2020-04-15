@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Oswald', 'sans-serif';
+}
 /* CSS Content -- Start */
 .vsi-fe3-header__empty{
     width: 100%;
@@ -15,18 +17,19 @@
 
 .vsi-fe3-projects__content--banner-title{
     font-size: 80px;
-    font-family: 'Oswald', 'sans-serif';
+    /* font-family: 'Oswald', 'sans-serif'; */
     color: var(--white);
     position: absolute;
     bottom: 25%;
-    left: 22%;
+    /* left: 22%; */
+    padding-left: 15px;
 }
 .vsi-fe3-projects__content--about-us{
     background-color: var(--dark-gray-priamry);
     padding-bottom: 40px;
 }
 .vsi-fe3-projects__about-us--text{
-    font-family: 'Oswald', 'sans-serif';
+    /* font-family: 'Oswald', 'sans-serif'; */
     background-color: var(--yellow-orange);
     padding: 40px;
     border-radius: 0 0 40px;
@@ -42,12 +45,12 @@
 }
 .vsi-fe3-projects__info--number{
     font-size: 56px;
-    font-family: 'Oswald', 'sans-serif';
+    /* font-family: 'Oswald', 'sans-serif'; */
     color: var(--yellow-orange);
 }
 .vsi-fe3-projects__info--text{
     font-size: 20px;
-    font-family: 'Oswald', 'sans-serif';
+    /* font-family: 'Oswald', 'sans-serif'; */
     color: var(--light-silver);
     margin: 16px 0;
 }
@@ -77,7 +80,7 @@
     padding: 40px 0 60px;
 }
 .vsi-fe3-projects__projects-list--item a{
-    font-family: 'Oswald', 'sans-serif';
+    /* font-family: 'Oswald', 'sans-serif'; */
     text-decoration: none;   
 }
 .vsi-fe3-projects-item-name{
@@ -112,69 +115,154 @@
     display: flex;
     margin: auto;
 }
-
-
-
+.vsi-fe3-projects__more--img{
+   position: relative;
+}
+.vsi-fe3-projects__more--img-hover{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    display: none;
+}
+.vsi-fe3-projects__more--name{
+    font-size: 20px;
+    color: var(--white);
+    margin: 20px 0 7px;
+}
+.vsi-fe3-projects__more--type{
+    font-size: 12px;
+    color: var(--light-silver);
+}
+.vsi-fe3-projects__more-projects--item{
+    margin-bottom: 40px;
+}
 /* Reponsive */
 @media (max-width: 575.98px) {
     .vsi-fe3-projects__content--banner-title{
-        font-size: 48px;
-        font-family: 'Oswald', 'sans-serif';
+        font-size: 48px; 
         color: var(--white);
         position: absolute;
-        bottom: 25%;
-        left: 5%;
+        bottom: 10%;    
+    }
+    .container {
+    padding-left: 0;
+    padding-right: 0;    
+    }
+    .vsi-fe3-projects__about-us--text{
+        top: 0;
+    }
+    .vsi-fe3-projects__projects-list--item{
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     .vsi-fe3-projects__content--banner-title{
         font-size: 48px;
-        font-family: 'Oswald', 'sans-serif';
         color: var(--white);
         position: absolute;
-        bottom: 25%;
-        left: 10%;
+        bottom: 15%;
+        /* left: 10%; */
     }
+    .vsi-fe3-container-no-padding{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .vsi-fe3-projects__about-us--text{
+        top: 0;
+    }
+    .vsi-fe3-projects__about-us--info{
+        padding: 0 15px;
+        margin-top: 50px;
+    }
+    
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .vsi-fe3-projects__content--banner-title{
+    /* .vsi-fe3-projects__content--banner-title{
         font-size: 80px;
         font-family: 'Oswald', 'sans-serif';
         color: var(--white);
         position: absolute;
         bottom: 25%;
         left: 10%;
+    } */
+    .vsi-fe3-projects__about-us--text{
+        max-width: 580px;
+        margin: 0 auto;
     }
-    
+    .vsi-fe3-projects__about-us--info{
+        max-width: 600px;
+        margin: auto;
+    }
+    .vsi-fe3-projects__about-us--info-item{
+        width: 270px;
+    }
+    .vsi-fe3-projects__projects-list--item{
+        max-width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .vsi-fe3-projects__content--banner-title{
+    /* .vsi-fe3-projects__content--banner-title{
         font-size: 80px;
         font-family: 'Oswald', 'sans-serif';
         color: var(--white);
         position: absolute;
         bottom: 25%;
         left: 7%;
-    }
+    } */
     .vsi-fe3-projects__projects-list--item{
         margin-bottom: 160px;
     }
+    .container {
+        padding-left: 0;
+        padding-right: 0;    
+    }
 }
 @media (min-width: 1200px) {
-	.vsi-fe3-projects__content--banner-title{
+	/* .vsi-fe3-projects__content--banner-title{
         font-size: 80px;
         font-family: 'Oswald', 'sans-serif';
         color: var(--white);
         position: absolute;
         bottom: 25%;
         left: 8%;
-    }
+    } */
     .vsi-fe3-projects__projects-list--item{
         margin-bottom: 160px;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;    
     }
 }
 
 /* CSS Content -- End */
+
+/* Container */
+
+@media (min-width: 576px){
+    .container {
+		max-width: 540px;
+	}
+}
+@media (min-width: 768px){
+    .container {
+		max-width: 720px;
+	}
+}
+@media (min-width: 992px){
+    .container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px){
+    .container {
+		max-width: 1140px;
+	}
+}
 /* @media (min-width: 1366px) {
 	.container {
 		max-width: 1344px;

@@ -1,7 +1,8 @@
+
 :root {
     /* vsi-fe1- start */
     --grey38: #616161;
-    --grey39: ##515151;
+    --grey39: #515151;
     --light-black: #161616;
     --light-red: #f32a2a;
 	--light-secondary: #989898;
@@ -39,7 +40,7 @@
 	/* vsi-fe2- start */
 	/* vsi-fe2- end */
 	
-    /* vsi-fe3- start */
+	/* vsi-fe3- start */
     
     --yellow-orange : #fcbf10;
     --light-silver: #b8bec5;
