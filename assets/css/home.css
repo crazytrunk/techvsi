@@ -577,30 +577,6 @@ a.vsi-btn-submit:hover{
     text-decoration: none;
     background-color: transparent;
 }
-/* .vsi-contact-form{
-    width: 180px;
-    max-width: 100%;
-    padding: 24px;
-    background-color: #323940;
-    cursor: pointer;
-    -webkit-transition: 0.5s all ease;
-    -o-transition: 0.5s all ease;
-    transition: 0.5s all ease;
-    margin-bottom: 16px;
-
-}
-.vsi-btn-submit{
-    color: #fff;
-    float: right;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Oswald', 'sans-serif';
-}
-a.vsi-btn-submit:hover{
-    text-decoration: none;
-    background: transparent;
-    color: #fcbf10;
-} */
 
 @media (max-width: 575.98px) {
 	.vsi-h1 a{
