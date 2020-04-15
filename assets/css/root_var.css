@@ -40,7 +40,11 @@
 	/* vsi-fe2- end */
 	
     /* vsi-fe3- start */
-    --yellow-orange : #fbbe10;
-    --dark-gray : #323940
+    
+    --yellow-orange : #fcbf10;
+    --light-silver: #b8bec5;
+    --light-silver-secondary :#6b7782;
+    --dark-gray-priamry :#30363c;
+    --dark-gray-secondary : #323940;
 	/* vsi-fe3- end */
 }
