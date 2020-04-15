@@ -14,7 +14,6 @@
     background-color: var(--white);
     padding: 0;
     margin: 0;
-    transition: all 0.5s linear;
 }
 .luxbar-header{
     height: 95px !important;
@@ -25,8 +24,6 @@
     margin: 0 auto;
     padding: 0;
     height: 95px;
-    transition: all 0.5s linear;
-    
 }
 .vsi-logo{
     margin: 0;
@@ -67,10 +64,6 @@
     font-size: 15px;
     font-weight: inherit;
     cursor: pointer;
-    -webkit-transition: all 0.3s;
-    font-family: 'Oswald', 'sans-serif';
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
 }
 .vsi-active{
     color: var(--light-red) !important;
@@ -162,12 +155,15 @@
 /* CSS header end */
 
 /* CSS main start */
-
+.vsi-mg-top{
+    margin-top: 95px;
+    padding: 0;
+}
 /* Section 1 start */
 .vsi-fe1-banner{
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 100%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -178,6 +174,120 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.vsi-fe1-banner::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+.vsi-fe1-text-big{
+    padding: 0;
+    z-index: 99;
+    top: 65%;
+    position: relative;
+    transform: translateY(50%);
+    width: 100%;
+    margin: 0 auto;
+}
+.vsi-fe1-text-big .vsi-fe1-h1{
+    font-family: 'Oswald', 'sans-serif';
+    line-height: 1.3;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--white);
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    
+}
+.vsi-fe1-block-pc{
+    display: block;
+}
+.vsi-fe1-p{
+    color: var(--grey38);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 0;
+    font-size: 19px;
+    line-height: 29px;
+    font-family: 'Oswald', 'sans-serif';
+}
+.vsi-fe1-btn-contac{
+    width: 147px;
+    height: 56px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.vsi-fe1-btn-contac a{
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--black);
+    border: 1px solid var(--white);
+    padding: 15px 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Oswald', 'sans-serif';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0;
+    border-radius: 30px;
+}
+
+@media (max-width: 575.98px) {
+    .vsi-fe1-banner{
+        min-height: 600px;
+        height: calc(100vh);
+    }
+    .vsi-fe1-text-big{
+        top: 25%;
+        transform: translateY(50%);
+    }
+	.vsi-fe1-text-big .vsi-fe1-h1{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .vsi-fe1-block-pc{
+        display: inline-block !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-fe1-banner{
+        min-height: 600px;
+        height: calc(100vh);
+    }
+    .vsi-fe1-text-big{
+        top: 85%;
+        transform: translateY(50%);
+    }
+	.vsi-fe1-text-big .vsi-fe1-h1{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .vsi-fe1-block-pc{
+        display: inline-block !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+@media (min-width: 1200px) {
+	
 }
 /* Section 1 end */
 
@@ -261,9 +371,6 @@
     margin: 0 auto;
     line-height: 85px;
     font-size: 35px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
 }
 .vsi-button-email:hover{
     background: rgba(255,255,255,0.9);
@@ -297,14 +404,13 @@
     font-size: 25px;
     color: inherit;
     display: block;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Oswald', 'sans-serif';
     text-decoration: none;
-
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .vsi-mail:hover{
     color: #d71818;
@@ -330,7 +436,6 @@ a.vsi-icon-footer{
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    text-decoration: none;
 }
 .vsi-bg-color-icon{
     width: 62px;
@@ -418,6 +523,84 @@ a.vsi-icon-footer{
     color: #d71818;
     outline: none;
 }
+.vsi-estimate-project{
+    background-color: #fcbf10;
+    background-image: url(../images/home/pattern-up-full.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: 50%;
+    background-position-x: -50%;
+    width: 100%;
+    border-radius: 0 0 50px;
+    background-color: #fcbf10;
+    border: 1px solid #fcbf10;
+    margin-top: 40px;
+}
+.vsi-contact-white{
+    color: var(--white);
+}
+.vsi-contact-title{
+    font-size: 32px;
+    line-height: 1.14;
+    color: #333;
+    padding: 24px;
+    font-family: 'Oswald', 'sans-serif';
+}
+.vsi-contact-form{
+    background-color: #323940;
+    color: var(--white);
+    float: left;
+    padding: 8px;
+    -webkit-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    width: 180px;
+    max-width: 100%;
+    border-radius: 0 0 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    margin: 24px;
+}
+.vsi-contact-form:hover{
+    background: #444b53;
+}
+a.vsi-btn-submit{
+    color: var(--white);
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+a.vsi-btn-submit:hover{
+    color: #fcbf10;
+    text-decoration: none;
+    background-color: transparent;
+}
+/* .vsi-contact-form{
+    width: 180px;
+    max-width: 100%;
+    padding: 24px;
+    background-color: #323940;
+    cursor: pointer;
+    -webkit-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    margin-bottom: 16px;
+
+}
+.vsi-btn-submit{
+    color: #fff;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Oswald', 'sans-serif';
+}
+a.vsi-btn-submit:hover{
+    text-decoration: none;
+    background: transparent;
+    color: #fcbf10;
+} */
 
 @media (max-width: 575.98px) {
 	.vsi-h1 a{
