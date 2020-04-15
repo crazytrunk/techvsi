@@ -1,0 +1,58 @@
+
+
+
+/* CSS Content -- Start */
+.vsi-fe3-header__empty{
+    width: 100%;
+    height: 95px;
+}
+.vsi-fe3-projects__content--banner{
+    background-image: url("../images/projects/cover-projects.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+   
+}
+
+
+.vsi-fe3-projects__content--banner-title{
+    font-size: 80px;
+    font-family: 'Oswald', 'sans-serif';
+    color: var(--white);
+    position: absolute;
+    bottom: 22%;
+    left: 20%;
+}
+.vsi-fe3-projects__about-us--text{
+    font-family: 'Oswald', 'sans-serif';
+    margin-top: -100px;
+    background-color: var(--yellow-orange);
+    padding: 40px;
+    border-radius: 0 0 40px;
+    max-width: 796px;
+}
+.vsi-fe3-projects__about-us--info-item{
+    padding: 56px 0 40px;
+    background-color: #4b6ea8;
+}
+
+/* Reponsive */
+@media (max-width: 575.98px) {
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+@media (min-width: 1200px) {
+	
+}
+
+/* CSS Content -- End */
