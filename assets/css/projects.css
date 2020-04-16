@@ -122,7 +122,7 @@ body{
     position: absolute;
     top: 20%;
     left: 10%;
-    display: none;
+    /* display: none; */
 }
 .vsi-fe3-projects__more--name{
     font-size: 20px;
@@ -145,13 +145,22 @@ body{
         bottom: 10%;    
     }
     .container {
-    padding-left: 0;
-    padding-right: 0;    
+        padding-left: 0;
+        padding-right: 0;    
     }
     .vsi-fe3-projects__about-us--text{
         top: 0;
     }
     .vsi-fe3-projects__projects-list--item{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .vsi-fe3-projects__about-us--info{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+    }
+    .vsi-fe3-projects__projects-list--more-projects{
         padding-left: 24px;
         padding-right: 24px;
     }
@@ -174,6 +183,11 @@ body{
     .vsi-fe3-projects__about-us--info{
         padding: 0 15px;
         margin-top: 50px;
+    }
+    .vsi-fe3-projects__projects-list--more-projects{
+        margin-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
     }
     
 }
@@ -202,6 +216,14 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
+    .vsi-fe3-projects__projects-list--more-projects{
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 570px;
+       margin-top: 100px;
+       margin-left: auto;
+       margin-right: auto;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
     /* .vsi-fe3-projects__content--banner-title{
@@ -218,6 +240,10 @@ body{
     .container {
         padding-left: 0;
         padding-right: 0;    
+    }
+    .vsi-fe3-projects__about-us--info{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media (min-width: 1200px) {
