@@ -537,11 +537,20 @@ a.vsi-btn-submit:hover{
         position: absolute;
         bottom: 10%;    
     }
-    .vsi-sub_page--banner-text{
-        top: 0;
+    .vsi-sub_page--banner-text {
+        top: 100%;
+        border-radius: 0;
+        max-width: calc(100% - 30px);
+    }
+    .vsi-sub_page--banner-bottom {
+        height: 75vh;
+        background-color: var(--dark-gray-priamry);
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-sub_page--banner{
+        height: 60vh;
+    }
     .vsi-sub_page--banner-title{
         font-size: 48px;
         color: var(--white);
@@ -550,16 +559,36 @@ a.vsi-btn-submit:hover{
         /* left: 10%; */
     }
     .vsi-sub_page--banner-text{
-        top: 0;
+        top: 100%;
+        max-width: calc(100% - 30px);
     } 
+    .vsi-sub_page--banner-bottom {
+        height: 45vh;
+        background-color: var(--dark-gray-priamry);
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .vsi-sub_page--banner-text{
         max-width: 580px;
-        margin: 0 auto;
+        margin: 0 0 0 40px;
+    }
+    .vsi-sub_page--banner-title {
+        font-size: 80px;
+        color: var(--white);
+        position: absolute;
+        bottom: 13%;
+        font-weight: bold;
+    }
+    .vsi-sub_page--banner-bottom {
+        height: 25vh;
+        background-color: var(--dark-gray-priamry);
     }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .vsi-sub_page--banner-bottom {
+        height: 35vh;
+        background-color: var(--dark-gray-priamry);
+    }
 }
 @media (min-width: 1200px) {
 }
