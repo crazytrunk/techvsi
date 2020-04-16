@@ -54,3 +54,33 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 });
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  dots: true,
+  dots: true,
+  dotsData: true,
+  dotsEach: true,
+  dotsSpeed: true,
+  dotsContainer: true,
+  autoplay: 6000,
+  responsive:{
+      0:{
+          items:1
+      },
+      768:{
+          items:2
+      },
+      1000:{
+          items:3
+      }
+  }
+})
+$(document).ready(function(){
+	$('.skillbar').each(function(){
+		$(this).find('.skillbar-bar').animate({
+			width:$(this).attr('data-percent')
+		},3000);
+	});
+});
