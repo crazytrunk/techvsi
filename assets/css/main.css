@@ -15,7 +15,7 @@ Primary style
     font-size: 1.6rem;
     font-family: "Open Sans", sans-serif;
     color: #ffffff;
-    background-color: rgba(34,34,34, 0.75);
+    background-color: #22283f;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -56,7 +56,7 @@ Primary style
     font-size: 2.4rem;
   }
   .cd-section:first-of-type > div {
-    background-color: var(--white) !important;
+    background-color: #2b334f;
   }
   .cd-section:first-of-type > div::before {
     /* alert -> all scrolling effects are not visible on small devices */

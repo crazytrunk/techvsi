@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en" class="no-js">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="assets/images/fav.png" type="image/png" sizes="16x16">
 	<title>TechVSI - Top of Software Outsourcing Company In Vietnam</title>
-    <meta name="description" content="Description" />
-    <meta name="keywords" content="Keywords" />
-    <meta name="author" content="Author" />
+	<meta name="description" content="Description" />
+	<meta name="keywords" content="Keywords" />
+	<meta name="author" content="Author" />
 	<!-- import CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/lib/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/fontawesome-free-5.13.0-web/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/luxbar.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/aos.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
@@ -23,7 +25,7 @@
 	<script type="text/javascript" src="assets/lib/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="assets/lib/fontawesome-free-5.13.0-web/js/all.min.js"></script>
 	<script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
-	
+
 	<!-- Page Scroll Effects -->
 	<script type="text/javascript" src="assets/lib/modernizr.js"></script>
 	<script type="text/javascript" src="assets/lib/jquery-2.1.4.js"></script>
@@ -31,11 +33,14 @@
 	<script type="text/javascript" src="assets/lib/velocity.ui.min.js"></script>
 	<script type="text/javascript" src="assets/lib/main.js"></script>
 	<script type="text/javascript" src="assets/lib/typed.js"></script>
+	<script type="text/javascript" src="assets/lib/aos.js"></script>
 </head>
 <!-- setup -->
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 <!-- setup -->
-<body data-hijacking="on" data-animation="rotate">
+<!-- data-hijacking="on" data-animation="rotate" -->
+
+<body>
 	<section class="cd-section visible">
 		<div>
 			<header id="luxbar" class="luxbar-fixed vsi-header">
@@ -59,13 +64,14 @@
 					</div>
 				</div>
 			</header>
+			<div class="vsi-mg-top"></div>
 			<div class="vsi-fe1-banner">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<div class="vsi-fe1-text-big" data-aos="fade-up" data-aos-delay="400">
+							<div class="vsi-fe1-text-big">
 								<div class="vsi-fe1-h1">
-									TechVSI - Top of Software Outsourcing<div class="vsi-fe1-block-pc"></div>
+									TechVSI - Top of Software Outsourcing <div class="vsi-fe1-block-pc"></div>
 									Company In Vietnam is Expert in<div class="vsi-fe1-block-pc"></div>
 									<span id="typed"></span>
 								</div>
@@ -74,6 +80,116 @@
 								</p>
 								<div class="vsi-fe1-btn-contac">
 									<a href="#" title="Contact us">Contact Us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="cd-section vsi-fe1-set-height">
+		<div>
+			<header id="luxbar" class="luxbar-fixed vsi-header">
+				<div class="vsi-nav">
+					<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
+					<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
+						<ul class="luxbar-navigation">
+							<li class="luxbar-header">
+								<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
+									<img src="assets/images/logo.png" alt="Outsourcing Logo">
+								</a>
+								<label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
+									for="luxbar-checkbox"> <span></span> </label>
+							</li>
+							<li class="luxbar-item vsi-font"><a href="#" class="vsi-active">home</a></li>
+							<li class="luxbar-item vsi-font"><a href="#">about</a></li>
+							<li class="luxbar-item vsi-font"><a href="#">project</a></li>
+							<li class="luxbar-item vsi-font"><a href="#">team</a></li>
+							<li class="luxbar-item vsi-font"><a href="#">contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</header>
+			<div class="vsi-mg-top"></div>
+			<div class="vsi-fe1-wellcome">
+				<div class="vsi-fe1-h1-wellcome">
+					Welcome To TechVSI - Top of Software
+					Outsourcing Company In Vietnam
+				</div>
+				<div class="vsi-fe1-rec"></div>
+				<div class="container vsi-fe1-setwidth">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="vsi-fe1-web">
+								<div class="vsi-fe1-h2-web">
+									Web Application Development
+								</div>
+								<p class="vsi-fe1-text-web">
+									We are 1 of the top outsourcing company in Vietnam, with highly skilled in
+									developing large scale and complex business web applications. TechVSI, a software
+									development company, aims to use the latest web technologies to build stunning
+									websites.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="vsi-fe1-mobile">
+								<div class="vsi-fe1-h2-mobile">
+									Mobile Application Development
+								</div>
+								<p class="vsi-fe1-text-mobile">
+									We bring you the best iOS Development Service and Android Development Service with
+									both native app development and cross-platform framework development by using React
+									Native.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="vsi-fe1-values">
+								<div class="vsi-fe1-number">
+									<span class="vsi-fe1-firts">
+										01
+									</span>
+								</div>
+								<div class="vsi-fe1-text-values">
+									We are more than an Outsourcing company, we don’t hire thousands of engineers or
+									develop hundreds of applications. We work with selected clients so we can focus on
+									building innovative products that reach the top of app store and scale web
+									applications to serve millions of users.
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="vsi-fe1-mission">
+								<div class="vsi-fe1-number">
+									<span class="vsi-fe1-firts">
+										02
+									</span>
+								</div>
+								<div class="vsi-fe1-text-mission">
+									We deliver all projects in a timely manner by synchronizing with your internal
+									development process. If you don’t have one, we can help you develop one because we
+									are experts in it.
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="vsi-fe1-philosophy">
+								<div class="vsi-fe1-number">
+									<span class="vsi-fe1-firts">
+										03
+									</span>
+								</div>
+								<div class="vsi-fe1-text-philosophy">
+									Your happiness is our success! As an Software Development Company, we bring to our
+									clients the best experiences of how remote team can work, how we can save a lot of
+									money and time for our great customers.
 								</div>
 							</div>
 						</div>
@@ -106,38 +222,84 @@
 					</div>
 				</div>
 			</header>
-			<h2>
-				2
-			</h2>
-		</div>
-	</section>
+			<div class="vsi-mg-top"></div>
+			<div class="vsi-fe1-project">
+				<div class="vsi-fe1-text-portfolio">
+					OUR PORTFOLIO
+					<div class="vsi-fe1-rec"></div>
+					<div class="vsi-fe1-h2-project">
+						Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical Latin literature from 45 BC, it a old.
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-lg-3 col-md-6">
+								<div class="vsi-fe1-working-hours">
+									<div class="vsi-fe1-flex-span">
+										<span class="vsi-fe1-span-working-hours" data-count="150">0</span><span class="vsi-fe1-span-working-k">k+</span>
+									</div>
+									<p class="vsi-fe1-service-description">Working hours</p>
+								</div>
+							</div>
+							<div class="col-12 col-lg-3 col-md-6">
+								<div class="vsi-fe1-meetings">
+									<div class="vsi-fe1-flex-span">
+										<span class="vsi-fe1-span-working-hours" data-count="500">0</span><span class="vsi-fe1-span-working-k">+</span>
+									</div>
+									<p class="vsi-fe1-service-description">Meetings</p>
+								</div>
+							</div>
+							<div class="col-12 col-lg-3 col-md-6">
+								<div class="vsi-fe1-technologies-applied">
+									<div class="vsi-fe1-flex-span">
+										<span class="vsi-fe1-span-working-hours">3-15</span>
+									</div>
+									<p class="vsi-fe1-service-description">Technologies Applied</p>
+								</div>
+							</div>
+							<div class="col-12 col-lg-3 col-md-6">
+								<div class="vsi-fe1-projects-delivered">
+									<div class="vsi-fe1-flex-span">
+										<span class="vsi-fe1-span-working-hours" data-count="100">0</span><span class="vsi-fe1-span-working-k">+</span>
+									</div>
+									<p class="vsi-fe1-service-description">Projects Delivered</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="vsi-fe1-filters">
+								<ul>
+									<li>
+										<a href="#" class="vsi-fe1-active">show all</a>
+									</li>
+									<li>
+										<a href="#">design</a>
+									</li>
+									<li>
+										<a href="#">branding</a>
+									</li>
+									<li>
+										<a href="#">video</a>
+									</li>
+									<li>
+										<a href="#">photography</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-4">
+								
+							</div>
+							<div class="col-md-4">
 
-	<section class="cd-section">
-		<div>
-			<header id="luxbar" class="luxbar-fixed vsi-header">
-				<div class="vsi-nav">
-					<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
-					<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
-						<ul class="luxbar-navigation">
-							<li class="luxbar-header">
-								<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
-									<img src="assets/images/logo.png" alt="Outsourcing Logo">
-								</a>
-								<label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
-									for="luxbar-checkbox"> <span></span> </label>
-							</li>
-							<li class="luxbar-item vsi-font"><a href="#" class="vsi-active">home</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">about</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">project</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">team</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">contact</a></li>
-						</ul>
+							</div>
+							<div class="col-md-4">
+
+							</div>
+						</div>
 					</div>
 				</div>
-			</header>
-			<h2>
-				3
-			</h2>
+			</div>
 		</div>
 	</section>
 
@@ -259,30 +421,73 @@
 
 	<section class="cd-section">
 		<div>
-			<header id="luxbar" class="luxbar-fixed vsi-header">
-				<div class="vsi-nav">
-					<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
-					<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
-						<ul class="luxbar-navigation">
-							<li class="luxbar-header">
-								<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
-									<img src="assets/images/logo.png" alt="Outsourcing Logo">
+			<footer>
+				<div class="vsi-footer">
+					<div class="vsi-inner">
+						<div class="vsi-info">
+							<div class="vsi-button-email vsi-border">
+								<i class="fa fa-envelope"></i>
+							</div>
+							<h1 class="vsi-h1">
+								<a title="TechVSI - Top of Software Outsourcing Development Company"
+									href="mailto:info@techvsi.com">info@techvsi.com</a>
+							</h1>
+							<div class="vsi-h2">
+								NORTH, STREET NAME 6209, MELBOURNE AUSTRALIA
+							</div>
+							<a href="mailto:support@goldeyestheme.com" class="vsi-mail">
+								support@goldeyestheme.com
+							</a>
+							<div class="vsi-icon">
+								<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-fb">
+									<i class="fab fa-facebook-f"></i>
 								</a>
-								<label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
-									for="luxbar-checkbox"> <span></span> </label>
-							</li>
-							<li class="luxbar-item vsi-font"><a href="#" class="vsi-active">home</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">about</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">project</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">team</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">contact</a></li>
-						</ul>
+								<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-tw">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-in">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+								<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-ytb">
+									<i class="fab fa-youtube"></i>
+								</a>
+							</div>
+						</div>
+						<div class="vsi-estimate-project">
+							<div class="row">
+								<div class="col-lg-9 col-md-9">
+									<div class="vsi-contact-title">Got an <span class="vsi-contact-white">idea</span>?
+										We can help you <span class="vsi-contact-white">realize</span> it.
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-3">
+									<div class="vsi-contact-form">
+										<a class="vsi-btn-submit" href="#" data-wpel-link="internal"
+											target="_blank">Estimate project</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</header>
-			<h2>
-				FOOTER
-			</h2>
+				<div class="vsi-maps">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0983313459697!2d106.68776091472208!3d10.803780461642601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528c4e5d828bf%3A0xf6bf6691a2c832ed!2zbOG6p3UgNSwgMjRhIFBoYW4gxJDEg25nIEzGsHUsIELDrG5oIFRo4bqhbmgsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1586922985126!5m2!1svi!2s"
+						frameborder="0" style="border:0;width: 100%;height: 380px;" allowfullscreen=""
+						aria-hidden="false" tabindex="0">
+					</iframe>
+				</div>
+				<div class="vsi-copyright">
+					<div class="vsi-logo-footer">
+						<img src="assets/images/logo.png" alt="" srcset="">
+					</div>
+					<div class="vsi-year">
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="#"
+							class="vsi-hover-ltd">TECHVSI Pte Ltd</a>
+					</div>
+				</div>
+			</footer>
 		</div>
 	</section>
 
@@ -292,10 +497,11 @@
 			<li><a href="#0" class="cd-prev inactive">Next</a></li>
 			<li><a href="#0" class="cd-next">Prev</a></li>
 		</ul>
-	</nav> 
+	</nav>
 	<!-- next and prev -->
 
 	<script type="text/javascript" src="assets/js/script.js"></script>
 	<script type="text/javascript" src="assets/js/home.js"></script>
 </body>
+
 </html>
