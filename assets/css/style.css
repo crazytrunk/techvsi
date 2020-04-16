@@ -83,7 +83,6 @@
     max-width: 130px;
     padding: 0;
     margin: 0;
-    height: 95p;
 }
 .vsi-font{
     text-transform: uppercase;
@@ -102,6 +101,7 @@
 .luxbar-menu-material-cyan .active, .luxbar-menu-material-cyan .luxbar-item:hover{
     text-decoration: none !important;
     background-color: #eee !important;
+    /* color: #eee !important; */
 }
 .luxbar-item a{
     padding: 0px !important;
@@ -115,7 +115,7 @@
     cursor: pointer;
 }
 .vsi-active{
-    color: var(--light-red) !important;
+    color: var(--light-eee) !important;
 }
 .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
     overflow: unset;
@@ -202,9 +202,6 @@
     }
 }
 /* CSS header end */
-
-
-
 /* CSS header start */
 .vsi-footer{
     position: relative;
@@ -498,3 +495,101 @@ a.vsi-btn-submit:hover{
 	
 }
 /* CSS header end */
+
+/* vsi-fe3 - start */
+.vsi-sub_page--banner{
+    background-image: url("../images/projects/cover-projects.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+.vsi-sub_page--banner_container {
+	height: 100%;
+	position: relative;
+}
+.vsi-sub_page--banner-title{
+    font-size: 80px;
+    color: var(--white);
+    position: absolute;
+    bottom: 25%;
+    font-weight: bold;
+}
+.vsi-sub_page--banner-text{
+    background-color: var(--yellow-orange);
+    padding: 2.5rem 2rem;
+    border-radius: 0 0 40px;
+    max-width: 796px;
+    position: absolute;
+    top: 90%;
+    text-align: justify;
+}
+.vsi-sub_page--banner-bottom {
+	height: 20vh;
+	background-color: var(--dark-gray-priamry);
+}
+/* Reponsive */
+@media (max-width: 575.98px) {
+    .vsi-sub_page--banner-title{
+        font-size: 48px; 
+        color: var(--white);
+        position: absolute;
+        bottom: 10%;    
+    }
+    .vsi-sub_page--banner-text {
+        top: 100%;
+        border-radius: 0;
+        max-width: calc(100% - 30px);
+    }
+    .vsi-sub_page--banner-bottom {
+        height: 75vh;
+        background-color: var(--dark-gray-priamry);
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-sub_page--banner{
+        height: 60vh;
+    }
+    .vsi-sub_page--banner-title{
+        font-size: 48px;
+        color: var(--white);
+        position: absolute;
+        bottom: 15%;
+        /* left: 10%; */
+    }
+    .vsi-sub_page--banner-text{
+        top: 100%;
+        max-width: calc(100% - 30px);
+    } 
+    .vsi-sub_page--banner-bottom {
+        height: 45vh;
+        background-color: var(--dark-gray-priamry);
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .vsi-sub_page--banner-text{
+        max-width: 580px;
+        margin: 0 0 0 40px;
+    }
+    .vsi-sub_page--banner-title {
+        font-size: 80px;
+        color: var(--white);
+        position: absolute;
+        bottom: 13%;
+        font-weight: bold;
+    }
+    .vsi-sub_page--banner-bottom {
+        height: 25vh;
+        background-color: var(--dark-gray-priamry);
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .vsi-sub_page--banner-bottom {
+        height: 35vh;
+        background-color: var(--dark-gray-priamry);
+    }
+}
+@media (min-width: 1200px) {
+}
+/* vsi-fe3 - end */
