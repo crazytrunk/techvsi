@@ -117,6 +117,10 @@
 }
 /* Reponsive */
 @media (max-width: 575.98px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;    
+    }
     .vsi-fe3-projects__projects-list--item{
         padding-left: 24px;
         padding-right: 24px;
@@ -177,6 +181,10 @@
     .vsi-fe3-projects__projects-list--item{
         margin-bottom: 160px;
     }
+    .container {
+        padding-left: 0;
+        padding-right: 0;    
+    }
     .vsi-fe3-projects__about-us--info{
         padding-left: 0;
         padding-right: 0;
@@ -186,6 +194,34 @@
     .vsi-fe3-projects__projects-list--item{
         margin-bottom: 160px;
     }
+    .container {
+        padding-left: 0;
+        padding-right: 0;    
+    }
 }
 
 /* CSS Content -- End */
+
+/* Container */
+
+@media (min-width: 576px){
+    .container {
+		max-width: 540px;
+	}
+}
+@media (min-width: 768px){
+    .container {
+		max-width: 720px;
+	}
+}
+@media (min-width: 992px){
+    .container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px){
+    .container {
+		max-width: 1140px;
+	}
+}
