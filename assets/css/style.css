@@ -47,3 +47,451 @@
 @media (min-width: 1200px) {
 	
 }
+/* CSS header start */
+
+.luxbar-menu-material-cyan, .luxbar-menu-material-cyan .dropdown ul{
+    background-color: var(--white) !important;
+    color: var(--black) !important;
+}
+.luxbar-fixed{
+    box-shadow: none !important;
+}
+.vsi-header{
+    width: 100%;
+    max-width: 100%;
+    height: 95px;
+    background-color: var(--white);
+    padding: 0;
+    margin: 0;
+}
+.luxbar-header{
+    height: 95px !important;
+}
+.vsi-nav{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+    height: 95px;
+}
+.vsi-logo{
+    margin: 0;
+    float: right;
+    text-align: right;
+}
+.vsi-logo img{
+    max-width: 130px;
+    padding: 0;
+    margin: 0;
+}
+.vsi-font{
+    text-transform: uppercase;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-family: 'Oswald', 'sans-serif';
+    float: right; 
+    color: var(---light-black);
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.luxbar-item{
+    height: 95px !important;
+}
+.luxbar-menu-material-cyan .active, .luxbar-menu-material-cyan .luxbar-item:hover{
+    text-decoration: none !important;
+    background-color: #eee !important;
+    /* color: #eee !important; */
+}
+.luxbar-item a{
+    padding: 0px !important;
+}
+.vsi-font a{
+    height: 100%;
+    line-height: 95px;
+    color: var(--light-black);
+    font-size: 15px;
+    font-weight: inherit;
+    cursor: pointer;
+}
+.vsi-active{
+    color: var(--light-eee) !important;
+}
+.luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+    overflow: unset;
+    height: 95px !important;
+}
+
+@media (max-width: 575.98px) {
+    .vsi-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-item {
+        height: 95px !important;
+        text-align: center !important;
+    }
+    .luxbar-checkbox:checked ~ .luxbar-menu li .luxbar-hamburger span {
+        background-color: var(--light-black) !important;
+    }
+    .luxbar-menu-material-cyan .luxbar-hamburger span, .luxbar-menu-material-cyan .luxbar-hamburger span::before, .luxbar-menu-material-cyan .luxbar-hamburger span::after {
+        background-color: var(--light-black) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: hidden !important;
+        height: 95px !important;
+    }
+    .luxbar-hamburger{
+        padding: 18px 24px 0px 24px !important;
+    }
+ 
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-item {
+        height: 95px !important;
+        text-align: center !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: hidden !important;
+        height: 95px !important;
+    }
+    .luxbar-checkbox:checked ~ .luxbar-menu li .luxbar-hamburger span {
+        background-color: var(--light-black) !important;
+    }
+    .luxbar-menu-material-cyan .luxbar-hamburger span, .luxbar-menu-material-cyan .luxbar-hamburger span::before, .luxbar-menu-material-cyan .luxbar-hamburger span::after {
+        background-color: var(--light-black) !important;
+    }
+    menu {
+        height: 95px !important;
+    }
+    .luxbar-hamburger{
+        padding: 18px 24px 0px 24px !important;
+    }
+  
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .vsi-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: hidden !important;
+        height: 95px !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .vsi-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: hidden !important;
+        height: 95px !important;
+    }
+}
+@media (min-width: 1200px) {
+    .vsi-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: hidden !important;
+        height: 95px !important;
+    }
+    .luxbar-checkbox:checked ~ .luxbar-menu {
+        height: 95px;
+    }
+}
+/* CSS header end */
+/* CSS header start */
+.vsi-footer{
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../images/home/bg_footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% -26px;
+}
+.vsi-footer::before{
+    content: '';
+    background-color: rgba(34,34,34, 0.83);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.vsi-inner{
+    width: 100%;
+    height: auto;
+    max-width: 1170px;
+    position: relative;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.vsi-info{
+    width: 90%;
+    max-width: 770px;
+    padding: 52px;
+    background: rgba(255,255,255,0.05);
+    color: #e7e7e7;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.vsi-border{
+    border-radius: 100%;
+}
+.vsi-button-email{
+    text-align: center;
+    display: block;
+    width: 82px;
+    height: 82px;
+    background: rgba(255,255,255,0.05);
+    color: #e7e7e7;
+    margin: 0 auto;
+    line-height: 85px;
+    font-size: 35px;
+}
+.vsi-button-email:hover{
+    background: rgba(255,255,255,0.9);
+    color: #2b2b2b;
+}
+.vsi-h1{
+    text-align: center;
+    margin: 15px auto;
+    padding: 0;
+
+}
+.vsi-h1 a{
+    padding: 0;
+    margin: 0;
+    font-size: 65px;
+    color: white !important;
+    font-family: 'Oswald', 'sans-serif';
+    text-decoration: none;
+}
+.vsi-h2{
+    padding: 0;
+    margin: 0 auto 15px;
+    font-size: 25px;
+    font-family: 'Oswald', 'sans-serif';
+    text-transform: uppercase;
+    text-align: center;
+}
+.vsi-mail{
+    padding: 0;
+    margin: 0 auto 15px;
+    font-size: 25px;
+    color: inherit;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', 'sans-serif';
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.vsi-mail:hover{
+    color: #d71818;
+    text-decoration: none;
+}
+.vsi-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+}
+a.vsi-icon-footer{
+    display: inline-block;
+    color: inherit;
+    line-height: 65px;
+    font-size: 27px;
+    margin: 0 7px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.vsi-bg-color-icon{
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    background-color: #3a3a3a;
+}
+.vsi-bg-fb:hover{
+    background: #4b6ea8;
+    text-decoration: none;
+}
+.vsi-bg-tw:hover{
+    background: #4fd5f8;
+    text-decoration: none; 
+}
+.vsi-bg-in:hover{
+    background: #0189c3;
+    text-decoration: none; 
+}
+.vsi-bg-ytb:hover{
+    background: #da1818;
+    text-decoration: none; 
+}
+.vsi-maps{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    touch-action: pan-x pan-y;
+}
+.vsi-maps::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    transition: opacity ease-in-out;
+    background-color: rgba(0,0,0,0.45);
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.vsi-copyright{
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.vsi-logo-footer{
+    width: 130px;
+    max-width: 130px;
+    padding: 0;
+    margin: 0 auto;
+}
+.vsi-logo-footer img{
+    max-width: 130px;
+    padding: 0;
+    text-align: center;
+}
+.vsi-year{
+    text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    margin: 15px auto 0;
+    color: #767676;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.vsi-hover-ltd{
+    text-decoration: none;
+    color: #767676;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+.vsi-hover-ltd:hover{
+    text-decoration: none;
+    color: #d71818;
+    outline: none;
+}
+.vsi-estimate-project{
+    background-color: #fcbf10;
+    background-image: url(../images/home/pattern-up-full.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: 50%;
+    background-position-x: -50%;
+    width: 100%;
+    border-radius: 0 0 50px;
+    background-color: #fcbf10;
+    border: 1px solid #fcbf10;
+    margin-top: 40px;
+}
+.vsi-contact-white{
+    color: var(--white);
+}
+.vsi-contact-title{
+    font-size: 32px;
+    line-height: 1.14;
+    color: #333;
+    padding: 24px;
+    font-family: 'Oswald', 'sans-serif';
+}
+.vsi-contact-form{
+    background-color: #323940;
+    color: var(--white);
+    float: left;
+    padding: 8px;
+    -webkit-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    width: 180px;
+    max-width: 100%;
+    border-radius: 0 0 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    margin: 24px;
+}
+.vsi-contact-form:hover{
+    background: #444b53;
+}
+a.vsi-btn-submit{
+    color: var(--white);
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+a.vsi-btn-submit:hover{
+    color: #fcbf10;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+@media (max-width: 575.98px) {
+	.vsi-h1 a{
+        font-size: 30px !important;
+    }
+    .vsi-h2, .vsi-mail{
+        font-size: 15px !important;
+    }
+    a.vsi-icon-footer{
+        margin: 7px !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-h1 a{
+        font-size: 40px !important;
+    }
+    .vsi-h2, .vsi-mail{
+        font-size: 15px !important;
+    }
+    a.vsi-icon-footer{
+        margin: 7px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+@media (min-width: 1200px) {
+	
+}
+/* CSS header end */
