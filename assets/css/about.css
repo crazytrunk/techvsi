@@ -11,7 +11,6 @@
 
 	/* Indie Flower */
     @import url(http://fonts.googleapis.com/css?family=Indie+Flower);
-    
     /* header */
     .luxbar-menu-material-cyan, .luxbar-menu-material-cyan .dropdown ul{
         background-color: none !important;
@@ -176,7 +175,6 @@
         }
     }
     /* end header */
-
 body{
     line-height: 1.5;
     font-size: 15px;
@@ -185,9 +183,9 @@ body{
 
 }
 .background{
-     background-image: linear-gradient(to bottom, #323940, #2c3136 53%, #2f363c);
+    background-image: linear-gradient(to bottom, #323940, #2c3136 53%, #2f363c);
 }
-.vsi-fe4-service{
+.vsi-fe4-about{
     position: relative;
     height: 80vh;
     background-attachment: fixed;
@@ -199,7 +197,7 @@ a:hover{
     text-decoration: none;
 }
 .cd-section {
-    background-image: url(../images/services/cover-services.jpg);
+    background-image: url(../images/about/cover-aboutus.jpg);
   }
   
   .cd-section--bg-fixed {
@@ -214,7 +212,7 @@ a:hover{
   }
   .page-title{
     font-size: 100px;
-    color: var(--white);
+    color: #fff;
   }
   .page-content{
     position: relative;
@@ -257,7 +255,7 @@ a:hover{
 }
 .scroll-section a{
     text-align: center;
-    color: var(--white);
+    color: #fff;
     font-size: 15px;
     line-height: 1.6;
 }
@@ -279,7 +277,7 @@ a:hover{
     transition: all 0.3s linear;
     height: 100%;
     text-align: center;
-    color: var(--white);
+    color: #fff;
 }
 .service-box:hover {
     -webkit-transition: all 0.3s linear;
@@ -298,14 +296,14 @@ a:hover{
 .text-list{
     margin-top: 40px;
     font-size: 20px;
-    color: var(--white);
+    color: #fff;
 }
 /* --- */
 .vsi-fe4-working{
     padding: 50px 0;
 }
 .text-working{
-    color: var(--white);
+    color: #fff;
     font-size: 32px;
     margin-bottom: 16px;
     line-height: 35px;
@@ -328,7 +326,7 @@ a:hover{
 }
 /*  */
 .vsi-fe4-technologies{
-    color: var(--white);
+    color: #fff;
     padding: 30px 0;
 }
 .title-technologies{
@@ -341,26 +339,6 @@ a:hover{
 .technology-logo {
     width: 160px;
     height: 64px;
-}
-
-.btn-more-projects .btn {
-    height: 48px;
-    border-bottom-right-radius: 16px;
-    border: 2px solid var(--yellow);
-    text-align: center;
-    color: var(--yellow);
-    background: 0 0;
-    outline: 0;
-    padding: 8px 30px;
-    transition: all 0.5s ease;
-    cursor: pointer;
-}
-.btn-more-projects{
-    justify-content: center;
-}
-.btn-more-projects .btn:hover {
-    color: var(--white);
-    background: var(--yellow);
 }
 /*  */
 .vsi-fe4-idea{
@@ -385,7 +363,7 @@ a:hover{
     color: #333;
 }
 .contact-title span{
-    color: var(--white);
+    color: #fff;
 }
 .contact-btn{
     text-align: center;
@@ -393,7 +371,7 @@ a:hover{
 }
 .submit {
     background-color: #323940;
-    color: var(--white);
+    color: #fff;
     float: right;
     padding: 8px;
     -webkit-transition: 0.5s all ease;
@@ -409,30 +387,7 @@ a:hover{
 }
 
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .process-image .pc{
-        display: none;
-    }
-    .process-image .mobile{
-        display: block;
-    }
-    
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .process-image .pc{
-        display: none;
-    }
-    .process-image .tablet {
-        display: block;
-    }
-	
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
-	
-}
-@media (min-width: 1200px) {
-	
-}
+
 /* footer */
 .vsi-footer{
     position: relative;
