@@ -17,9 +17,7 @@ $('.vsi-fe1-span-working-hours').each(function() {
     $({ countNum: $this.text()}).animate({
       countNum: countTo
     },
-  
     {
-  
       duration: 2000,
       easing:'linear',
       step: function() {
@@ -32,3 +30,27 @@ $('.vsi-fe1-span-working-hours').each(function() {
     });  
   
   });
+
+  $(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            $('.filter').show('1000');
+        }
+        else
+        {
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+    if ($(".filter-button").removeClass("active")) {
+$(this).removeClass("active");
+}
+$(this).addClass("active");
+
+});
