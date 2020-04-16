@@ -18,17 +18,27 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/service.css">
+
 	<!-- import JS -->
 	<script type="text/javascript" src="assets/lib/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="assets/lib/fontawesome-free-5.13.0-web/js/all.min.js"></script>
 	<script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+
+	<!-- Page Scroll Effects -->
+	<script type="text/javascript" src="assets/lib/modernizr.js"></script>
+	<script type="text/javascript" src="assets/lib/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="assets/lib/velocity.min.js"></script>
+	<script type="text/javascript" src="assets/lib/velocity.ui.min.js"></script>
+	<script type="text/javascript" src="assets/lib/main.js"></script>
+	<script type="text/javascript" src="assets/lib/typed.js"></script>
 	<script type="text/javascript" src="assets/lib/aos.js"></script>
 </head>
-<body class="background" > 
-	<header id="luxbar" class="luxbar-fixed header vsi-header">
+
+<body> 
+	<header id="luxbar" class="luxbar-fixed vsi-header">
 		<div class="vsi-nav">
 			<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
-			<div class="luxbar-menu luxbar-menu-right ">
+			<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
 				<ul class="luxbar-navigation">
 					<li class="luxbar-header">
 						<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
@@ -47,27 +57,21 @@
 		</div>
 	</header>
 	<main>
-		
-		<section>
-			<div class="vsi-fe4-service overlay cd-section cd-section--bg-fixed">
-				<div class="container page-title-container ">
-					<h1 class="page-title  "	 >Services</h1>
+		<!-- start - Banner -->
+		<section class="vsi-sub_page">
+			<div class="vsi-sub_page--banner">
+				<div class="container vsi-sub_page--banner_container">
+					<h2 class="vsi-sub_page--banner-title">
+						Services
+					</h2>
+					<div class="vsi-sub_page--banner-text">
+						<p>Designveloper put customers' satisfaction on the top of our list. After studying through users' needs, wants, and limitations, we apply cutting-edge technologies to create functional, large-scale, engaging mobile apps and responsive web designs.</p>
+					</div>
 				</div>
 			</div>
-		</section> 
-		<section>
-			<div class="container no-padding">
-				<p class="page-content ">
-					Designveloper put customers' satisfaction on the top of our list. After studying through users' needs, wants, and limitations, we apply cutting-edge technologies to create functional, large-scale, engaging mobile apps and responsive web designs.
-				</p>
-				<div class="scroll-section pages-scroll">
-					<a href="#" id="btn-scroll">
-						<span class="btn-scroll"><img src="assets/images/services/arrow-down.png" alt="scroll" data-loaded="true"></span>
-						SCROLL DOWN
-					</a>
-				</div>
-			</div>	
+			<div class="vsi-sub_page--banner-bottom"></div>
 		</section>
+		<!-- end - Banner -->
 		<section>
 			<div class="vsi-fe4-service-list">
 				<div class="container">
@@ -258,11 +262,6 @@
 			</div>
 		</section>
 	</footer>
-	<script>
-		AOS.init({
-	   once: true
-	   })
-   </script>
 	<script type="text/javascript" src="assets/js/script.js"></script>
 	<script type="text/javascript" src="assets/js/service.js"></script>
 </body>
