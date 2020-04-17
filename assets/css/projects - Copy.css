@@ -1,0 +1,227 @@
+/* CSS Content -- Start */
+.vsi-fe3-header__empty{
+    width: 100%;
+    height: 95px;
+}
+.vsi-fe3-projects__content--about-us{
+    background-color: var(--dark-gray-priamry);
+    padding-bottom: 40px;
+}
+.vsi-fe3-projects__about-us--info-item{
+    text-align: center;
+    padding: 56px 0 40px;
+    background-color: var(--dark-gray-secondary);
+    margin-bottom: 30px;
+}
+.vsi-fe3-projects__info--number{
+    font-size: 56px;
+    color: var(--yellow-orange);
+}
+.vsi-fe3-projects__info--text{
+    font-size: 20px;
+    color: var(--light-silver);
+    margin: 16px 0;
+}
+
+.vsi-fe3-projects__about-us--info-item {
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.vsi-fe3-projects__about-us--info-item:hover, .vsi-fe3-projects__about-us--info-item:focus, .vsi-fe3-projects__about-us--info-item:active {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.vsi-fe3-projects__content--projects-list{
+    background-color: var(--dark-gray-priamry);
+}
+.vsi-fe3-projects__projects-list--item-left-link{
+    padding: 40px 0 60px;
+}
+.vsi-fe3-projects__projects-list--item-left-link:hover .vsi-fe3-projects-item-desc{
+    color: var(--yellow-orange);
+}
+.vsi-fe3-projects__projects-list--item a{
+    text-decoration: none;   
+}
+.vsi-fe3-projects-item-name{
+    font-size: 32px;
+    color:  var(--yellow-orange); 
+}
+.vsi-fe3-projects-item-type{
+    font-size: 14px;
+    color:  var(--light-silver); 
+}
+.vsi-fe3-projects-item-desc{
+    font-size: 16px;
+    color:  var(--white); 
+}
+.vsi-fe3-projects-item-tech{
+    font-size: 12px;
+    color:  var( --light-silver-secondary); 
+}
+.vsi-fe3-projects-item-link{
+    font-size: 16px;
+    color:  var(--yellow-orange); 
+}
+.vsi-fe3-projects-item-link img{
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+}
+
+.vsi-fe3-projects__more--img-hover{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    /* display: none; */
+}
+.vsi-fe3-projects__more--img-hover-desc{
+    padding: 0 20px;
+}
+.vsi-fe3-projects__more--name{
+    font-size: 20px;
+    color: var(--white);
+    margin: 20px 0 7px;
+}
+.vsi-fe3-projects__more--type{
+    font-size: 12px;
+    color: var(--light-silver);
+}
+.vsi-fe3-projects__more-projects--item{
+    margin-bottom: 40px;
+}
+.vsi-fe3-projects__more-projects--item:hover .vsi-fe3-projects__more--img-hover{
+    display: block;
+}
+.vsi-fe3-projects__more-projects--item:hover{
+    background-color: rgba(0red, 0, 0, 0.75) !important;
+}
+.vsi-fe3-projects__content--estimate{
+    background-color: var(--dark-gray-priamry);
+    padding: 100px 20px 150px 20px;
+}
+.vsi-estimate-project{
+    margin-top: 0;
+}
+/* Reponsive */
+@media (max-width: 575.98px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;    
+    }
+    .vsi-fe3-projects__projects-list--item{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .vsi-fe3-projects__about-us--info{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 40px;
+    }
+    .vsi-fe3-projects__projects-list--more-projects{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .vsi-fe3-projects__content--estimate{
+        background-color: var(--dark-gray-priamry);
+        padding: 100px 20px 40px 20px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-fe3-container-no-padding{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .vsi-fe3-projects__about-us--info{
+        padding: 0 15px;
+        margin-top: 50px;
+    }
+    .vsi-fe3-projects__projects-list--more-projects{
+        margin-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .vsi-fe3-projects__about-us--info{
+        max-width: 600px;
+        margin: auto;
+    }
+    .vsi-fe3-projects__about-us--info-item{
+        width: 270px;
+    }
+    .vsi-fe3-projects__projects-list--item{
+        max-width: 570px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vsi-fe3-projects__projects-list--more-projects{
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 570px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .vsi-fe3-projects__projects-list--item{
+        margin-bottom: 160px;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;    
+    }
+    .vsi-fe3-projects__about-us--info{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .vsi-fe3-projects__projects-list--item{
+        margin-bottom: 160px;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;    
+    }
+}
+
+/* CSS Content -- End */
+
+/* Container */
+
+@media (min-width: 576px){
+    .container {
+		max-width: 540px;
+	}
+}
+@media (min-width: 768px){
+    .container {
+		max-width: 720px;
+	}
+}
+@media (min-width: 992px){
+    .container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px){
+    .container {
+		max-width: 1140px;
+	}
+}

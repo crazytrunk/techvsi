@@ -78,3 +78,14 @@ $(document).ready(function(){
 		},3000);
 	});
 });
+
+var $btns = $('.btn').click(function() {
+  if (this.id == 'all') {
+    $('.vsi-fe1-item-movie').fadeIn(450);
+  } else {
+    var $el = $('.' + this.id).fadeIn(450);
+    $('.vsi-fe1-item-movie').not($el).hide();
+  }
+  $btns.removeClass('vsi-fe1-opa');
+  $(this).addClass('vsi-fe1-opa');
+}) 
