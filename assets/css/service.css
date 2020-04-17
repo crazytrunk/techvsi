@@ -1,33 +1,72 @@
-.vsi-fe4-service{
-    position: relative;
-    height: 80vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 95px;
-}
-/* --- */
-.vsi-fe4-working{
-    padding: 50px 0;
+.vsi-sub_page--banner{
+    background-image: url("../images/services/cover-services.jpg");
 }
 
+/* --- */
+.vsi-fe4-working{
+    background-color: var(--dark-gray-priamry);
+    padding: 50px 0;
+}
+.vsi-fe4-text-working{
+    color: var(--white);
+    font-size: 32px;
+    margin-bottom: 16px;
+    line-height: 35px;
+    text-align: center;
+}
+.vsi-fe4-text-working-process-image {
+    margin: 50px 20%;
+}
+.vsi-fe4-text-working-process-image img{
+    width: 100%;
+}
+.vsi-fe4-text-working-process-image .pc{
+    display: block;
+}
+.vsi-fe4-text-working-process-image .tablet{
+    display: none;
+}
+.vsi-fe4-text-working-process-image .mobile{
+    display: none;
+}
+/*  */
 .vsi-fe4-technologies{
+    background-color: var(--dark-gray-priamry);
     color: var(--white);
     padding: 30px 0;
 }
-/*  */
-.vsi-fe4-idea{
-    padding: 40px 0 30px;
-    margin-bottom: 140px;
+.vsi-fe4-technologies-title{
+    color: var(--yellow) !important;
+    line-height: 1.25;
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-weight: 500;
 }
-
-@media (max-width: 575.98px) {
+.vsi-fe4-technologies-logo{
+    width: 160px;
+    height: 64px;
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-fe4-text-working-process-image .pc{
+        display: none;
+    }
+    .vsi-fe4-text-working-process-image .mobile{
+        display: block;
+    }
+    
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .vsi-fe4-text-working-process-image .pc{
+        display: none;
+    }
+    .vsi-fe4-text-working-process-image .tablet {
+        display: block;
+    }
+	
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+	
 }
 @media (min-width: 1200px) {
+	
 }

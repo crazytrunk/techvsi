@@ -132,6 +132,43 @@
 .vsi-estimate-project{
     margin-top: 0;
 }
+
+
+.vsi-fe3__more-projects--hide{
+    display: none;
+}
+.vsi-fe3__more-projects--show{
+    display: block;
+}
+
+@keyframes vsi-fe3__more-projects--animations{
+    0%   { 
+        margin-top: 50px;
+    }
+    100% { 
+        margin-top: 0px;
+    
+    }
+ } 
+.vsi-fe3__more-projects--animations   {
+    animation-name: vsi-fe3__more-projects--animations;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+    
+}
+/* Zoom */
+.vsi-fe3-zoom {
+    display:inline-block;
+    position: relative;
+}
+
+.zoomImg{
+    width: 550px !important;
+    height: 415px !important;
+}
+/* Zoom */
+
 /* Reponsive */
 @media (max-width: 575.98px) {
     .vsi-fe3-projects__projects-list--item{
@@ -151,6 +188,9 @@
         background-color: var(--dark-gray-priamry);
         padding: 100px 20px 40px 20px;
     }
+    .vsi-fe3-projects__content--projects-list{
+        padding-top: 120px;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     .vsi-fe3-container-no-padding{
@@ -165,7 +205,9 @@
         padding-left: 0;
         padding-right: 0;
     }
-    
+    .vsi-fe3-projects__content--projects-list{
+        padding-top: 100px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .vsi-fe3-projects__about-us--info{
@@ -188,6 +230,9 @@
        margin-left: auto;
        margin-right: auto;
     }
+    .vsi-fe3-projects__content--projects-list{
+        padding-top: 150px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .vsi-fe3-projects__projects-list--item{
@@ -197,19 +242,17 @@
         padding-left: 0;
         padding-right: 0;
     }
+    .vsi-fe3-projects__content--projects-list{
+        padding-top: 150px;
+    }
 }
 @media (min-width: 1200px) {
     .vsi-fe3-projects__projects-list--item{
         margin-bottom: 160px;
     }
+    .vsi-fe3-projects__content--projects-list{
+        padding-top: 180px;
+    }
 }
 
 /* CSS Content -- End */
-.zoom {
-    display:inline-block;
-    position: relative;
-}
-
-.zoom img {
-    display: block;
-}
