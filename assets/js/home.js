@@ -57,13 +57,7 @@ $(this).addClass("active");
 $('.owl-carousel').owlCarousel({
   loop:true,
   margin:10,
-  nav:true,
   dots: true,
-  dots: true,
-  dotsData: true,
-  dotsEach: true,
-  dotsSpeed: true,
-  dotsContainer: true,
   autoplay: 6000,
   responsive:{
       0:{
