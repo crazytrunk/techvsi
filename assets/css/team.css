@@ -1,0 +1,8 @@
+.vsi-sub_page--banner{
+    background-image: url("../images/team/cover-careers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
