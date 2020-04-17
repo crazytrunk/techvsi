@@ -537,11 +537,20 @@ a.vsi-btn-submit:hover{
         position: absolute;
         bottom: 10%;    
     }
-    .vsi-sub_page--banner-text{
-        top: 0;
+    .vsi-sub_page--banner-text {
+        top: 100%;
+        border-radius: 0;
+        max-width: calc(100% - 30px);
+    }
+    .vsi-sub_page--banner-bottom {
+        height: 75vh;
+        background-color: var(--dark-gray-priamry);
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-sub_page--banner{
+        height: 60vh;
+    }
     .vsi-sub_page--banner-title{
         font-size: 48px;
         color: var(--white);
@@ -550,17 +559,103 @@ a.vsi-btn-submit:hover{
         /* left: 10%; */
     }
     .vsi-sub_page--banner-text{
-        top: 0;
+        top: 100%;
+        max-width: calc(100% - 30px);
     } 
+    .vsi-sub_page--banner-bottom {
+        height: 45vh;
+        background-color: var(--dark-gray-priamry);
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .vsi-sub_page--banner-text{
         max-width: 580px;
-        margin: 0 auto;
+        margin: 0 0 0 40px;
+    }
+    .vsi-sub_page--banner-title {
+        font-size: 80px;
+        color: var(--white);
+        position: absolute;
+        bottom: 13%;
+        font-weight: bold;
+    }
+    .vsi-sub_page--banner-bottom {
+        height: 25vh;
+        background-color: var(--dark-gray-priamry);
     }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .vsi-sub_page--banner-bottom {
+        height: 35vh;
+        background-color: var(--dark-gray-priamry);
+    }
 }
 @media (min-width: 1200px) {
 }
 /* vsi-fe3 - end */
+
+/* vsi-fe4 - start */
+    .vsi-sub-list{
+        padding-top: 50px;
+        background-color: var(--dark-gray-priamry);
+    }
+    .vsi-sub-list-container{
+        margin-top: 20px;
+    }
+    .vsi-sub-list-container>div{
+        margin-bottom: 30px;
+    }
+    .vsi-sub-list-container-box{
+        background-color: var(--dark-gray-secondary);
+        padding: 56px 0 40px;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        height: 100%;
+        text-align: center;
+        color: var(--white);
+    }
+    .vsi-sub-list-container-box:hover {
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        -webkit-box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+        -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    .vsi-sub-list-container-box img {
+        width: 128px;
+        height: 128px;
+    }
+    .vsi-sub-list-container-box_text-list{
+        margin-top: 40px;
+        font-size: 20px;
+        color: var(--white);
+    }
+
+    .vsi-more-projects{
+        padding: 20px 0 60px 0;
+        background-color: var(--dark-gray-priamry);
+    }
+    .vsi-btn-more-projects .btn {
+        height: 48px;
+        border-bottom-right-radius: 16px;
+        border: 2px solid var(--yellow);
+        text-align: center;
+        color: var(--yellow);
+        background: 0 0;
+        outline: 0;
+        padding: 8px 30px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    .vsi-btn-more-projects{
+        justify-content: center;
+    }
+    .vsi-btn-more-projects .btn:hover {
+        color: var(--white);
+        background: var(--yellow);
+    }
+/* vsi-fe4 - end */
