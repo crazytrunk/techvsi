@@ -1372,6 +1372,9 @@ ul.vsi-fe1-features-mobile{
     padding: 0;
     margin: 0;
 }
+.vsi-fe1-h1-what-we-do{
+
+}
 @media (max-width: 575.98px) {
 	
 }
@@ -1390,6 +1393,9 @@ ul.vsi-fe1-features-mobile{
 /* Section 6 end */
 
 /* Section 7 start */
+.cd-section:nth-of-type(7) > div {
+    background-color: var(--white) !important;
+}
 @media (max-width: 575.98px) {
 	
 }
