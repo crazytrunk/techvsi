@@ -15,13 +15,6 @@
 *, body {
 	font-family: 'Roboto', sans-serif;
 }
-a {
-	color: inherit;
-}
-a:hover {
-	color: inherit;
-	text-decoration: none;
-}
 
 @media (max-width: 575.98px) {
 	
@@ -38,145 +31,162 @@ a:hover {
 @media (min-width: 1200px) {
 	
 }
-.vsi-background_dark {
-    background-image: -webkit-linear-gradient(top, #323940, #2c3136 53%, #323940);
-    background-image: -o-linear-gradient(top, #323940, #2c3136 53%, #323940);
-    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
-    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
-    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
-    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
-    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
-    background-image: linear-gradient(to bottom, #323940, #2c3136 53%, #323940);
+/* CSS header start */
+
+.luxbar-menu-material-cyan, .luxbar-menu-material-cyan .dropdown ul{
+    background-color: var(--white) !important;
+    color: var(--black) !important;
 }
-/* header - start */
-body {
-	padding-top: 6rem;
+.luxbar-fixed{
+    box-shadow: none !important;
 }
 .vsi-header{
     width: 100%;
     max-width: 100%;
-    height: 6rem;
-    background-color: var(--vsi-color-1);
+    height: 95px;
+    background-color: var(--white);
     padding: 0;
     margin: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 99;
 }
-.vsi-logo {
-	width: 10rem;
-	height: 5rem;
-	margin: 0.5rem 0;
-	position: relative;
-	display: flex;
-	align-items: center;
+.luxbar-header{
+    height: 95px !important;
 }
-.vsi-header_nav {
-	width: 100%;
-	height: 5rem;
-	margin: 0.5rem 0;
-	position: relative;
+.vsi-nav{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+    height: 95px;
 }
-.vsi-header_nav ul {
-	width: 100%;
-	height: 100%;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	align-items: center;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
+.vsi-logo{
+    margin: 0;
+    float: right;
+    text-align: right;
 }
-.vsi-header_nav ul li {
-	padding: 0;
-	margin: 0;
-	line-height: 5rem;
+.vsi-logo img{
+    max-width: 130px;
+    padding: 0;
+    margin: 0;
 }
-.vsi-header_nav ul li.active,
-.vsi-header_nav ul li:hover {
-	background-color: var(--vsi-color-5);
+.vsi-font{
+    text-transform: uppercase;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-family: 'Oswald', 'sans-serif';
+    float: right; 
+    color: var(---light-black);
+    padding-left: 19px;
+    padding-right: 19px;
 }
-.vsi-header_nav ul li a {
-	padding: 0;
-	margin: 0 2rem;
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-	font-weight: bold;
-	color: var(--vsi-solor-2);
+.luxbar-item{
+    height: 95px !important;
 }
+.luxbar-menu-material-cyan .active, .luxbar-menu-material-cyan .luxbar-item:hover{
+    text-decoration: none !important;
+    background-color: #eee !important;
+    /* color: #eee !important; */
+}
+.luxbar-item a{
+    padding: 0px !important;
+}
+.vsi-font a{
+    height: 100%;
+    line-height: 95px;
+    color: var(--light-black);
+    font-size: 15px;
+    font-weight: inherit;
+    cursor: pointer;
+}
+.vsi-active{
+    color: var(--light-eee) !important;
+}
+.luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+    overflow: unset;
+    height: 95px !important;
+}
+
 @media (max-width: 575.98px) {
-	body {
-		padding-top: 3.75rem;
-	}
-	.luxbar-brand {
-		padding: 0 1.5rem;
-	}
-	.luxbar-brand img {
-		max-height: 3rem;
-	}
-	.luxbar-menu-light,
-	.luxbar-menu-light .dropdown ul {
-		background-color: var(--vsi-color-1);
-	}
-	.luxbar-menu-light .active,
-	.luxbar-menu-light .luxbar-item:hover {
-		background-color: var(--vsi-color-5);
-	}
-	.luxbar-menu a,
-	.luxbar-item a {
-		font-family: 'Oswald', sans-serif;
-		text-transform: uppercase;
-		font-weight: bold;
-		color: var(--vsi-solor-2);
-		text-align: center;
-	}
+    .vsi-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-item {
+        height: 95px !important;
+        text-align: center !important;
+    }
+    .luxbar-checkbox:checked ~ .luxbar-menu li .luxbar-hamburger span {
+        background-color: var(--light-black) !important;
+    }
+    .luxbar-menu-material-cyan .luxbar-hamburger span, .luxbar-menu-material-cyan .luxbar-hamburger span::before, .luxbar-menu-material-cyan .luxbar-hamburger span::after {
+        background-color: var(--light-black) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: hidden !important;
+        height: 95px !important;
+    }
+    .luxbar-hamburger{
+        padding: 18px 24px 0px 24px !important;
+    }
+ 
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	body {
-		padding-top: 3.75rem;
-	}
-	.luxbar-brand {
-		padding: 0 1.5rem;
-	}
-	.luxbar-brand img {
-		max-height: 3rem;
-	}
-	.luxbar-menu-light,
-	.luxbar-menu-light .dropdown ul {
-		background-color: var(--vsi-color-1);
-	}
-	.luxbar-menu-light .active,
-	.luxbar-menu-light .luxbar-item:hover {
-		background-color: var(--vsi-color-5);
-	}
-	.luxbar-menu a,
-	.luxbar-item a {
-		font-family: 'Oswald', sans-serif;
-		text-transform: uppercase;
-		font-weight: bold;
-		color: var(--vsi-solor-2);
-		text-align: center;
-	}
+    .vsi-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-item {
+        height: 95px !important;
+        text-align: center !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: hidden !important;
+        height: 95px !important;
+    }
+    .luxbar-checkbox:checked ~ .luxbar-menu li .luxbar-hamburger span {
+        background-color: var(--light-black) !important;
+    }
+    .luxbar-menu-material-cyan .luxbar-hamburger span, .luxbar-menu-material-cyan .luxbar-hamburger span::before, .luxbar-menu-material-cyan .luxbar-hamburger span::after {
+        background-color: var(--light-black) !important;
+    }
+    menu {
+        height: 95px !important;
+    }
+    .luxbar-hamburger{
+        padding: 18px 24px 0px 24px !important;
+    }
+  
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	.vsi-header_nav ul li a {
-		margin: 0 1rem;
-	}
+    .vsi-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: hidden !important;
+        height: 95px !important;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	.vsi-header_nav ul li a {
-		margin: 0 1.5rem;
-	}
+    .vsi-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: hidden !important;
+        height: 95px !important;
+    }
 }
 @media (min-width: 1200px) {
-	.vsi-header_nav ul li a {
-		margin: 0 2rem;
-	}
-	
+    .vsi-header{
+        background-color: var(--white) !important;
+    }
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
+        overflow: hidden !important;
+        height: 95px !important;
+    }
+    .luxbar-checkbox:checked ~ .luxbar-menu {
+        height: 95px;
+    }
 }
-/* header - end */
-/* footer - start */
+/* CSS header end */
+/* CSS header start */
 .vsi-footer{
     position: relative;
     width: 100%;
@@ -211,10 +221,11 @@ body {
     width: 90%;
     max-width: 770px;
     padding: 52px;
-    background: var(--vsi-footer-info-background);
-    color: var(--vsi-footer-info-color);
+    background: rgba(255,255,255,0.05);
+    color: #e7e7e7;
     margin: 0 auto;
     position: relative;
+    
 }
 .vsi-border{
     border-radius: 100%;
@@ -224,14 +235,14 @@ body {
     display: block;
     width: 82px;
     height: 82px;
-    background: var(--vsi-footer-info-background);
-    color: var(--vsi-footer-info-color);
+    background: rgba(255,255,255,0.05);
+    color: #e7e7e7;
     margin: 0 auto;
     line-height: 85px;
     font-size: 35px;
 }
 .vsi-button-email:hover{
-    background: var(--vsi-footer-email-background);
+    background: rgba(255,255,255,0.9);
     color: #2b2b2b;
 }
 .vsi-h1{
@@ -269,6 +280,10 @@ body {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+}
+.vsi-mail:hover{
+    color: #d71818;
+    text-decoration: none;
 }
 .vsi-icon{
     display: flex;
@@ -342,7 +357,6 @@ a.vsi-icon-footer{
     margin: 0 auto;
     text-align: center;
     display: block;
-    background-color: var(--vsi-color-1);
 }
 .vsi-logo-footer{
     width: 130px;
@@ -360,14 +374,14 @@ a.vsi-icon-footer{
 	font-family: 'Raleway', sans-serif;
     font-size: 11px;
     margin: 15px auto 0;
-    color: var(--vsi-color-5);
+    color: #767676;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
 .vsi-hover-ltd{
     text-decoration: none;
-    color: var(--vsi-color-5);
+    color: #767676;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -375,10 +389,11 @@ a.vsi-icon-footer{
 }
 .vsi-hover-ltd:hover{
     text-decoration: none;
-    color: var(--vsi-color-6);
+    color: #d71818;
     outline: none;
 }
 .vsi-estimate-project{
+    background-color: #fcbf10;
     background-image: url(../images/home/pattern-up-full.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -386,8 +401,8 @@ a.vsi-icon-footer{
     background-position-x: -50%;
     width: 100%;
     border-radius: 0 0 50px;
-    background-color: var(--vsi-color-4);
-    border: 1px solid var(--vsi-color-3);
+    background-color: #fcbf10;
+    border: 1px solid #fcbf10;
     margin-top: 40px;
 }
 .vsi-contact-white{
@@ -415,6 +430,9 @@ a.vsi-icon-footer{
     text-align: center;
     margin: 24px;
 }
+.vsi-contact-form:hover{
+    background: #444b53;
+}
 a.vsi-btn-submit{
     color: var(--white);
     cursor: pointer;
@@ -424,6 +442,7 @@ a.vsi-btn-submit{
     transition: all 0.3s;
 }
 a.vsi-btn-submit:hover{
+    color: #fcbf10;
     text-decoration: none;
     background-color: transparent;
 }
@@ -459,4 +478,102 @@ a.vsi-btn-submit:hover{
 @media (min-width: 1200px) {
 	
 }
-/* footer - end */
+/* CSS header end */
+
+/* vsi-fe3 - start */
+.vsi-sub_page--banner{
+    background-image: url("../images/projects/cover-projects.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+.vsi-sub_page--banner_container {
+	height: 100%;
+	position: relative;
+}
+.vsi-sub_page--banner-title{
+    font-size: 80px;
+    color: var(--white);
+    position: absolute;
+    bottom: 25%;
+    font-weight: bold;
+}
+.vsi-sub_page--banner-text{
+    background-color: var(--yellow-orange);
+    padding: 2.5rem 2rem;
+    border-radius: 0 0 40px;
+    max-width: 796px;
+    position: absolute;
+    top: 90%;
+    text-align: justify;
+}
+.vsi-sub_page--banner-bottom {
+	height: 20vh;
+	background-color: var(--dark-gray-priamry);
+}
+/* Reponsive */
+@media (max-width: 575.98px) {
+    .vsi-sub_page--banner-title{
+        font-size: 48px; 
+        color: var(--white);
+        position: absolute;
+        bottom: 10%;    
+    }
+    .vsi-sub_page--banner-text {
+        top: 100%;
+        border-radius: 0;
+        max-width: calc(100% - 30px);
+    }
+    .vsi-sub_page--banner-bottom {
+        height: 75vh;
+        background-color: var(--dark-gray-priamry);
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-sub_page--banner{
+        height: 60vh;
+    }
+    .vsi-sub_page--banner-title{
+        font-size: 48px;
+        color: var(--white);
+        position: absolute;
+        bottom: 15%;
+        /* left: 10%; */
+    }
+    .vsi-sub_page--banner-text{
+        top: 100%;
+        max-width: calc(100% - 30px);
+    } 
+    .vsi-sub_page--banner-bottom {
+        height: 45vh;
+        background-color: var(--dark-gray-priamry);
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .vsi-sub_page--banner-text{
+        max-width: 580px;
+        margin: 0 0 0 40px;
+    }
+    .vsi-sub_page--banner-title {
+        font-size: 80px;
+        color: var(--white);
+        position: absolute;
+        bottom: 13%;
+        font-weight: bold;
+    }
+    .vsi-sub_page--banner-bottom {
+        height: 25vh;
+        background-color: var(--dark-gray-priamry);
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .vsi-sub_page--banner-bottom {
+        height: 35vh;
+        background-color: var(--dark-gray-priamry);
+    }
+}
+@media (min-width: 1200px) {
+}
+/* vsi-fe3 - end */
