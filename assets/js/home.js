@@ -54,3 +54,38 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 });
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  dots: true,
+  autoplay: 6000,
+  responsive:{
+      0:{
+          items:1
+      },
+      768:{
+          items:2
+      },
+      1000:{
+          items:3
+      }
+  }
+})
+$(document).ready(function(){
+	$('.skillbar').each(function(){
+		$(this).find('.skillbar-bar').animate({
+			width:$(this).attr('data-percent')
+		},3000);
+	});
+});
+
+var $btns = $('.btn').click(function() {
+  if (this.id == 'all') {
+    $('.vsi-fe1-item-movie').fadeIn(450);
+  } else {
+    var $el = $('.' + this.id).fadeIn(450);
+    $('.vsi-fe1-item-movie').not($el).hide();
+  }
+  $btns.removeClass('vsi-fe1-opa');
+  $(this).addClass('vsi-fe1-opa');
+}) 
