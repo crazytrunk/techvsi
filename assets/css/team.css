@@ -6,3 +6,127 @@
     width: 100%;
     height: 80vh;
 }
+
+.vsi-fe3-team{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.vsi-fe3-team__titile{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.vsi-fe3-team__filter{
+  text-align: center;
+}
+.vsi-fe3-team__titile{
+    font-size: 32px;
+    color: var(--vsi-fe3-color-2);
+}
+.vsi-fe3-team__filter--keyword{
+    color: var(--vsi-fe3-color-3);
+}
+.vsi-fe3-team__filter--keyword:hover{
+    color: var(--vsi-fe3-color-3);
+}
+.vsi-fe3-team__filter--keyword:active, .vsi-fe3-team__filter--keyword:focus {
+    color: var(--vsi-fe3-color-2);
+    outline: none;
+    box-shadow: none;
+}
+.vsi-fe3-team__filter--item-avatar--img{
+    width: 325px;
+    height: 325px;
+}
+.vsi-fe3-team__filter--item-avatar--img-hover {
+    display: none;
+    width: 325px;
+    height: 325px;
+}
+.vsi-fe3-team__filter--item-avatar:hover .vsi-fe3-team__filter--item-avatar--img-hover{
+    display: block;
+}
+.vsi-fe3-team__filter--item-avatar:hover .vsi-fe3-team__filter--item-avatar--img{
+    display: none;
+}
+.vsi-fe3-team__filter--item-desc{
+    background-color: var(--vsi-fe3-color-5);
+    border-radius: 0 0 28px 0;
+    width: 90%;
+    margin-left: auto;
+    position: relative;
+    top: -25px;
+    text-align: left;
+    padding: 5px 24px;
+}
+.vsi-fe3-team__filter--item-desc-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: var(--vsi-fe3-color-2);
+}
+.vsi-fe3-team__filter--item-desc-position{
+    font-size: 12px;
+    margin-bottom: 0;
+    color:var(--vsi-fe3-color-1) ;
+    text-transform: uppercase;
+}
+
+
+/* Swiper */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide 
+{   
+    text-align: center;
+    /* font-size: 18px; */
+    background: transparent;
+    width: 325px !important;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.swiper-button-next, .swiper-button-prev{
+    font-size: 12px;
+    width: 50px;
+    height: 50px;
+    color: var(--vsi-fe3-color-2);
+    background-color: var(--vsi-fe3-color-4);
+    border-radius: 50%;
+}
+.swiper-button-next::after, .swiper-button-prev::after{
+    font-size: 20px;
+}
+.swiper-container{
+    position: relative;
+}
+.swiper-button-prev{
+    position: relative;
+    margin-right: 20px;
+    outline: none;
+}
+.swiper-button-next{
+    outline: none;
+    position: relative;
+    margin-left: 20px;
+}
+
+.vsi-fe3-arrow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+  /* Swiper */
+  

@@ -15,7 +15,7 @@
 }
 .vsi-fe3-projects__info--number{
     font-size: 56px;
-    color: var(--yellow-orange);
+    color: var(--vsi-color-4);
 }
 .vsi-fe3-projects__info--text{
     font-size: 20px;
@@ -48,14 +48,14 @@
     padding: 40px 0 60px;
 }
 .vsi-fe3-projects__projects-list--item-left-link:hover .vsi-fe3-projects-item-desc{
-    color: var(--yellow-orange);
+    color: var(--vsi-color-4);
 }
 .vsi-fe3-projects__projects-list--item a{
     text-decoration: none;   
 }
 .vsi-fe3-projects-item-name{
     font-size: 32px;
-    color:  var(--yellow-orange); 
+    color:  var(--vsi-color-4); 
 }
 .vsi-fe3-projects-item-type{
     font-size: 14px;
@@ -71,7 +71,7 @@
 }
 .vsi-fe3-projects-item-link{
     font-size: 16px;
-    color:  var(--yellow-orange); 
+    color:  var(--vsi-color-6); 
 }
 .vsi-fe3-projects-item-link img{
     width: 24px;
@@ -137,9 +137,7 @@
 .vsi-fe3__more-projects--hide{
     display: none;
 }
-.vsi-fe3__more-projects--show{
-   
-}
+
 
 @keyframes vsi-fe3__more-projects--animations{
     0%   { 
