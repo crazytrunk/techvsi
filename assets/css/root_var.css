@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Montserrat&family=Roboto&display=swap');
+
 :root {
-	--vsi-color-1: #FFF;
-	--vsi-color-2: #606163;
-	--vsi-color-3: #000000;
-	--vsi-color-4: #cecece;
-	--vsi-color-5: #f1f1f1;
-	--vsi-color-6: #767676;
+	--vsi-color-1: #000000;
+	--vsi-color-2: #FEFEFE;
+	--vsi-color-3: #FDEE30;
+	--vsi-color-4: #FFFFFF;
+	--vsi-color-5: #141824;
+	--vsi-color-6: #FFB600;
+	--vsi-color-7: #0049FF;
+	--vsi-color-8: #434343;
+	--vsi-color-9: #111111;
+	--vsi-color-10: rgba(0, 0, 0, 0.25);
+	
+	--vsi-font-1: font-family: "Alegreya", serif;
+	--vsi-font-2: font-family: "Montserrat", sans-serif;
+    --vsi-font-3: font-family: "Roboto", sans-serif;
 	
     /* vsi-fe1- start */
-	--vsi-footer-email-background: rgba(255,255,255,0.9);
-	--vsi-footer-info-background: rgba(255,255,255,0.05);
-	--vsi-footer-info-color: #e7e7e7;
 	/* vsi-fe1- end */
 	
 	/* vsi-fe2- start */
