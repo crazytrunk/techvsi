@@ -1,174 +1,137 @@
-/* CSS header start */
-
-.luxbar-menu-material-cyan, .luxbar-menu-material-cyan .dropdown ul{
-    background-color: var(--white) !important;
-    color: var(--black) !important;
-}
-.luxbar-fixed{
-    box-shadow: none !important;
+/* header - start */
+body {
+	padding-top: 6rem;
 }
 .vsi-header{
     width: 100%;
     max-width: 100%;
-    height: 95px;
-    background-color: var(--white);
+    height: 6rem;
+    background-color: var(--vsi-color-1);
     padding: 0;
     margin: 0;
-    position: fixed !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
-.luxbar-header{
-    height: 95px !important;
+.vsi-logo {
+	width: 130px;
+	max-width: 130px;
+	height: 5rem;
+	margin: 0.5rem 0;
+	position: relative;
+	display: flex;
+	align-items: center;
 }
-.vsi-nav{
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0;
-    height: 95px;
+.vsi-header_nav {
+	width: 100%;
+	height: 5rem;
+	margin: 0.5rem 0;
+	position: relative;
 }
-.vsi-logo{
-    margin: 0;
-    float: right;
-    text-align: right;
+.vsi-header_nav ul {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
 }
-.vsi-logo img{
-    max-width: 130px;
-    padding: 0;
-    margin: 0;
+.vsi-header_nav ul li {
+	padding: 0;
+	margin: 0;
+	line-height: 5rem;
 }
-.vsi-font{
-    text-transform: uppercase;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    font-family: 'Oswald', 'sans-serif';
-    float: right; 
-    color: var(---light-black);
-    padding-left: 19px;
-    padding-right: 19px;
+.vsi-header_nav ul li.active,
+.vsi-header_nav ul li:hover {
+	background-color: var(--vsi-color-5);
 }
-.luxbar-item{
-    height: 95px !important;
+.vsi-header_nav ul li a {
+	padding: 0;
+	margin: 0 2rem;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: var(--vsi-solor-2);
 }
-.luxbar-menu-material-cyan .active, .luxbar-menu-material-cyan .luxbar-item:hover{
-    text-decoration: none !important;
-    background-color: #eee !important;
-    /* color: #eee !important; */
-}
-.luxbar-item a{
-    padding: 0px !important;
-}
-.vsi-font a{
-    height: 100%;
-    line-height: 95px;
-    color: var(--light-black);
-    font-size: 15px;
-    font-weight: inherit;
-    cursor: pointer;
-}
-.vsi-active{
-    color: var(--light-eee) !important;
-}
-.luxbar-checkbox:not(:checked) ~ .luxbar-menu{
-    overflow: unset;
-    height: 95px !important;
-}
-
 @media (max-width: 575.98px) {
-    .vsi-header{
-        background-color: var(--white) !important;
-    }
-    .luxbar-item {
-        height: 95px !important;
-        text-align: center !important;
-    }
-    .luxbar-checkbox:checked ~ .luxbar-menu li .luxbar-hamburger span {
-        background-color: var(--light-black) !important;
-    }
-    .luxbar-menu-material-cyan .luxbar-hamburger span, .luxbar-menu-material-cyan .luxbar-hamburger span::before, .luxbar-menu-material-cyan .luxbar-hamburger span::after {
-        background-color: var(--light-black) !important;
-    }
-    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
-        overflow: hidden !important;
-        height: 95px !important;
-    }
-    .luxbar-hamburger{
-        padding: 18px 24px 0px 24px !important;
-    }
- 
+	body {
+		padding-top: 3.75rem;
+	}
+	.luxbar-brand {
+		padding: 0 1.5rem;
+	}
+	.luxbar-brand img {
+		max-height: 3rem;
+	}
+	.luxbar-menu-light,
+	.luxbar-menu-light .dropdown ul {
+		background-color: var(--vsi-color-1);
+	}
+	.luxbar-menu-light .active,
+	.luxbar-menu-light .luxbar-item:hover {
+		background-color: var(--vsi-color-5);
+	}
+	.luxbar-menu a,
+	.luxbar-item a {
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: var(--vsi-solor-2);
+		text-align: center;
+	}
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .vsi-header{
-        background-color: var(--white) !important;
-    }
-    .luxbar-item {
-        height: 95px !important;
-        text-align: center !important;
-    }
-    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
-        overflow: hidden !important;
-        height: 95px !important;
-    }
-    .luxbar-checkbox:checked ~ .luxbar-menu li .luxbar-hamburger span {
-        background-color: var(--light-black) !important;
-    }
-    .luxbar-menu-material-cyan .luxbar-hamburger span, .luxbar-menu-material-cyan .luxbar-hamburger span::before, .luxbar-menu-material-cyan .luxbar-hamburger span::after {
-        background-color: var(--light-black) !important;
-    }
-    menu {
-        height: 95px !important;
-    }
-    .luxbar-hamburger{
-        padding: 18px 24px 0px 24px !important;
-    }
-  
+	body {
+		padding-top: 3.75rem;
+	}
+	.luxbar-brand {
+		padding: 0 1.5rem;
+	}
+	.luxbar-brand img {
+		max-height: 3rem;
+	}
+	.luxbar-menu-light,
+	.luxbar-menu-light .dropdown ul {
+		background-color: var(--vsi-color-1);
+	}
+	.luxbar-menu-light .active,
+	.luxbar-menu-light .luxbar-item:hover {
+		background-color: var(--vsi-color-5);
+	}
+	.luxbar-menu a,
+	.luxbar-item a {
+		font-family: 'Oswald', sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: var(--vsi-solor-2);
+		text-align: center;
+	}
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .vsi-header{
-        background-color: var(--white) !important;
-    }
-    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
-        overflow: hidden !important;
-        height: 95px !important;
-    }
+	.vsi-header_nav ul li a {
+		margin: 0 1rem;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .vsi-header{
-        background-color: var(--white) !important;
-    }
-    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
-        overflow: hidden !important;
-        height: 95px !important;
-    }
+	.vsi-header_nav ul li a {
+		margin: 0 1.5rem;
+	}
 }
 @media (min-width: 1200px) {
-    .vsi-header{
-        background-color: var(--white) !important;
-    }
-    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{
-        overflow: hidden !important;
-        height: 95px !important;
-    }
-    .luxbar-checkbox:checked ~ .luxbar-menu {
-        height: 95px;
-    }
+	.vsi-header_nav ul li a {
+		margin: 0 2rem;
+	}
+	
 }
-/* CSS header end */
-
-/* CSS main start */
-.vsi-mg-top{
-    margin-top: 95px;
-    padding: 0;
-}
-.cd-prev, .cd-next{
-    background-color: var(--grey38) !important;
-    border: 1px solid var(--grey38) !important;
-}
+/* header - end */
 /* Section 1 start */
 .vsi-fe1-banner{
     width: 100%;
     max-width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -192,7 +155,7 @@
 .vsi-fe1-text-big{
     padding: 0;
     z-index: 99;
-    top: 65%;
+    top: 70%;
     position: relative;
     transform: translateY(50%);
     width: 100%;
@@ -215,7 +178,7 @@
     display: block;
 }
 .vsi-fe1-p{
-    color: var(--grey38);
+    color: var(--vsi-color-4);
     font-size: 1.2rem;
     line-height: 1.5;
     font-weight: 300;
@@ -236,7 +199,7 @@
 .vsi-fe1-btn-contac a{
     text-decoration: none;
     color: var(--white);
-    background-color: var(--black);
+    background-color: var(--vsi-color-3);
     border: 1px solid var(--white);
     padding: 15px 30px;
     font-size: 12px;
@@ -254,11 +217,11 @@
 @media (max-width: 575.98px) {
     .vsi-fe1-banner{
         min-height: 600px;
-        height: calc(100vh);
+        height: calc(100%);
     }
     .vsi-fe1-text-big{
-        top: 25%;
-        transform: translateY(50%);
+        top: 45%;
+        transform: translateY(45%);
     }
 	.vsi-fe1-text-big .vsi-fe1-h1{
         font-size: 32px;
@@ -271,10 +234,10 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
     .vsi-fe1-banner{
         min-height: 600px;
-        height: calc(100vh);
+        height: calc(100%);
     }
     .vsi-fe1-text-big{
-        top: 85%;
+        top: 50%;
         transform: translateY(50%);
     }
 	.vsi-fe1-text-big .vsi-fe1-h1{
@@ -295,22 +258,18 @@
 	
 }
 /* Section 1 end */
-
 /* Section 2 start */
 .vsi-fe1-setwidth{
     width: 900px;
     max-width: 900px;
     margin: 0 auto;
 }
-.cd-section:nth-of-type(2) > div {
-    background-color: var(--white) !important;
-  }
 .vsi-fe1-wellcome{
     padding: 30px 0;
     margin: 0 auto;
     width: 100%;
     max-width: 1170px;
-    height: 100vh;
+    height: 100%;
 }
 .vsi-fe1-rec{
     width: 70px;
@@ -321,8 +280,8 @@
 }
 .vsi-fe1-h1-wellcome{
     text-align: center;
-    font-size: 60px;
-    line-height: 66px;
+    font-size: 40px;
+    line-height: 48px;
     padding: 0;
     margin: 0;
     font-family: 'Oswald', 'sans-serif';
@@ -395,7 +354,7 @@
 
 }
 .vsi-fe1-number:hover{
-    background-color: var(--black);
+    background-color: var(--vsi-color-3);
 }
 .vsi-fe1-firts::after{
     position: absolute;
@@ -466,29 +425,49 @@
         height: auto !important;
     }
     .vsi-fe1-h1-wellcome{
-        font-size: 40px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .vsi-fe1-block-pc{
+        display: inline-block !important;
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+	.vsi-fe1-setwidth {
+        width: 100%;
+        max-width: 100%;
+    }
+    .vsi-fe1-h1-wellcome{
+        font-size: 32px;
+        line-height: 38px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+    .vsi-fe1-setwidth {
+        width: 100%;
+        max-width: 100%;
+    }
+    .vsi-fe1-h1-wellcome{
+        font-size: 32px;
+        line-height: 38px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	
+    .vsi-fe1-h1-wellcome{
+        font-size: 32px;
+        line-height: 38px;
+    }
 }
 @media (min-width: 1200px) {
 	
 }
 /* Section 2 end */
-
 /* Section 3 start */
 .cd-section:nth-of-type(3) > div {
     background-color: var(--white) !important;
 }
 .vsi-fe1-project{
-    height: 100vh; 
+    height: 100%; 
     width: 100%;
     max-width: 100%;
     padding: 0;
@@ -497,9 +476,9 @@
 }
 .vsi-fe1-text-portfolio{
     text-align: center;
-    font-size: 60px;
-    line-height: 66px;
-    height: 100vh;
+    font-size: 40px;
+    line-height: 48px;
+    height: 100%;
     padding: 0;
     margin: 0;
     font-family: 'Oswald', 'sans-serif';
@@ -512,7 +491,7 @@
     font-weight: 400;
     line-height: 22px;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto 19px;
     max-width: 950px;
     padding: 0;
     color: #333333;
@@ -780,13 +759,23 @@ a.vsi-fe1-active{
     padding: 0;
 }
 @media (max-width: 575.98px) {
-	
+    .vsi-fe1-mg-btn{
+        margin-bottom: 20px;
+    }
+	.vsi-fe1-text-portfolio{
+        font-size: 32px;
+        line-height: 38px;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+    .vsi-fe1-mg-btn{
+        margin-bottom: 20px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+    .vsi-fe1-mg-btn{
+        margin-bottom: 30px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	
@@ -795,15 +784,11 @@ a.vsi-fe1-active{
 	
 }
 /* Section 3 end */
-
 /* Section 4 start */
-.cd-section:nth-of-type(4) > div {
-    background-color: var(--white) !important;
-  }
 .vsi-fe1-service{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: url(../images/home/i2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -833,15 +818,15 @@ a.vsi-fe1-active{
 .vsi-fe1-title-features{
     width: auto;
     height: auto;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 400;
+    line-height: 48px;
     text-align: center;
     margin: 0 auto;
     padding-top: 0;
     text-transform: uppercase;
     color: var(--white);
     font-family: 'Oswald', 'sans-serif';
-
 }
 .vsi-fe1-description{
     font-size: 17px;
@@ -1122,13 +1107,102 @@ ul.vsi-fe1-features-mobile{
 }
 
 @media (max-width: 575.98px) {
-	
+    .vsi-fe1-service{
+        overflow: hidden !important;
+    }
+    ul.vsi-fe1-features-mobile {
+        background-image: url(../images/home/features-iphone.png);
+        background-image: none !important;
+        margin-top: 10px !important;
+        padding: 10px !important; 
+        min-height: 100% !important;
+
+    }
+    .vsi-fe1-title-features{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .vsi-fe1-feature-box{
+        max-width: 100%;
+        width: 100%;
+        padding: 0 !important;
+    }
+    .vsi-fe1-feature-box:nth-of-type(2n){
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    .vsi-fe1-box-icon-left, .vsi-fe1-box-icon-right{
+        float: none !important;
+        margin: 0 auto !important;
+    }
+    .vsi-fe1-feature-texts-left, .vsi-fe1-pr, .vsi-fe1-feature-texts-right{
+        margin: 0 !important;
+    }
+    .vsi-fe1-box-head-left, .vsi-fe1-box-hea-right, .vsi-fe1-box-desc-left, .vsi-fe1-box-desc-right{
+        text-align: center !important;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+    .vsi-fe1-service{
+        overflow: hidden !important;
+    }
+    ul.vsi-fe1-features-mobile {
+        background-image: url(../images/home/features-iphone.png);
+        background-image: none !important;
+        margin-top: 10px !important; 
+        padding: 10px !important; 
+        min-height: 100% !important;
+
+    }
+    .vsi-fe1-title-features{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .vsi-fe1-feature-box{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .vsi-fe1-feature-box:nth-of-type(2n){
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    .vsi-fe1-box-icon-left, .vsi-fe1-box-icon-right{
+        float: none !important;
+        margin: 0 auto;
+    }
+    .vsi-fe1-feature-texts-left, .vsi-fe1-pr, .vsi-fe1-feature-texts-right{
+        margin: 0 !important;
+    }
+    .vsi-fe1-box-head-left, .vsi-fe1-box-hea-right, .vsi-fe1-box-desc-left, .vsi-fe1-box-desc-right{
+        text-align: center !important;
+    }
+ 
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+    .vsi-fe1-service{
+        overflow: hidden !important;
+    }
+    ul.vsi-fe1-features-mobile {
+        background-image: url(../images/home/features-iphone.png);
+        background-image: none !important;
+        margin-top: 10px !important; 
+        padding: 10px !important; 
+        min-height: 100% !important;
+
+    }
+    .vsi-fe1-feature-box{
+        max-width: 330px;
+        width: 330px;
+    }
+    .vsi-fe1-feature-box:nth-of-type(2n){
+        max-width: 330px;
+        width: 330px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	
@@ -1137,16 +1211,12 @@ ul.vsi-fe1-features-mobile{
 	
 }
 /* Section 4 end */
-
 /* Section 5 start */
-.cd-section:nth-of-type(5) > div {
-    background-color: var(--white) !important;
-  }
 .vsi-fe1-team{
     width: 100%;
     max-width: 100%;
-    height: 100vh;
-    padding: 0;
+    height: 100%;
+    padding: 50px 0;
     margin: 0;
 }
 .vsi-fe1-box-team{
@@ -1158,7 +1228,8 @@ ul.vsi-fe1-features-mobile{
 .vsi-fe1-title-team{
     width: auto;
     height: auto;
-    font-size: 60px;
+    font-size: 40px;
+    line-height: 48px;
     font-weight: 400;
     text-align: center;
     margin: 0 auto;
@@ -1175,7 +1246,7 @@ ul.vsi-fe1-features-mobile{
     margin: 0 auto;
     max-width: 950px;
     padding: 0;
-    color: #3e3e3e;
+    color: var(--vsi-color-1);
     font-family: 'Raleway', sans-serif;
 
 }
@@ -1345,13 +1416,22 @@ ul.vsi-fe1-features-mobile{
     transform: scale(1.4);
 }
 @media (max-width: 575.98px) {
-	
+	.vsi-fe1-title-team{
+        font-size: 32px;
+        line-height: 38px;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+    .vsi-fe1-title-team{
+        font-size: 32px;
+        line-height: 38px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+    .vsi-fe1-title-team{
+        font-size: 32px;
+        line-height: 38px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	
@@ -1360,15 +1440,11 @@ ul.vsi-fe1-features-mobile{
 	
 }
 /* Section 5 end */
-
 /* Section 6 start */
-.cd-section:nth-of-type(6) > div {
-    background-color: var(--white) !important;
-}
 .vsi-fe1-what-we-do{
     width: 100%;
     max-width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     background-image: url(../images/home/i1.jpg);
     background-repeat: no-repeat;
@@ -1392,7 +1468,8 @@ ul.vsi-fe1-features-mobile{
 .vsi-fe1-h1-what-we-do{
     width: auto;
     height: auto;
-    font-size: 60px;
+    font-size: 40px;
+    line-height: 48px;
     font-weight: 400;
     text-align: center;
     margin: 0 auto;
@@ -1497,7 +1574,9 @@ ul.vsi-fe1-features-mobile{
     display: none;
     background-color: rgba(25,25,25, 0.3);
 }
-
+.vsi-fe1-block{
+    display: block !important;
+}
 .vsi-fe1-opa{
     display: block !important;
 }
@@ -1520,13 +1599,63 @@ ul.vsi-fe1-features-mobile{
 
 }
 @media (max-width: 575.98px) {
-	
+	.vsi-fe1-h1-what-we-do{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .vsi-fe1-icon{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .vsi-fe1-icon img{
+        width: 100px !important;
+        max-width: 100px !important;
+    }
+    .vsi-fe1-icon-language{
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0px 0px 40px 0px !important;
+
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+    .vsi-fe1-h1-what-we-do{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .vsi-fe1-icon{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .vsi-fe1-icon img{
+        width: 100px !important;
+        max-width: 100px !important;
+    }
+    .vsi-fe1-icon-language{
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0px 0px 40px 0px !important;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+    .vsi-fe1-h1-what-we-do{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .vsi-fe1-icon{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .vsi-fe1-icon img{
+        width: 100px !important;
+        max-width: 100px !important;
+    }
+    .vsi-fe1-icon-language{
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0px 0px 40px 0px !important;
+
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	
@@ -1535,23 +1664,19 @@ ul.vsi-fe1-features-mobile{
 	
 }
 /* Section 6 end */
-
 /* Section 7 start */
-.cd-section:nth-of-type(7) > div {
-    background-color: var(--white) !important;
-}
 
 .vsi-fe1-box-form{
     width: 100%;
     max-width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: 0;
-    padding: 0;
+    padding: 50px 0;
 }
 .vsi-fe1-title-form{
     text-align: center;
-    font-size: 60px;
-    line-height: 66px;
+    font-size: 40px;
+    line-height: 48px;
     height: 100%;
     padding: 0;
     margin: 0;
@@ -1645,13 +1770,31 @@ ul.vsi-fe1-features-mobile{
     color: var(--white);
 }
 @media (max-width: 575.98px) {
-	
+	.vsi-fe1-title-form{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .vsi-fe1-form {
+        margin: 50px auto 0 !important;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+    .vsi-fe1-title-form{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .vsi-fe1-form {
+        margin: 50px auto 0 !important;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+    .vsi-fe1-title-form{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .vsi-fe1-form {
+        margin: 50px auto 0 !important;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	
@@ -1660,10 +1803,7 @@ ul.vsi-fe1-features-mobile{
 	
 }
 /* Section 7 end */
-
-/* CSS main end */
-
-/* CSS header start */
+/* footer - start */
 .vsi-footer{
     position: relative;
     width: 100%;
@@ -1698,11 +1838,10 @@ ul.vsi-fe1-features-mobile{
     width: 90%;
     max-width: 770px;
     padding: 52px;
-    background: rgba(255,255,255,0.05);
-    color: #e7e7e7;
+    background: var(--vsi-footer-info-background);
+    color: var(--vsi-footer-info-color);
     margin: 0 auto;
     position: relative;
-    
 }
 .vsi-border{
     border-radius: 100%;
@@ -1712,14 +1851,14 @@ ul.vsi-fe1-features-mobile{
     display: block;
     width: 82px;
     height: 82px;
-    background: rgba(255,255,255,0.05);
-    color: #e7e7e7;
+    background: var(--vsi-footer-info-background);
+    color: var(--vsi-footer-info-color);
     margin: 0 auto;
     line-height: 85px;
     font-size: 35px;
 }
 .vsi-button-email:hover{
-    background: rgba(255,255,255,0.9);
+    background: var(--vsi-footer-email-background);
     color: #2b2b2b;
 }
 .vsi-h1{
@@ -1731,7 +1870,8 @@ ul.vsi-fe1-features-mobile{
 .vsi-h1 a{
     padding: 0;
     margin: 0;
-    font-size: 65px;
+    font-size: 40px;
+    line-height: 48px;
     color: white !important;
     font-family: 'Oswald', 'sans-serif';
     text-decoration: none;
@@ -1757,10 +1897,6 @@ ul.vsi-fe1-features-mobile{
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-}
-.vsi-mail:hover{
-    color: #d71818;
-    text-decoration: none;
 }
 .vsi-icon{
     display: flex;
@@ -1816,24 +1952,13 @@ a.vsi-icon-footer{
     top: 0px;
     touch-action: pan-x pan-y;
 }
-.vsi-maps::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 380px;
-    transition: opacity ease-in-out;
-    background-color: rgba(0,0,0,0.45);
-    text-align: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
+
 .vsi-copyright{
     padding: 40px;
     margin: 0 auto;
     text-align: center;
     display: block;
+    background-color: var(--vsi-color-1);
 }
 .vsi-logo-footer{
     width: 130px;
@@ -1851,14 +1976,14 @@ a.vsi-icon-footer{
 	font-family: 'Raleway', sans-serif;
     font-size: 11px;
     margin: 15px auto 0;
-    color: #767676;
+    color: var(--vsi-color-2);
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
 .vsi-hover-ltd{
     text-decoration: none;
-    color: #767676;
+    color: var(--vsi-color-2);
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -1866,11 +1991,10 @@ a.vsi-icon-footer{
 }
 .vsi-hover-ltd:hover{
     text-decoration: none;
-    color: #d71818;
+    color: var(--vsi-color-6);
     outline: none;
 }
 .vsi-estimate-project{
-    background-color: #fcbf10;
     background-image: url(../images/home/pattern-up-full.png);
     background-repeat: no-repeat;
     background-size: 50%;
@@ -1878,9 +2002,19 @@ a.vsi-icon-footer{
     background-position-x: -50%;
     width: 100%;
     border-radius: 0 0 50px;
-    background-color: #fcbf10;
-    border: 1px solid #fcbf10;
+    background-color: var(--vsi-color-4);
+    border: 1px solid var(--vsi-color-3);
     margin-top: 40px;
+}
+.vsi-fe1-project{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.vsi-fe1-add-class{
+    display: none !important;
 }
 .vsi-contact-white{
     color: var(--white);
@@ -1907,9 +2041,6 @@ a.vsi-icon-footer{
     text-align: center;
     margin: 24px;
 }
-.vsi-contact-form:hover{
-    background: #444b53;
-}
 a.vsi-btn-submit{
     color: var(--white);
     cursor: pointer;
@@ -1919,12 +2050,14 @@ a.vsi-btn-submit{
     transition: all 0.3s;
 }
 a.vsi-btn-submit:hover{
-    color: #fcbf10;
     text-decoration: none;
     background-color: transparent;
 }
 
 @media (max-width: 575.98px) {
+    .vsi-fe1-none-mg{
+        margin: 0 !important;
+    }
 	.vsi-h1 a{
         font-size: 30px !important;
     }
@@ -1936,6 +2069,9 @@ a.vsi-btn-submit:hover{
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-fe1-none-mg{
+        margin: 0 !important;
+    }
     .vsi-h1 a{
         font-size: 40px !important;
     }
@@ -1947,12 +2083,25 @@ a.vsi-btn-submit:hover{
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+    .vsi-fe1-none-mg{
+        margin: 0 !important;
+    }
+    .vsi-contact-title{
+        white-space: nowrap;
+    }
+ 
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	
+    .vsi-fe1-none-mg{
+        margin: 0 !important;
+    }
+    .vsi-fe1-project{
+        display: inherit;
+    }
 }
 @media (min-width: 1200px) {
-	
+	.vsi-fe1-project{
+        display: inherit;
+    }
 }
-/* CSS header end */
+/* footer - end */

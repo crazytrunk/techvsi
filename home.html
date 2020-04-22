@@ -11,70 +11,77 @@
 	<meta name="author" content="Author" />
 	<!-- import CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/lib/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/fontawesome-free-5.13.0-web/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/luxbar.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/owl.carousel.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/owl.theme.default.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/aos.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/aos/css/aos.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/luxbar/css/luxbar.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
-
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-
 	<!-- import JS -->
 	<script type="text/javascript" src="assets/lib/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="assets/lib/fontawesome-free-5.13.0-web/js/all.min.js"></script>
 	<script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
-
-	<!-- Page Scroll Effects -->
-	<script type="text/javascript" src="assets/lib/modernizr.js"></script>
-	<script type="text/javascript" src="assets/lib/jquery-2.1.4.js"></script>
-	<script type="text/javascript" src="assets/lib/velocity.min.js"></script>
-	<script type="text/javascript" src="assets/lib/velocity.ui.min.js"></script>
-	<script type="text/javascript" src="assets/lib/main.js"></script>
-	<script type="text/javascript" src="assets/lib/typed.js"></script>
-	<script type="text/javascript" src="assets/lib/aos.js"></script>
-	<script type="text/javascript" src="assets/lib/owl.carousel.js"></script>
-	<script type="text/javascript" src="assets/lib/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="assets/lib/aos/js/aos.js"></script>
+	<script type="text/javascript" src="assets/lib/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="assets/lib/typed-js/typed.min.js"></script>
 </head>
 <!-- setup -->
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 <!-- setup -->
 <!-- data-hijacking="on" data-animation="rotate" -->
 
-<body">
-	<section class="cd-section visible">
-		<div>
-			<header id="luxbar" class="luxbar-fixed vsi-header">
-				<div class="vsi-nav">
-					<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
-					<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
-						<ul class="luxbar-navigation">
-							<li class="luxbar-header">
-								<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
-									<img src="assets/images/logo.png" alt="Outsourcing Logo">
-								</a>
-								<label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
-									for="luxbar-checkbox"> <span></span> </label>
-							</li>
-							<li class="luxbar-item vsi-font"><a href="#" class="vsi-active">home</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">about</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">project</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">team</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">contact</a></li>
-						</ul>
+<body>
+	<header>
+		<div class="d-none d-md-block vsi-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<a href="#" class="vsi-logo" title="Outsourcing Logo">
+							<img src="assets/images/logo.png" alt="Outsourcing Logo">
+						</a>
+					</div>
+					<div class="col-md-8">
+						<nav class="vsi-header_nav">
+							<ul class="">
+								<li class="active"><a href="#">home</a></li>
+								<li class=""><a href="#">about</a></li>
+								<li class=""><a href="#">project</a></li>
+								<li class=""><a href="#">team</a></li>
+								<li class=""><a href="#">contact</a></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
-			</header>
-			<div class="vsi-mg-top"></div>
+			</div>
+		</div>
+		<div id="luxbar" class="d-block d-md-none luxbar-fixed">
+			<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+			<div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
+				<ul class="luxbar-navigation">
+					<li class="luxbar-header">
+						<a href="#" class="luxbar-brand"><img src="assets/images/logo.png" alt="Outsourcing Logo"></a>
+						<label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+						id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+					</li>
+					<li class="luxbar-item"><a href="#">home</a></li>
+					<li class="luxbar-item"><a href="#">about</a></li>
+					<li class="luxbar-item"><a href="#">project</a></li>
+					<li class="luxbar-item"><a href="#">team</a></li>
+					<li class="luxbar-item"><a href="#">contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section>
 			<div class="vsi-fe1-banner">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<div class="vsi-fe1-text-big">
+							<div class="vsi-fe1-text-big" data-aos="fade-up" data-aos-delay="400">
 								<div class="vsi-fe1-h1">
 									TechVSI - Top of Software Outsourcing <div class="vsi-fe1-block-pc"></div>
 									Company In Vietnam is Expert in<div class="vsi-fe1-block-pc"></div>
@@ -91,42 +98,17 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="cd-section vsi-fe1-set-height">
-		<div>
-			<header id="luxbar" class="luxbar-fixed vsi-header">
-				<div class="vsi-nav">
-					<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
-					<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
-						<ul class="luxbar-navigation">
-							<li class="luxbar-header">
-								<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
-									<img src="assets/images/logo.png" alt="Outsourcing Logo">
-								</a>
-								<label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
-									for="luxbar-checkbox"> <span></span> </label>
-							</li>
-							<li class="luxbar-item vsi-font"><a href="#" class="vsi-active">home</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">about</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">project</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">team</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</header>
-			<div class="vsi-mg-top"></div>
+		</section>
+		<section>
 			<div class="vsi-fe1-wellcome">
 				<div class="vsi-fe1-h1-wellcome">
-					Welcome To TechVSI - Top of Software
+					Welcome To TechVSI - Top of Software <div class="vsi-fe1-block-pc"></div>
 					Outsourcing Company In Vietnam
 				</div>
 				<div class="vsi-fe1-rec"></div>
 				<div class="container vsi-fe1-setwidth">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-sm-12 col-md-12 col-lg-6">
 							<div class="vsi-fe1-web">
 								<div class="vsi-fe1-h2-web">
 									Web Application Development
@@ -139,7 +121,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-sm-12 col-md-12 col-lg-6">
 							<div class="vsi-fe1-mobile">
 								<div class="vsi-fe1-h2-mobile">
 									Mobile Application Development
@@ -201,33 +183,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="cd-section">
-		<div>
-			<header id="luxbar" class="luxbar-fixed vsi-header">
-				<div class="vsi-nav">
-					<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
-					<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
-						<ul class="luxbar-navigation">
-							<li class="luxbar-header">
-								<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
-									<img src="assets/images/logo.png" alt="Outsourcing Logo">
-								</a>
-								<label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
-									for="luxbar-checkbox"> <span></span> </label>
-							</li>
-							<li class="luxbar-item vsi-font"><a href="#" class="vsi-active">home</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">about</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">project</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">team</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</header>
-			<div class="vsi-mg-top"></div>
+		</section>
+		
+		<section>
 			<div class="vsi-fe1-project">
 				<div class="vsi-fe1-text-portfolio">
 					OUR PORTFOLIO
@@ -235,9 +193,9 @@
 					<div class="vsi-fe1-h2-project">
 						Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical Latin literature from 45 BC, it a old.
 					</div>
-					<!-- <div class="container">
+					<div class="container">
 						<div class="row">
-							<div class="col-12 col-lg-3 col-md-6">
+							<div class="col-12 col-lg-3 col-md-6 vsi-fe1-mg-btn">
 								<div class="vsi-fe1-working-hours">
 									<div class="vsi-fe1-flex-span">
 										<span class="vsi-fe1-span-working-hours" data-count="150">0</span><span class="vsi-fe1-span-working-k">k+</span>
@@ -245,7 +203,7 @@
 									<p class="vsi-fe1-service-description">Working hours</p>
 								</div>
 							</div>
-							<div class="col-12 col-lg-3 col-md-6">
+							<div class="col-12 col-lg-3 col-md-6 vsi-fe1-mg-btn">
 								<div class="vsi-fe1-meetings">
 									<div class="vsi-fe1-flex-span">
 										<span class="vsi-fe1-span-working-hours" data-count="500">0</span><span class="vsi-fe1-span-working-k">+</span>
@@ -253,7 +211,7 @@
 									<p class="vsi-fe1-service-description">Meetings</p>
 								</div>
 							</div>
-							<div class="col-12 col-lg-3 col-md-6">
+							<div class="col-12 col-lg-3 col-md-6 vsi-fe1-mg-btn">
 								<div class="vsi-fe1-technologies-applied">
 									<div class="vsi-fe1-flex-span">
 										<span class="vsi-fe1-span-working-hours">3-15</span>
@@ -261,7 +219,7 @@
 									<p class="vsi-fe1-service-description">Technologies Applied</p>
 								</div>
 							</div>
-							<div class="col-12 col-lg-3 col-md-6">
+							<div class="col-12 col-lg-3 col-md-6 vsi-fe1-mg-btn">
 								<div class="vsi-fe1-projects-delivered">
 									<div class="vsi-fe1-flex-span">
 										<span class="vsi-fe1-span-working-hours" data-count="100">0</span><span class="vsi-fe1-span-working-k">+</span>
@@ -270,7 +228,7 @@
 								</div>
 							</div>
 						</div>
-					</div> -->
+					</div>
 					<div class="container">
 						<div class="row">
 							<div class="vsi-fe1-filters">
@@ -293,7 +251,7 @@
 								</ul>
 							</div>
 							<div class="col-md-4 vsi-fe1-pd">
-								<div class="vsi-fe1-img-filters filter design">
+								<div class="vsi-fe1-img-filters filter branding">
 									<div class="vsi-fe1-item-inner">
 										<img src="assets/images/home/015.jpg" alt="">
 										<div class="vsi-fe1-item-details">
@@ -309,32 +267,128 @@
 								</div>
 							</div>
 							<div class="col-md-4 vsi-fe1-pd">
-								<div class="vsi-fe1-img-filters filter branding">
+								<div class="vsi-fe1-img-filters filter branding photography">
 									<div class="vsi-fe1-item-inner">
 										<img src="assets/images/home/001.jpg" alt="">
 										<div class="vsi-fe1-item-details">
 											<div class="vsi-fe1-title-details">
-												Red Paint
+												Red & Gray
 											</div>
 											<span class="vsi-fe1-portfolio-strips"></span>
 											<div class="vsi-fe1-text-content">
-												branding
+												video, photography
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-4 vsi-fe1-pd">
-								<div class="vsi-fe1-img-filters filter video">
+								<div class="vsi-fe1-img-filters filter design branding">
 									<div class="vsi-fe1-item-inner">
 										<img src="assets/images/home/008.jpg" alt="">
 										<div class="vsi-fe1-item-details">
 											<div class="vsi-fe1-title-details">
-												Red Paint
+												Music
 											</div>
 											<span class="vsi-fe1-portfolio-strips"></span>
 											<div class="vsi-fe1-text-content">
-												branding
+												design
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 vsi-fe1-pd">
+								<div class="vsi-fe1-img-filters filter photography">
+									<div class="vsi-fe1-item-inner">
+										<img src="assets/images/home/012.jpg" alt="">
+										<div class="vsi-fe1-item-details">
+											<div class="vsi-fe1-title-details">
+												forest
+											</div>
+											<span class="vsi-fe1-portfolio-strips"></span>
+											<div class="vsi-fe1-text-content">
+												design
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 vsi-fe1-pd">
+								<div class="vsi-fe1-img-filters filter video branding photography">
+									<div class="vsi-fe1-item-inner">
+										<img src="assets/images/home/004.jpg" alt="">
+										<div class="vsi-fe1-item-details">
+											<div class="vsi-fe1-title-details">
+												Street
+											</div>
+											<span class="vsi-fe1-portfolio-strips"></span>
+											<div class="vsi-fe1-text-content">
+												video, branding
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 vsi-fe1-pd ">
+								<div class="vsi-fe1-img-filters filter design video">
+									<div class="vsi-fe1-item-inner">
+										<img src="assets/images/home/005.jpg" alt="">
+										<div class="vsi-fe1-item-details">
+											<div class="vsi-fe1-title-details">
+												tennis
+											</div>
+											<span class="vsi-fe1-portfolio-strips"></span>
+											<div class="vsi-fe1-text-content">
+												photography, design
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 vsi-fe1-pd">
+								<div class="vsi-fe1-img-filters filter video branding">
+									<div class="vsi-fe1-item-inner">
+										<img src="assets/images/home/013.jpg" alt="">
+										<div class="vsi-fe1-item-details">
+											<div class="vsi-fe1-title-details">
+												dawn
+											</div>
+											<span class="vsi-fe1-portfolio-strips"></span>
+											<div class="vsi-fe1-text-content">
+												branding, video
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 vsi-fe1-pd">
+								<div class="vsi-fe1-img-filters filter design photography">
+									<div class="vsi-fe1-item-inner">
+										<img src="assets/images/home/014.jpg" alt="">
+										<div class="vsi-fe1-item-details">
+											<div class="vsi-fe1-title-details">
+												northern
+											</div>
+											<span class="vsi-fe1-portfolio-strips"></span>
+											<div class="vsi-fe1-text-content">
+												photography, design
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 vsi-fe1-pd">
+								<div class="vsi-fe1-img-filters filter branding photography">
+									<div class="vsi-fe1-item-inner">
+										<img src="assets/images/home/006.jpg" alt="">
+										<div class="vsi-fe1-item-details">
+											<div class="vsi-fe1-title-details">
+												red dress
+											</div>
+											<span class="vsi-fe1-portfolio-strips"></span>
+											<div class="vsi-fe1-text-content">
+												photography, branding
 											</div>
 										</div>
 									</div>
@@ -344,47 +398,22 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="cd-section">
-		<div>
-			<header id="luxbar" class="luxbar-fixed vsi-header">
-				<div class="vsi-nav">
-					<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
-					<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
-						<ul class="luxbar-navigation">
-							<li class="luxbar-header">
-								<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
-									<img src="assets/images/logo.png" alt="Outsourcing Logo">
-								</a>
-								<label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
-									for="luxbar-checkbox"> <span></span> </label>
-							</li>
-							<li class="luxbar-item vsi-font"><a href="#" class="vsi-active">home</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">about</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">project</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">team</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</header>
-			<div class="vsi-mg-top"></div>
-			<div class="vsi-fe1-service">
+		</section>
+		<section>
+			<div class="vsi-fe1-service" data-aos="fade-up" data-aos-delay="400">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="vsi-fe1-inner">
-								<!-- <div class="vsi-fe1-title-features">
+								<div class="vsi-fe1-title-features">
 									FEATURES WITH MOBILE
 									<div class="vsi-fe1-rec"></div>
 								</div>
 								<div class="vsi-fe1-description">
 									Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical. There are many variations of passages of Lorem Ipsum available.
-								</div> -->
+								</div>
 								<ul class="vsi-fe1-features-mobile">
-									<li class="vsi-fe1-feature-box">
+									<li class="vsi-fe1-feature-box" data-aos="fade-right" data-aos-delay="800">
 										<div class="vsi-fe1-box-icon-left vsi-fe1-icon-web">
 
 										</div>
@@ -397,7 +426,7 @@
 											</p>
 										</div>
 									</li>
-									<li class="vsi-fe1-feature-box">
+									<li class="vsi-fe1-feature-box" data-aos="fade-left" data-aos-delay="800">
 										<div class="vsi-fe1-box-icon-left vsi-fe1-icon-mobile vsi-fe1-fl">
 										</div>
 										<div class="vsi-fe1-feature-texts-left vsi-fe1-pl">
@@ -409,7 +438,7 @@
 											</p>
 										</div>
 									</li>
-									<li class="vsi-fe1-feature-box">
+									<li class="vsi-fe1-feature-box" data-aos="fade-right" data-aos-delay="800">
 										<div class="vsi-fe1-box-icon-right vsi-fe1-icon-design vsi-fe1-fr">
 
 										</div>
@@ -422,7 +451,7 @@
 											</p>
 										</div>
 									</li>
-									<li class="vsi-fe1-feature-box">
+									<li class="vsi-fe1-feature-box" data-aos="fade-left" data-aos-delay="800">
 										<div class="vsi-fe1-box-icon-right vsi-fe1-voip">
 
 										</div>
@@ -441,38 +470,13 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="cd-section">
-		<div>
-			<header id="luxbar" class="luxbar-fixed vsi-header">
-				<div class="vsi-nav">
-					<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
-					<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
-						<ul class="luxbar-navigation">
-							<li class="luxbar-header">
-								<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
-									<img src="assets/images/logo.png" alt="Outsourcing Logo">
-								</a>
-								<label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
-									for="luxbar-checkbox"> <span></span> </label>
-							</li>
-							<li class="luxbar-item vsi-font"><a href="#" class="vsi-active">home</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">about</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">project</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">team</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</header>
-			<div class="vsi-mg-top"></div>
+		</section>
+		<section>
 			<div class="vsi-fe1-team">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<!-- <div class="vsi-fe1-box-team">
+							<div class="vsi-fe1-box-team">
 								<h1 class="vsi-fe1-title-team">
 									what clients says
 									<div class="vsi-fe1-rec"></div>
@@ -480,7 +484,7 @@
 								<div class="vsi-fe1-description">
 									Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical.
 								</div>
-							</div> -->
+							</div>
 							<div class="vsi-fe1-slider-team">
 								<div class="owl-carousel owl-theme">
 									<div class="item">
@@ -726,38 +730,12 @@
 						</div>
 					</div>
 					</div>
-				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="cd-section">
-		<div>
-			<header id="luxbar" class="luxbar-fixed vsi-header">
-				<div class="vsi-nav">
-					<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
-					<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
-						<ul class="luxbar-navigation">
-							<li class="luxbar-header">
-								<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
-									<img src="assets/images/logo.png" alt="Outsourcing Logo">
-								</a>
-								<label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
-									for="luxbar-checkbox"> <span></span> </label>
-							</li>
-							<li class="luxbar-item vsi-font"><a href="#" class="vsi-active">home</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">about</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">project</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">team</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</header>
-			<div class="vsi-mg-top"></div>
+		</section>
+		<section>
 			<div class="vsi-fe1-what-we-do">
 				<div class="container">
-					<!-- <div class="row">
+					<div class="row">
 						<div class="col-md-12">
 							<h1 class="vsi-fe1-h1-what-we-do">
 								what we do
@@ -767,10 +745,10 @@
 								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical.
 							</div>
 						</div>
-					</div> -->
+					</div>
 					<div class="row vs-fe1-mt-10">
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language btn" id="a">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+							<div class="vsi-fe1-icon-language btn" id="nodejs">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/nodejs.png" alt="nodejs" title="nodejs">
 									<div class="vsi-fe1-name-language">
@@ -779,8 +757,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language btn" id="b">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="20">
+							<div class="vsi-fe1-icon-language btn" id="php">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/php.png" alt="php" title="php">
 									<div class="vsi-fe1-name-language">
@@ -789,8 +767,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language btn" id="c">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="40">
+							<div class="vsi-fe1-icon-language btn" id="wordpress">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/wp.png" alt="Wordpress" title="Wordpress">
 									<div class="vsi-fe1-name-language">
@@ -799,8 +777,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language btn" id="d">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="60">
+							<div class="vsi-fe1-icon-language btn" id="reactjs">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/reactjs.png" alt="reactjs" title="reactjs">
 									<div class="vsi-fe1-name-language">
@@ -809,8 +787,8 @@
 								</div>
 							</div>
 						</div>
-						<!-- <div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+							<div class="vsi-fe1-icon-language btn"  id="react-native">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/react-native.png" alt="React Native" title="React Native">
 									<div class="vsi-fe1-name-language">
@@ -819,8 +797,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+							<div class="vsi-fe1-icon-language btn" id="angularjs">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/angularjs.png" alt="AngularJS" title="AngularJS">
 									<div class="vsi-fe1-name-language">
@@ -829,8 +807,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+							<div class="vsi-fe1-icon-language btn" id="vuejs">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/vuejs.png" alt="vuejs" title="vuejs">
 									<div class="vsi-fe1-name-language">
@@ -839,8 +817,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="140">
+							<div class="vsi-fe1-icon-language btn" id="wordpress-elementor">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/elementor.jpg" alt="Wordpress Elementor" title="Wordpress Elementor">
 									<div class="vsi-fe1-name-language">
@@ -849,8 +827,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="160">
+							<div class="vsi-fe1-icon-language btn" id="typescript">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/ts.png" alt="Typescript" title="Typescript">
 									<div class="vsi-fe1-name-language">
@@ -859,8 +837,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+							<div class="vsi-fe1-icon-language btn" id="magento">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/magento.png" alt="Magento" title="Magento">
 									<div class="vsi-fe1-name-language">
@@ -869,8 +847,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+							<div class="vsi-fe1-icon-language btn" id="redux-saga">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/redux-saga.png" alt="redux-saga" title="redux-saga">
 									<div class="vsi-fe1-name-language">
@@ -879,8 +857,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="220">
+							<div class="vsi-fe1-icon-language btn" id="edm">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/edm.png" alt="EDM (Email Newsletter)" title="EDM (Email Newsletter)">
 									<div class="vsi-fe1-name-language">
@@ -889,8 +867,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+							<div class="vsi-fe1-icon-language btn" id="firebase">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/firebase.png" alt="Firebase" title="Firebase">
 									<div class="vsi-fe1-name-language">
@@ -899,8 +877,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="260">
+							<div class="vsi-fe1-icon-language btn" id="microsoft">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/azure.png" alt="Microsoft Azure" title="Microsoft Azure">
 									<div class="vsi-fe1-name-language">
@@ -909,18 +887,18 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="280"> 
+							<div class="vsi-fe1-icon-language btn" id="goole-cloud">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/gcp.png" alt="Goole Cloud Platform" title="Goole Cloud Platform">
 									<div class="vsi-fe1-name-language">
-										Goole Cloud Platform
+										Google Cloud Platform
 									</div>	
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="vsi-fe1-icon-language">
+						<div class="col-md-6 col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+							<div class="vsi-fe1-icon-language btn" id="aws-cloud">
 								<div class="vsi-fe1-icon">
 									<img src="assets/images/home/what-we-do/aws.png" alt="AWS Cloud" title="AWS Cloud">
 									<div class="vsi-fe1-name-language">
@@ -928,10 +906,10 @@
 									</div>	
 								</div>
 							</div>
-						</div> -->
+						</div>
 					</div>
 					<div class="row">
-						<div class="vsi-fe1-item-movie a">
+						<div class="vsi-fe1-item-movie nodejs">
 							<h1 class="vsi-fe1-title-movie">
 								NodeJS
 							</h1>
@@ -939,7 +917,7 @@
 								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Rich McClintock not simply. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
 							</p>
 						</div>
-						<div class="vsi-fe1-item-movie b">
+						<div class="vsi-fe1-item-movie php">
 							<h1 class="vsi-fe1-title-movie">
 								PHP
 							</h1>
@@ -947,7 +925,7 @@
 								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Rich McClintock not simply. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
 							</p>
 						</div>
-						<div class="vsi-fe1-item-movie c">
+						<div class="vsi-fe1-item-movie wordpress">
 							<h1 class="vsi-fe1-title-movie">
 								Wordpress
 							</h1>
@@ -955,9 +933,24 @@
 								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Rich McClintock not simply. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
 							</p>
 						</div>
-						<div class="vsi-fe1-item-movie d">
+						<div class="vsi-fe1-item-movie reactjs">
 							<h1 class="vsi-fe1-title-movie">
 								ReactJS
+							</h1>
+							<p class="vsi-fe1-normal">
+								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Rich McClintock not simply. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+							</p>
+						<div class="vsi-fe1-item-movie react-native">
+							<h1 class="vsi-fe1-title-movie">
+								React Native
+							</h1>
+							<p class="vsi-fe1-normal">
+								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Rich McClintock not simply. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+							</p>
+						</div>
+						<div class="vsi-fe1-item-movie aws-cloud">
+							<h1 class="vsi-fe1-title-movie">
+								AngularJS
 							</h1>
 							<p class="vsi-fe1-normal">
 								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Rich McClintock not simply. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
@@ -966,32 +959,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="cd-section">
-		<div>
-			<header id="luxbar" class="luxbar-fixed vsi-header">
-				<div class="vsi-nav">
-					<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
-					<div class="luxbar-menu luxbar-menu-right luxbar-menu-material-cyan">
-						<ul class="luxbar-navigation">
-							<li class="luxbar-header">
-								<a href="#" class="luxbar-brand vsi-logo" title="Outsourcing Logo">
-									<img src="assets/images/logo.png" alt="Outsourcing Logo">
-								</a>
-								<label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger"
-									for="luxbar-checkbox"> <span></span> </label>
-							</li>
-							<li class="luxbar-item vsi-font"><a href="#" class="vsi-active">home</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">about</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">project</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">team</a></li>
-							<li class="luxbar-item vsi-font"><a href="#">contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</header>
+		</section>
+		<section>
 			<div class="vsi-fe1-box-form">
 				<div class="vsi-mg-top"></div>
 				<div class="container">
@@ -1027,92 +996,85 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="cd-section">
-		<div>
-			<footer>
-				<div class="vsi-footer">
-					<div class="vsi-inner">
-						<div class="vsi-info">
-							<div class="vsi-button-email vsi-border">
-								<i class="fa fa-envelope"></i>
-							</div>
-							<h1 class="vsi-h1">
-								<a title="TechVSI - Top of Software Outsourcing Development Company"
-									href="mailto:info@techvsi.com">info@techvsi.com</a>
-							</h1>
-							<div class="vsi-h2">
-								NORTH, STREET NAME 6209, MELBOURNE AUSTRALIA
-							</div>
-							<a href="mailto:support@goldeyestheme.com" class="vsi-mail">
-								support@goldeyestheme.com
-							</a>
-							<div class="vsi-icon">
-								<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-fb">
-									<i class="fab fa-facebook-f"></i>
-								</a>
-								<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-tw">
-									<i class="fab fa-twitter"></i>
-								</a>
-								<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-in">
-									<i class="fab fa-linkedin-in"></i>
-								</a>
-								<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-ytb">
-									<i class="fab fa-youtube"></i>
-								</a>
-							</div>
-						</div>
-						<div class="vsi-estimate-project">
-							<div class="row">
-								<div class="col-lg-9 col-md-9">
-									<div class="vsi-contact-title">Got an <span class="vsi-contact-white">idea</span>?
-										We can help you <span class="vsi-contact-white">realize</span> it.
-									</div>
+		</section>
+	</main>
+    <footer>
+		<div class="vsi-footer">
+			<div class="vsi-inner">
+				<div class="vsi-info">
+					<div class="vsi-button-email vsi-border">
+						<i class="fa fa-envelope"></i>
+					</div>
+					<h1 class="vsi-h1">
+						<a title="TechVSI - Top of Software Outsourcing Development Company"
+							href="mailto:info@techvsi.com">info@techvsi.com</a>
+					</h1>
+					<div class="vsi-h2">
+						NORTH, STREET NAME 6209, MELBOURNE AUSTRALIA
+					</div>
+					<a href="mailto:support@goldeyestheme.com" class="vsi-mail">
+						support@goldeyestheme.com
+					</a>
+					<div class="vsi-icon">
+						<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-fb">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-tw">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-in">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+						<a href="#" target="_blank" class="vsi-icon-footer vsi-bg-color-icon vsi-bg-ytb">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</div>
+				</div>
+				<div class="vsi-estimate-project">
+					<div class="row vsi-fe1-none-mg">
+						<div class="vsi-fe1-project">
+							<div class="col-lg-9 col-md-9">
+								<div class="vsi-contact-title">Got an <span class="vsi-contact-white">idea</span>?
+									We can help you <span class="vsi-contact-white">realize</span> it.
 								</div>
-								<div class="col-lg-3 col-md-3">
-									<div class="vsi-contact-form">
-										<a class="vsi-btn-submit" href="#" data-wpel-link="internal"
-											target="_blank">Estimate project</a>
-									</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="vsi-contact-form">
+									<a class="vsi-btn-submit" href="#" data-wpel-link="internal"
+										target="_blank">Estimate project</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="vsi-maps">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0983313459697!2d106.68776091472208!3d10.803780461642601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528c4e5d828bf%3A0xf6bf6691a2c832ed!2zbOG6p3UgNSwgMjRhIFBoYW4gxJDEg25nIEzGsHUsIELDrG5oIFRo4bqhbmgsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1586922985126!5m2!1svi!2s"
-						frameborder="0" style="border:0;width: 100%;height: 380px;" allowfullscreen=""
-						aria-hidden="false" tabindex="0">
-					</iframe>
-				</div>
-				<div class="vsi-copyright">
-					<div class="vsi-logo-footer">
-						<img src="assets/images/logo.png" alt="" srcset="">
-					</div>
-					<div class="vsi-year">
-						Copyright &copy;
-						<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="#"
-							class="vsi-hover-ltd">TECHVSI Pte Ltd</a>
-					</div>
-				</div>
-			</footer>
+			</div>
 		</div>
-	</section>
-
-	<!-- next and prev -->
-	<nav>
-		<ul class="cd-vertical-nav">
-			<li><a href="#0" class="cd-prev inactive">Next</a></li>
-			<li><a href="#0" class="cd-next">Prev</a></li>
-		</ul>
-	</nav>
-	<!-- next and prev -->
+		<div class="vsi-maps">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0983313459697!2d106.68776091472208!3d10.803780461642601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528c4e5d828bf%3A0xf6bf6691a2c832ed!2zbOG6p3UgNSwgMjRhIFBoYW4gxJDEg25nIEzGsHUsIELDrG5oIFRo4bqhbmgsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1586922985126!5m2!1svi!2s"
+				frameborder="0" style="border:0;width: 100%;height: 380px;" allowfullscreen=""
+				aria-hidden="false" tabindex="0">
+			</iframe>
+		</div>
+		<div class="vsi-copyright">
+			<div class="vsi-logo-footer" title="Outsourcing Logo">
+				<img src="assets/images/logo.png" alt="" srcset="">
+			</div>
+			<div class="vsi-year">
+				Copyright &copy;
+				<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="#"
+					class="vsi-hover-ltd">TECHVSI Pte Ltd</a>
+			</div>
+		</div>
+	</footer>
 
 	<script type="text/javascript" src="assets/js/script.js"></script>
 	<script type="text/javascript" src="assets/js/home.js"></script>
+	<script>
+		AOS.init({
+			once: true
+		});
+	</script>
 </body>
 
 </html>
