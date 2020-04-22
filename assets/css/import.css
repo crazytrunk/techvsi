@@ -1,0 +1,10 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap";
+
+@import "root_var.css";
+
+@import "../lib/reset.css";
+@import "../lib/fontawesome-free-5.13.0-web/css/all.min.css";
+@import "../lib/bootstrap-4.4.1/css/bootstrap.min.css";
+
+
+@import "style.css";

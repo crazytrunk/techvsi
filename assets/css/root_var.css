@@ -1,0 +1,42 @@
+:root {
+	/* VSI-FE1- start */
+    --light-secondary:#989898;
+	/* VSI-FE1- end */
+	
+
+
+	/* VSI-FE2- start */
+    --light-gray:#f7f9fc;
+    --brown:#4d4d58;
+    --weak-gray: #efefef;
+	/* VSI-FE2- end */
+	
+	/* VSI-FE3- start */
+	--black:#000000;
+	--blue: #005dac;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --light-orange:#ff965c;
+    --yellow: #ffc107;
+    --green: #82c145;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #005dac;
+    --secondary: #6c757d;
+    --success: #82c145;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #0f1b03;
+    --silver:#858383;
+    --primary--green:#69a583;
+    --second--green:#a0d9b9;
+	/* VSI-FE3- end */
+}
