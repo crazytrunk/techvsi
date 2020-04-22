@@ -1,15 +1,10 @@
 :root {
-	--vsi-color-1: #FFF;
-	--vsi-color-2: #606163;
-	--vsi-color-3: #000000;
-	--vsi-color-4: #cecece;
-	--vsi-color-5: #f1f1f1;
-	--vsi-color-6: #767676;
 	
-    /* vsi-fe1- start */
-	--vsi-footer-email-background: rgba(255,255,255,0.9);
-	--vsi-footer-info-background: rgba(255,255,255,0.05);
-	--vsi-footer-info-color: #e7e7e7;
+	/* vsi-fe1- start */
+	--gray: #E5E5E5;
+	--black: #000000;
+	--white: #fff;
+	--yellow: #FDEE30;
 	/* vsi-fe1- end */
 	
 	/* vsi-fe2- start */

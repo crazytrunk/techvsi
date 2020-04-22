@@ -1,17 +1,5 @@
-/* vis-fe1-fonts start*/
-/* Oswald */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-/* Raleway */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Raleway:wght@600&display=swap');
-/* font-family: 'Raleway', sans-serif; */
-
-/* Indie Flower */
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald:wght@600&family=Raleway:wght@600&display=swap');
-/* font-family: 'Indie Flower', cursive; */
-
-/* vis-fe1-fonts end*/
 *, body {
 	font-family: 'Roboto', sans-serif;
 }
@@ -38,14 +26,5 @@ a:hover {
 @media (min-width: 1200px) {
 	
 }
-.vsi-background_dark {
-    background-image: -webkit-linear-gradient(top, #323940, #2c3136 53%, #323940);
-    background-image: -o-linear-gradient(top, #323940, #2c3136 53%, #323940);
-    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
-    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
-    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
-    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
-    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
-    background-image: linear-gradient(to bottom, #323940, #2c3136 53%, #323940);
-}
+
 
