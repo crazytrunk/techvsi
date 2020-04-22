@@ -1,0 +1,150 @@
+/* banner - strat */
+.vsi-banner {
+	padding: 10rem 0;
+	margin: 0;
+	width: 100%;
+}
+.vsi-banner_typed {
+	max-width: 50rem;
+	padding: 5rem 2.5rem;
+	margin: 0 auto;
+	text-align: center;
+	background-color: var(--vsi-color-10);
+	color: var(--vsi-color-2);
+	border: solid 1px var(--vsi-color-1);
+	border-radius: 1.5rem;
+	font-family: var(--vsi-font-2);
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+.vsi-banner_typed_string {
+	padding: 0;
+	margin: 0;
+}
+@media (max-width: 575.98px) {
+	.vsi-banner {
+		padding: 5rem 1rem;
+	}
+	.vsi-banner_typed {
+		max-width: 100%;
+		padding: 1rem;
+		font-size: 1.5rem;
+		line-height: 2.5rem;
+	}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.vsi-banner {
+		padding: 5rem 1rem;
+	}
+	.vsi-banner_typed {
+		max-width: 100%;
+		padding: 1rem;
+		font-size: 2rem;
+	}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.vsi-banner {
+		padding: 5rem 1rem;
+	}
+	.vsi-banner_typed {
+		max-width: 100%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+@media (min-width: 1200px) {
+	
+}
+/* banner - end */
+/* about - start */
+.vsi-about {
+	margin: 2.5rem auto;
+	padding: 0;
+}
+.vsi-about_top {
+	margin: 0rem;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.vsi-about_top_text {
+	font-family: var(--vsi-font-2);
+	color: var(--vsi-color-2);
+	white-space: nowrap;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.vsi-about_top_text h3 {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.vsi-about_top_text p {
+	font-size: 1rem;
+	line-height: 1.25rem;
+}
+.vsi-about_top_button {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+}
+.vsi-about_top_button button {
+	margin-left: 1rem;
+}
+@media (max-width: 575.98px) {
+	.vsi-about {
+		margin: 0.5rem auto;
+		padding: 0;
+	}
+	.vsi-about_top_text {
+		align-items: center;
+	}
+	.vsi-about_top_button {
+		justify-content: center;
+		padding: 1rem 0 0.5rem 0;
+	}
+	.vsi-about_top_button button {
+		margin-left: 0rem;
+	}
+	
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.vsi-about {
+		margin: 1rem auto;
+		padding: 0;
+	}
+	.vsi-about_top_text {
+		align-items: center;
+	}
+	.vsi-about_top_button {
+		justify-content: center;
+		padding: 1rem 0 0.5rem 0;
+	}
+	.vsi-about_top_button button {
+		margin-left: 0rem;
+	}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.vsi-about {
+		margin: 1.5rem auto;
+		padding: 0;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.vsi-about {
+		margin: 2rem auto;
+		padding: 0;
+	}
+}
+@media (min-width: 1200px) {
+	.vsi-about {
+		margin: 2.5rem auto;
+		padding: 0;
+	}
+}
+/* about - end */
