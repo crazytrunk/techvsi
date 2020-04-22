@@ -7,8 +7,8 @@ var swiper = new Swiper('.swiper-container', {
     //     clickable: true,
     // },
     loop: true,
-    centeredSlides:true,
-    centeredSlidesBounds:true,
+    centeredSlides: true,
+    centeredSlidesBounds: true,
     infinite: true,
     // Navigation arrows
     navigation: {
@@ -20,14 +20,14 @@ var swiper = new Swiper('.swiper-container', {
 var swiper__BA = new Swiper('.swiper-container__BA', {
     slidesPerView: 0,
     // spaceBetween: 0,
-    centeredSlidesBounds:true,
+    centeredSlidesBounds: true,
     // pagination: {
     //     el: '.swiper-pagination',
     //     clickable: true,
     // },
     loop: true,
-    centeredSlides:true,
-    
+    centeredSlides: true,
+
     infinite: true,
     // Navigation arrows
     navigation: {
@@ -37,29 +37,27 @@ var swiper__BA = new Swiper('.swiper-container__BA', {
 });
 
 
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $(".filter-button").click(function(){
+    $(".filter-button").click(function () {
         var value = $(this).attr('data-filter');
-        
-        if(value == "all")
-        {
-            //$('.filter').removeClass('hidden');
+
+        if (value == "") {
+            // $('.filter').removeClass('hidden');
             $('.filter').show('1000');
         }
-        else
-        {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-            
+        else {
+            //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+            //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.' + value).hide('3000');
+            $('.filter').filter('.' + value).show('3000');
+
         }
     });
-    
+
     if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
+        $(this).removeClass("active");
+    }
+    $(this).addClass("active");
 
 });
