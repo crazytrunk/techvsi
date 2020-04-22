@@ -1,0 +1,235 @@
+.vsi-background_dark {
+    background-image: -webkit-linear-gradient(top, #323940, #2c3136 53%, #323940);
+    background-image: -o-linear-gradient(top, #323940, #2c3136 53%, #323940);
+    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
+    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
+    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
+    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
+    background-image: -webkit-gradient( linear, left top, left bottom, from(#323940), color-stop(53%, #2c3136), to(#323940) );
+    background-image: linear-gradient(to bottom, #323940, #2c3136 53%, #323940);
+}
+.vsi-fe4-estimation{
+    width: 100%;
+    padding-top: 160px;
+}
+.vsi-fe4-estimation-title{
+    width: 100%;
+}
+.vsi-fe4-estimation-title h2{
+    color: var(--yellow);
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+.vsi-fe4-estimation-form{
+    max-width: 100%;
+    width: 704px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+.vsi-fe4-estimation-form-group{
+    font-size: 15px;
+   color: #b8bec5;
+}
+.vsi-fe4-estimation-form-group .form-group{
+    margin-bottom: 15px;
+}
+.vsi-fe4-estimation-form-title{
+    display: flex;
+    color: var(--white);
+    font-size: 20px;
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+.vsi-fe4-estimation-span{
+    font-size: 15px;
+    color: #6b7782;
+    font-weight: 100;
+}
+.vsi-fe4-estimation-form-group .form-group input{
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 16px;
+    border: none;
+    padding: 10px 16px;
+    resize: none;
+    color: #333;
+}
+.vsi-fe4-estimation-form-group input:focus , textarea:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.vsi-fe4-estimation-form-group textarea{
+    font-size: 15px;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 16px;
+    resize: none;
+    color: #333;
+}
+.vsi-fe4-estimation-form-group-file label{
+    font-weight: 100;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.vsi-fe4-estimation-form-group-file #file{
+    display: none;
+}
+.vsi-fe4-estimation-form-check-btn label input{
+    display: none;
+}
+.vsi-fe4-estimation-form-check-btn label {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    margin-right: 16px;
+}
+.vsi-fe4-estimation-form-check-btn label span{
+    background: #323940;
+    border-radius: 4px;
+    border: 1px solid #6b7782;
+    padding: 12px 16px;
+}
+
+
+.vsi-fe4-estimation-form-check-btn input:hover + span {
+    background: var(--yellow);
+    color: #323940;
+    border: 1px solid transparent;
+    }
+.vsi-fe4-estimation-form-check-btn input:checked + span {
+        background:  var(--yellow);
+        color: #323940;
+        border: 1px solid transparent;
+    }
+.vsi-fe4-estimation-form-check-btn input:checked:hover + span {
+    background:  var(--yellow);
+    color: #323940;
+    border: 1px solid transparent;
+    }
+.vsi-fe4-estimation-form-group_rangeSlider{
+    margin-bottom: 50px;
+}
+.vsi-fe4-estimation-form-group_rangeSlider .irs-with-grid .irs-grid {
+    display: none;
+}
+.vsi-fe4-estimation-form-group_rangeSlider .irs--flat .irs-bar {
+    background-color: var(--yellow);
+}
+.vsi-fe4-estimation-form-group_rangeSlider .irs--flat .irs-handle > i:first-child {
+    background-color: #fff;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    border: 3px solid #fcbf10;
+    cursor: pointer;
+    margin-left: -10px;
+}
+.vsi-fe4-estimation-form-group_rangeSlider .irs--flat .irs-line {
+    height: 6px;
+    background-color: #96a5b3;
+    top: 28px;
+}
+.vsi-fe4-estimation-form-group_rangeSlider .irs--flat .irs-from, .irs--flat .irs-to, .irs--flat .irs-single {
+    font-size: 15px;
+    border-radius: 4px;
+    background: #323940;
+    top: -6px;
+}
+.vsi-fe4-estimation-form-group_rangeSlider .irs--flat .irs-from:before, .irs--flat .irs-to:before, .irs--flat .irs-single:before {
+    display: none;
+}
+.vsi-fe4-estimation-form-group_rangeSlider .irs--flat .irs-min, .irs--flat .irs-max {
+    color: var(--white);
+    top: 50px;
+    font-size: 15px;
+    border-radius: 4px;
+    background: #323940;
+}
+.vsi-fe4-estimation-form-group_check{
+    margin-bottom: 15px;
+}
+.vsi-fe4-estimation-form-group_check_btn{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.vsi-fe4-estimation-form-group_check_btn .checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+}
+.vsi-fe4-estimation-form-group_check_btn:hover input ~  .checkmark{
+    background-color: #ccc;
+}
+.vsi-fe4-estimation-form-group_check_btn input:checked ~ .checkmark {
+    background-color: transparent;
+}
+.vsi-fe4-estimation-form-group_check_btn input:checked ~ .checkmark::after{
+    display: block;
+}
+.vsi-fe4-estimation-form-group_check_btn .checkmark::after{
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fcbf10;
+    display: none;
+}
+
+.vsi-fe4-estimation-form-group_check_btn input{
+    max-width: 100%;
+    position: absolute;
+    opacity: 0;
+    margin-bottom: 12px;
+}
+
+.vsi-fe4-sumit{
+    text-align: center;
+    padding: 20px 0 ;
+}
+.vsi-fe4-sumit .btn{
+    border-radius: 0 0 16px;
+    background-color: #fcbf10;
+    color: #fff;
+    transition: 0.5s all ease;
+    position: relative;
+    height: 48px;
+    line-height: 42px;
+    padding-top: 0;
+    padding-bottom: 0;
+    min-width: 180px;
+    margin-bottom: 32px;
+}
+.vsi-fe4-sumit .btn:hover{
+    background-color: #ffce41;
+}
+@media (max-width: 575.98px) {
+	.vsi-fe4-estimation-form-group .col-md-6{
+        padding: 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.vsi-fe4-estimation-form-group .col-md-6{
+        padding: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+@media (min-width: 1200px) {
+	
+}
