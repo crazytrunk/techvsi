@@ -1,51 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Montserrat&family=Roboto&display=swap');
 
 :root {
+	--vsi-color-1: #000000;
+	--vsi-color-2: #FEFEFE;
+	--vsi-color-3: #FDEE30;
+	--vsi-color-4: #FFFFFF;
+	--vsi-color-5: #141824;
+	--vsi-color-6: #FFB600;
+	--vsi-color-7: #0049FF;
+	--vsi-color-8: #434343;
+	--vsi-color-9: #111111;
+	--vsi-color-10: rgba(0, 0, 0, 0.25);
+	
+	--vsi-font-1: font-family: "Alegreya", serif;
+	--vsi-font-2: font-family: "Montserrat", sans-serif;
+    --vsi-font-3: font-family: "Roboto", sans-serif;
+	
     /* vsi-fe1- start */
-    --grey38: #616161;
-    --grey39: #515151;
-    --light-black: #161616;
-    /* --light-eee: #eee ; */
-	--light-secondary: #989898;
-    --light-gray: #f7f9fc;
-    --brown: #4d4d58;
-    --weak-gray: #efefef;
-	--black: #000000;
-    --white: #fff;
-    --blue: #005dac;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --light-orange: #ff965c;
-    --yellow: #ffc107;
-    --green: #82c145;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --gray: #6c757d;
-    --gray-dark: #343a40;
-    --primary: #005dac;
-    --secondary: #6c757d;
-    --success: #82c145;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #0f1b03;
-    --silver: #858383;
-    --primary--green: #69a583;
-    --second--green: #a0d9b9;
 	/* vsi-fe1- end */
 	
 	/* vsi-fe2- start */
 	/* vsi-fe2- end */
 	
 	/* vsi-fe3- start */
-    
-    --yellow-orange : #fcbf10;
-    --light-silver: #b8bec5;
-    --light-silver-secondary :#6b7782;
-    --dark-gray-priamry :#30363c;
-    --dark-gray-secondary : #323940;
 	/* vsi-fe3- end */
 }
