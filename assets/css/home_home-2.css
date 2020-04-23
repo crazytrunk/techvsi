@@ -1,16 +1,264 @@
+.vsi-fe3-features__banner{
+    background-image: url("../images/home/home-2/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    
+}
+.vsi-fe3-features__banner--title{
+    margin-top: 30px;
+    color: #FDEE30;
+    text-align: center;
+    font-size: 28px;
+}
+.vsi-fe3-features__banner--sub-title{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+.vsi-fe3-features__left--item-text{
+    max-width: 255px;
+    text-align: right;
+    padding-right: 18px;
+}
+.vsi-fe3-features__left--item-text-title{
+    font-size: 20px;
+    color: #f1f1f1;
+}
+.vsi-fe3-features__left--item-text-desc{
+    font-size: 16px;
+    color: #f1f1f1;
+}
 
+.vsi-fe3-features__banner--left-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vsi-fe3-features__banner--left{
+    padding-top: 50px;
+}
+/* right */
+.vsi-fe3-features__right--item-text{
+    max-width: 255px;
+    text-align: left;
+    padding-left: 18px;
+}
+.vsi-fe3-features__right--item-text-title{
+    font-size: 20px;
+    color: #f1f1f1;
+}
+.vsi-fe3-features__right--item-text-desc{
+    font-size: 16px;
+    color: #f1f1f1;
+}
+.vsi-fe3-features__banner--right{
+    padding-top: 50px;
+}
+.vsi-fe3-features__banner--right-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vsi-fe3-features__banner--center img{
+    position: relative;
+    top: 60px;
+    max-width: 350px;
+}
+.vsi-fe3-features__left--item-img-border-1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F1F1F1;
+    position: relative;
+}
+.vsi-fe3-features__left--item-img-border-2{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.vsi-fe3-features__left--item-img-border-3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #F1F1F1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.vsi-fe3-features__left--item-img-border-3 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.vsi-fe3-features__left--item-img-border-1:hover {
+    background-color: #FDEE30;
+}
+.vsi-fe3-features__left--item-img-border-1:hover  .vsi-fe3-features__left--item-img-border-3  {
+    background-color: #FDEE30;
+} 
+
+/* Right */
+
+.vsi-fe3-features__right--item-img-border-1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F1F1F1;
+    position: relative;
+}
+.vsi-fe3-features__right--item-img-border-2{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.vsi-fe3-features__right--item-img-border-3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #F1F1F1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.vsi-fe3-features__right--item-img-border-3 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.vsi-fe3-features__right--item-img-border-1:hover {
+    background-color: #FDEE30;
+}
+.vsi-fe3-features__right--item-img-border-1:hover  .vsi-fe3-features__right--item-img-border-3  {
+    background-color: #FDEE30;
+} 
+/* Right - End */
+
+/* .vsi-fe3-features__rectangle{
+    padding-top: 100px;
+}
+.vsi-fe3-features__rectangle--content-item{
+    max-width: 975px;
+    display: flex;
+    margin: auto;
+}
+.vsi-fe3-features__rectangle-item-right-title{
+    text-align: center;
+}
+.vsi-fe3-features__rectangle-item-right-text{
+    max-width: 285px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.vsi-fe3-features__rectangle-item-right{
+    width: 480px;
+   
+} */
+/* Reponsive - Start */
 @media (max-width: 575.98px) {
-	
+    .vsi-fe3-features__img-center{
+        display: none;
+    }
+    .vsi-fe3-features__banner--left-item{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .vsi-fe3-features__banner--right-item{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .vsi-fe3-features__left--item-text{
+        text-align: center;
+        margin-top: 10px;
+        padding:0 ;
+    }
+    .vsi-fe3-features__right--item-text{
+        padding:0 ;
+        margin-top: 10px;
+        text-align: center;
+
+    }
+    .vsi-fe3-features__banner--left{
+        padding-top: 30px;
+    }
+    .vsi-fe3-features__banner--right{
+        padding-top: 30px;
+    }
+  }
+@media (min-width: 576px) and (max-width:767.98px) { 
+    .vsi-fe3-features__img-center{
+        display: none;
+    }
+    /* .vsi-fe3-features__banner{
+        height: 1500px
+    } */
+    .vsi-fe3-features__banner--left-item{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .vsi-fe3-features__banner--right-item{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .vsi-fe3-features__left--item-text{
+        text-align: center;
+        margin-top: 10px;
+        padding:0 ;
+    }
+    .vsi-fe3-features__right--item-text{
+        padding:0 ;
+        margin-top: 10px;
+        text-align: center;
+
+    }
+    .vsi-fe3-features__banner--left{
+        padding-top: 30px;
+    }
+    .vsi-fe3-features__banner--right{
+        padding-top: 30px;
+    }
+ }
+@media (min-width: 768px) and (max-width:991.98px) { 
+    .vsi-fe3-features__img-center{
+     display: none;
+    }
 }
-@media (min-width: 576px) and (max-width: 767.98px) {
-	
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-	
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
-	
+@media (min-width: 992px) and (max-width:1199.98px) { 
+    .vsi-fe3-features__banner--center img {
+        position: relative;
+        top: 52px;
+        max-width: 330px;
+        right: 25px;
+    }
+    .vsi-fe3-features__banner--right, .vsi-fe3-features__banner--left{
+        padding-top: 25px;
+    }
 }
 @media (min-width: 1200px) {
-	
-}
+    
+ }
+/* Reponsive - End */
