@@ -1,4 +1,4 @@
-d2<!DOCTYPE html>
+<!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
     <meta charset="UTF-8" />
