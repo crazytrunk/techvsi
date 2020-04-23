@@ -1,7 +1,7 @@
 
 /* vsi-fe4 - start */
    
-    .vsi-btn-down{
+.vsi-btn-down{
     background: #FDEE30;
     border: 3px solid #F1F1F1;
     border-radius: 50%;
@@ -64,7 +64,55 @@
           transform: translateY(20px);
         }
       }
-    
+      /* btn-down */
+    .vsi-btn-plus{
+        position: relative;
+        width: 35px;
+        height: 35px;
+        color: #F1F1F1;
+        border: 1px solid #FDEE30;
+        background: #FDEE30;
+        border-radius: 100%;
+        transition: all 0.5s;
+        font-size: 24px;
+    }
+    .vsi-btn-plus::before{
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        background: #F1F1F1;
+        color: #999999;
+        border-radius: 100%;
+        transition: all 0.5s;
+        transform: scale(1);
+        width: 35px;
+        height: 35px;
+        opacity: 0;
+    }
+    .vsi-btn-plus:focus{
+        outline: none;
+    }
+    .vsi-btn-plus:hover{
+        background: #F1F1F1;
+        color: #999999;
+    }
+    .vsi-btn-plus:hover::before{
+        background: #F1F1F1;
+        opacity: 1;
+        transition: all 0.5s;
+        transform: scale(0);
+    }
+/* .vsi-btn-plus-icon{
+    z-index: 0;
+} */
+
+
+
+
+/* btn plus */
       .vsi-third-paty-bg{
           padding: 123px 0 127px 0;
           position: relative;
@@ -195,15 +243,19 @@
     display: block;
     width: 82px;
     height: 82px;
-    background: rgba(255,255,255,0.05);
-    color: #e7e7e7;
+    background: #F1F1F1;
+    border: 1px solid #FDEE30;
+    box-sizing: border-box;
+    color: #2b2b2b;
     margin: 0 auto;
     line-height: 85px;
     font-size: 35px;
+    transition: all .5s;
 }
 .vsi-button-email:hover{
+    transition: all .5s;
     background: rgba(255,255,255,0.9);
-    color: #2b2b2b;
+    color: #da1818;
 }
 .vsi-h1{
     text-align: center;
@@ -235,7 +287,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    display: inline-block;
+    text-align: center;
+    display: flex;
     padding-top: 30px;
     margin: 0 auto;
     text-align: center;
@@ -243,36 +296,58 @@
     max-width: 100%;
 }
 a.vsi-icon-address{
-    display: inline-block;
-    color: inherit;
-    line-height: 65px;
-    font-size: 27px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #999999;
+    background: #F1F1F1;
+    border: 1px solid #FDEE30;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 45px;
+    font-size: 24px;
     margin: 0 12px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    transition: all 0.5s; 
+}
+
+a.vsi-icon-address::before{
+    content: "";
+    position: absolute;
+    color: #FDEE30;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 100%;
+    transform: scale(0);
+    transition: all 0.5s; 
+}
+a.vsi-icon-address:hover::before{
+    transform: scale(1);
 }
 .vsi-bg-color-icon{
-    width: 62px;
-    height: 62px;
-    border-radius: 100%;
-    background-color: #3a3a3a;
-}
-.vsi-bg-fb:hover{
-    background: #4b6ea8;
+    z-index: 1;
+} 
+a.vsi-icon-address:hover{
+    color: #FDEE30;
     text-decoration: none;
 }
-.vsi-bg-tw:hover{
+.vsi-bg-fb:hover::before{
+    background: #4b6ea8;
+}
+.vsi-bg-tw:hover::before{
     background: #4fd5f8;
-    text-decoration: none; 
 }
-.vsi-bg-in:hover{
-    background: #0189c3;
-    text-decoration: none; 
+.vsi-bg-in:hover::before{
+    background: #0189c3; 
 }
-.vsi-bg-ytb:hover{
+.vsi-bg-ytb:hover::before,.vsi-bg-p:hover::before{
     background: #da1818;
-    text-decoration: none; 
 }
 .vsi-maps{
     position: relative;
