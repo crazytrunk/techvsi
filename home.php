@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
-    <title>Page Home</title>
+	<link rel="icon" href="assets/images/fav.png" type="image/png" sizes="16x16">
+	<title>TechVSI - Top of Software Outsourcing Company In Vietnam</title>
     <meta name="description" content="Description" />
     <meta name="keywords" content="Keywords" />
     <meta name="author" content="Author" />
@@ -12,6 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/fontawesome-free-5.13.0-web/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/aos/css/aos.css">
+	
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home_header.css">
@@ -31,6 +33,11 @@
 	<script type="text/javascript" src="assets/lib/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/lib/fontawesome-free-5.13.0-web/js/all.min.js"></script>
+	<script type="text/javascript" src="assets/lib/aos/js/aos.js"></script>
+
+	<script type="text/javascript" src="assets/lib/jquery.countup.min.js"></script>
+	<script type="text/javascript" src="assets/lib/jquery.waypoints.js"></script>
+
 </head>
 <body>
 	<header>
@@ -86,5 +93,8 @@
 	<script type="text/javascript" src="assets/js/home_address.js"></script>
 	<script type="text/javascript" src="assets/js/home_footer.js"></script>
 	<script type="text/javascript" src="assets/js/home.js"></script>
+	<script>
+ 	 AOS.init();
+	</script>
 </body>
 </html>

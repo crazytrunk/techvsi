@@ -1,16 +1,82 @@
+.vsi-fe1-banner{
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../images/home/banner-1.png);
+    min-height: 650px;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vsi-fe1-text-banner{
+    width: 630px;
+    max-width: 630px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    position: relative;
+}
+.vsi-fe1-h1-banner{
+    color: var(--white);
+    padding: 50px 30px;
+    margin: 0;
+    font-size: 40px;
+    line-height: 48px;
+    position: absolute;
+    transform: translateY(50%);
+    top: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    border: 3px solid #000000;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
 
+}
+.vsi-fe1-block-pc{
+    display: block;
+}
 @media (max-width: 575.98px) {
-	
+	.vsi-fe1-text-banner{
+        width: 90%;
+        max-width: 90%;
+    }
+    .vsi-fe1-h1-banner{
+        font-size: 32px;
+        line-height: 38px;
+        transform: translateY(30%);
+        top: 30%;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+	.vsi-fe1-text-banner{
+        width: 90%;
+        max-width: 90%;
+    }	
+    .vsi-fe1-h1-banner{
+        font-size: 32px;
+        line-height: 38px;
+        transform: translateY(50%);
+        top: 50%;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+	.vsi-fe1-text-banner{
+        width: 90%;
+        max-width: 90%;
+    }
+    .vsi-fe1-h1-banner{
+        font-size: 32px;
+        line-height: 38px;
+        transform: translateY(50%);
+        top: 50%;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	
+ 
 }
 @media (min-width: 1200px) {
-	
+ 
 }
