@@ -90,5 +90,8 @@
 	<script type="text/javascript" src="assets/js/home_address.js"></script>
 	<script type="text/javascript" src="assets/js/home_footer.js"></script>
 	<script type="text/javascript" src="assets/js/home.js"></script>
+	<script>
+ 	 AOS.init();
+	</script>
 </body>
 </html>
