@@ -1,5 +1,5 @@
 .vsi-fe3-features__banner{
-    background-image: url("../image/features/home-2\ 1.png");
+    background-image: url("../images/features/home-2\ 1.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -147,9 +147,29 @@
 .vsi-fe3-features__right--item-img-border-1:hover  .vsi-fe3-features__right--item-img-border-3  {
     background-color: #FDEE30;
 } 
+/* Right - End */
 
-
-
+/* .vsi-fe3-features__rectangle{
+    padding-top: 100px;
+}
+.vsi-fe3-features__rectangle--content-item{
+    max-width: 975px;
+    display: flex;
+    margin: auto;
+}
+.vsi-fe3-features__rectangle-item-right-title{
+    text-align: center;
+}
+.vsi-fe3-features__rectangle-item-right-text{
+    max-width: 285px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.vsi-fe3-features__rectangle-item-right{
+    width: 480px;
+   
+} */
 /* Reponsive - Start */
 @media (max-width: 575.98px) {
     .vsi-fe3-features__img-center{
