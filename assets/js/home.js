@@ -6,7 +6,7 @@ $(".vsi-fe1-border").hover(
       $(this).removeClass('active');
     }
     );
-  
+
   // $(document).ready(function () {
   //   var typed = new Typed('#typed',{
   //       strings: ["Web Development", "Mobile Development", "Email Newsletter (EDM)", "Wordpress", "ReactJS", "AngularJS", "React Native", "PHP ZEND & Magento"],
