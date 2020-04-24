@@ -1,16 +1,155 @@
+.vsi-fe1-nav{
+    width: 100%;
+    max-width: 100%;
+    height: 95px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gray);
+}
+.vsi-fe1-logo{
+    width: 10%;
+    max-width: 10%;
+    height: 95px;
+    padding: 0;
+    margin: 0;
+}
+.vsi-fe1-logo a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.vsi-fe1-logo a img{
+    width: 130px;
+    max-width: 130px;
+    height: auto;
+    padding: 15px 0;
+    text-align: left;
+    float: left;
+}
+.vsi-fe1-menu{
+    width: 45%;
+    max-width: 41%;
+    height: 95px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.vsi-fe1-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.vsi-fe1-menu ul li{
+    display: inline-block;
+    line-height: 95px;
+    padding: 0 20px;
+    margin: 0;
+    transition: all ease-in-out .2s;
+}
+.vsi-fe1-menu ul li a{
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: relative;
+    font-style: normal;
+}
+.vsi-fe1-border{
+    border:none;
+    position: relative;
+}
+.vsi-fe1-border:hover{
+    border: none;
+}
+.vsi-fe1-border::before{
+    content: '';
+    position: absolute;
+    /* width: 0px; */
+    height: 0.5px;
+    /* left: 50%; */
+    top: -5px;
+    background-color: var(--black);
+    transition: all linear .2s;
+    right: 0;
+    border: none;
+
+}
+.vsi-fe1-border:hover::before{
+    width: 100%;
+    left: 0;
+    top: 0;
+    border: 0.5px solid black;
+}
+.vsi-fe1-border::after{
+    content: '';
+    position: absolute;
+    /* width: 0px; */
+    height: 0.5px;
+    /* left: 50%; */
+    bottom: -5px;
+    background-color: var(--black);
+    transition: all linear .2s;
+
+}
+.vsi-fe1-border:hover::after{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border: 0.5px solid black;
+}
+.vsi-fe1-estimate-project{
+    width: 20%;
+    max-width: 20%;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.vsi-fe1-estimate-project a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 5px 30px;
+    margin: 0;
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: normal;
+    background: #F1F1F1;
+    border: 3px solid var(--yellow);
+    box-sizing: border-box;
+    border-radius: 0px 0px 24px 0px;
+}
+
+
+.active{
+    font-weight: bold;
+}
 
 @media (max-width: 575.98px) {
-	
+    .vsi-fe1-nav{
+        display: none !important;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+    .vsi-fe1-nav{
+        display: none !important;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	
+ 
 }
 @media (min-width: 1200px) {
-	
+ 
 }
+
