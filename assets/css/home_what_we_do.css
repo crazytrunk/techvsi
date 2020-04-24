@@ -1,4 +1,21 @@
-
+.image-box{
+    width: 130px;
+    height: 130px;
+}
+.row2{
+    margin-left: 100px;
+}
+.rhombus-wrap{
+    width: 183px;
+    height: 183px;
+    border:  1px solid #F1F1F1;
+    -webkit-transform: rotate(45deg);
+}
+.rhombus-wrap .image-box{
+    -webkit-transform: rotate(-45deg);
+    text-align: center;
+    line-height: 183px;
+}
 @media (max-width: 575.98px) {
 	
 }

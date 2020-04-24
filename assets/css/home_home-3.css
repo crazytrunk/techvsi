@@ -2,11 +2,14 @@
     width: 100%;
     height: auto;
     display: block;
+    margin-top: 100px;
 }
 .vsi-fe2-home-3-wrapper {
     position: relative;
-    height: 500px;
+    height: 550px;
     margin: 0 100px;
+    background: linear-gradient(180deg, #111111 0%, #333333 100%);
+border: 1px solid #000000;
 }
 .pic {
     position: absolute;
