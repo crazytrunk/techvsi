@@ -35,6 +35,9 @@
 	<script type="text/javascript" src="assets/lib/fontawesome-free-5.13.0-web/js/all.min.js"></script>
 	<script type="text/javascript" src="assets/lib/aos/js/aos.js"></script>
 
+	<script type="text/javascript" src="assets/lib/jquery.countup.min.js"></script>
+	<script type="text/javascript" src="assets/lib/jquery.waypoints.js"></script>
+
 </head>
 <body>
 	<header>
