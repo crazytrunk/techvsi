@@ -91,7 +91,10 @@
 	<script type="text/javascript" src="assets/js/home_footer.js"></script>
 	<script type="text/javascript" src="assets/js/home.js"></script>
 	<script>
- 	 AOS.init();
+		if($( window ).width() >= 768){
+			AOS.init();
+		}
+ 	 
 	</script>
 </body>
 </html>
