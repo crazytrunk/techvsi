@@ -1,33 +1,32 @@
-.image-box{
+.image-box {
     width: 130px;
     height: 130px;
 }
-.row2{
+.row2 {
     margin-left: 100px;
 }
-.rhombus-wrap{
+.rhombus-wrap {
     width: 183px;
     height: 183px;
-    border:  1px solid #F1F1F1;
+    border: 1px solid #f1f1f1;
     -webkit-transform: rotate(45deg);
+    background: linear-gradient(180deg, #000000 0%, #333333 100%);
 }
-.rhombus-wrap .image-box{
+.rhombus-wrap .image-box {
     -webkit-transform: rotate(-45deg);
     text-align: center;
     line-height: 183px;
 }
+.vsi-fe2-what-we-do-content {
+    background-color: linear-gradient(180deg, #111111 0%, #333333 100%);
+}
 @media (max-width: 575.98px) {
-	
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	
 }
 @media (min-width: 1200px) {
-	
 }
