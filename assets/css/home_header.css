@@ -132,6 +132,340 @@
 .active{
     font-weight: bold;
 }
+/* Menu Mobile - Start */
+.vsi-menu-mobile{
+    height: 80px;
+    background-color:var(--gray) ;
+}
+/* .vsi-menu-mobile__content-overlay{
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100vw;
+    height: 150vh;
+    background-color: red;
+	opacity: 0.25;
+	z-index: -1;
+} */
+.vsi-menu-mobile__content-overlay-none{
+    display: none;
+}
+.vsi-menu-mobile__content-overlay-show{
+    z-index: -1;
+    display: block;
+}
+.vsi-menu__mobile-logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.vsi-menu__mobile-logo-none{
+    display: none;
+}
+.vsi-menu-mobile__content{
+    /* height: 100vh; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 2;
+}
+.vsi-menu-mobile__content-item a{
+	text-decoration: none;
+	color: #FDEE30;
+
+	/* z-index: 10; */
+
+}
+.vsi-menu-mobile__content-item{
+	margin-bottom: 20px;
+}
+.vsi-menu-mobile__content-item{
+	list-style-type: none;
+}
+.vsi-menu-mobile__content-list{
+	padding: 0;
+	text-align: center;
+}
+/* .vsi-menu-mobile__content-list li:first-child{
+	text-align: left;
+} */
+.vsi-menu-mobile__content-list{
+	border-bottom-left-radius : 80%;
+	/* transform: rotateX(15deg); */
+	height: 78vh;
+	/* background-color: #6a10cb; */
+	background-image: linear-gradient(#232526,#414345);
+	padding-bottom: 20px;
+    padding-bottom: 50px;
+}
+.vsi-menu-mobile_content-nav-none{
+	display: none;
+}
+.vsi-menu-mobile__content-list-show{
+	display: block;
+}
+.vsi-menu-btn{
+	z-index: 1;
+	margin-left: auto;
+	position: absolute;
+	/* padding-top: 20px; */
+	top: 0;
+	right: 0;
+	background-color: transparent;
+	border: none;
+	padding-right: 0;
+}
+.vsi-menu-btn:focus{
+	outline: none;
+}
+
+.vsi-menu-mobile_content-nav{
+	/* width: 700px;
+	height: 700px; */
+	height: 80vh;
+	border-bottom-left-radius : 80%;
+	/* background-color:#8c19ff; */
+	background-image: linear-gradient(#414345,#232526);
+    padding-bottom: 30px;
+}
+
+.vsi-menu-mobile_content-nav-show{
+	display: block;
+}
+
+
+.vsi-menu-animation-out{
+	animation-name: out;
+	animation-duration: 1s;
+}
+.vsi-menu-animation-in{
+	animation-name: in;
+	animation-duration: 1s;
+}
+.vsi-menu-animation-out-text{
+	animation-name: out-text;
+	animation-duration: 3s;
+}
+
+@keyframes out-text{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes out{
+	0%{
+		position: relative;
+		top:-500px;
+		right:  -500px;
+	}
+	90%{
+		position: relative;
+		top:0;
+		right: 0;
+	}
+}
+@keyframes in{
+	0%{
+		position: relative;
+		top:0;
+		right:  0;
+	}
+	90%{
+		position: relative;
+		top:-500px;
+		right:  -500px;
+	}
+}
+
+@keyframes out-1{
+	0%{
+		position: relative;
+		top:-500px;
+		right:  -500px;
+	}
+	100%{
+		position: relative;
+		top:0;
+		right: 0;
+	}
+}
+@keyframes in-1{
+	0%{
+		position: relative;
+		top:0;
+		right:  0;
+	}
+	100%{
+		position: relative;
+		top:-500px;
+		right:  -500px;
+	}
+}
+.vsi-menu-animation-out-1{
+	animation-name: out-1;
+	animation-duration: 1s;
+}
+.vsi-menu-animation-in-1{
+	animation-name: in-1;
+	animation-duration: 1s;
+}
+
+@keyframes out-2{
+	0%{
+		position: absolute;
+		top:-500px;
+		right:   -500px;
+	}
+	100%{
+		position: absolute;
+		top:0;
+		right:   0;
+	}
+}
+@keyframes in-2{
+	0%{
+		position: absolute;
+		top:0;
+		right:  0;
+	}
+	100%{
+		position: absolute;
+		top:-500px;
+		right:  -500px;
+	}
+}
+
+.vsi-menu-animation-out-2{
+	animation-name: out-2;
+	animation-duration: 1s;
+}
+.vsi-menu-animation-in-2{
+	animation-name: in-2;
+	animation-duration: 1s;
+}
+/* btn */
+
+.toggle {
+	display: block;
+	cursor: pointer;
+}
+.toggle input {
+	display: none;
+}
+.toggle input + div {
+	width: 20px;
+	height: 14px;
+	position: relative;
+}
+.toggle input + div div {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	transition: transform 0.5s ease;
+}
+.toggle input + div div span {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.toggle input + div div span:first-child {
+	top: 0;
+}
+.toggle input + div div span:first-child:before, .toggle input + div div span:first-child:after {
+	top: 0;
+}
+.toggle input + div div span:last-child {
+	bottom: 0;
+}
+.toggle input + div div span:last-child:before, .toggle input + div div span:last-child:after {
+	bottom: 0;
+}
+.toggle input + div div span:before, .toggle input + div div span:after {
+	content: '';
+	display: block;
+	width: 47%;
+	height: 2px;
+	border-radius: 1px;
+	background: #000;
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+	transition: transform 0.5s ease, border-radius 0.3s ease, background 0.4s ease;
+}
+.toggle input + div div span:before {
+	left: 0;
+	transform-origin: 0 50%;
+	transform: translate(1px, 0) scaleX(1.1);
+}
+.toggle input + div div span:after {
+	right: 0;
+	transform-origin: 100% 50%;
+	transform: translate(-1px, 0) scaleX(1.1);
+}
+.toggle input + div svg {
+	display: block;
+	fill: none;
+	stroke: #000;
+	stroke-width: 2px;
+	width: 44px;
+	height: 44px;
+	stroke-linecap: round;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -22px 0 0 -22px;
+	stroke-dasharray: 0 82.801 8 82.801;
+	stroke-dashoffset: 82.801;
+	transform-origin: 50% 50%;
+	-webkit-backface-visibility: hidden;
+	transform: scale(1);
+	transition: stroke-dashoffset 0.5s ease, stroke-dasharray 0.6s ease, transform 0.5s ease, stroke 0.4s ease;
+}
+.toggle input + div svg:nth-child(3) {
+	transform: rotate(180deg) scale(1);
+}
+.toggle input:checked + div div {
+	transform: rotate(90deg);
+}
+.toggle input:checked + div div span:before, .toggle input:checked + div div span:after {
+	background: #f1f1f1;
+}
+.toggle input:checked + div div span:first-child:before {
+	transform: rotate(45deg) translate(2.2px, -3px) scaleX(1.05);
+}
+.toggle input:checked + div div span:first-child:after {
+	transform: rotate(-45deg) translate(-2.2px, -3px) scaleX(1.05);
+}
+.toggle input:checked + div div span:last-child:before {
+	transform: rotate(-45deg) translate(2.2px, 3px) scaleX(1.05);
+}
+.toggle input:checked + div div span:last-child:after {
+	transform: rotate(45deg) translate(-2.2px, 3px) scaleX(1.05);
+}
+.toggle input:checked + div svg {
+	stroke-dashoffset: 62;
+	stroke-dasharray: 0 82.801 62 82.801;
+	transform: rotate(90deg);
+	stroke: #f1f1f1;
+}
+.toggle input:checked + div svg:nth-child(3) {
+	transform: rotate(270deg);
+}
+
+  
+/* btn */
+.vsi-menu__mobile-logo{
+    width: 100px;
+    height: 48px;
+}
+
+/* Menu Mobile - End */
 
 
 /* Menu Mobile - Start */
@@ -188,7 +522,18 @@
 	padding-bottom: 20px;
     padding-bottom: 50px;
 }
-.vsi-menu-mobile__content-list::after{
+.vsi-menu-mobile__content-overlay{
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100vw;
+    height: 150vh;
+    background-color: #fff;
+	opacity: 0.5;
+	z-index: -1;
+}
+/* .vsi-menu-mobile__content-list::after{
 	content: "";
 	position: absolute;
 	top: 0;
@@ -200,7 +545,7 @@
 	background-color: #fff;
 	opacity: 0.25;
 	z-index: -1;
-}
+} */
 .vsi-menu-mobile_content-nav-none{
 	display: none;
 }
