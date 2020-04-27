@@ -1,9 +1,14 @@
+.vsi-fe3-services{
+    margin-top: 100px;
+}
 .vsi-fe3-services__item-details-left img{
     max-width: unset !important; 
+    width: 400px;
+    height: 300px;
     
 }
 .vsi-fe3-services__item-details-right{
-    padding: 20px 0;
+    padding: 30px 0;
 }
 .vsi-fe3-services__item-details-right-title{
     font-size: 28px;
@@ -11,13 +16,36 @@
     text-align: center;
 }
 .vsi-fe3-services__content-item-details{
-   
+    margin-left: 5%;
+    max-width: 880px;
+    background-color: white;
     display: flex;
+    padding: 10px;
+    border-radius: 0px 16px 16px 0px;
+    margin-top: 40px;
+    
+}
+
+.vsi-fe3-services__content-item-details-right{
+    margin-left: 15%;
+    border-radius: 16px 0px 0px 16px;
+
 }
 .vsi-fe3-services__item-details-right-desc{
     max-width: 285px;
-    
+    margin: auto;
     color: var(--vsi-color-2);
+    text-align: center;
+}
+.vsi-fe3-services__item-details-right{
+    background: linear-gradient(180deg, #111111 0%, #333333 100%);
+    width: 480px;
+    border-radius: 0px 16px 16px 0px;
+}
+.vsi-fe3-services__item-details-right-2{
+    border-radius: 16px 0px 0px 16px;
+    
+
 }
 @media (max-width: 575.98px) {
 	
