@@ -105,6 +105,35 @@
     font-size: 16px;
 }
 /* when hover image -start */
+.rhombus__text{
+    position: absolute;
+    /* vì text phải phủ hết thẻ cha gần nó */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: right;
+    padding: 30px 25px;
+    color: white;
+    /* #3085a3 */
+}
+.rhombus__text h2{
+    opacity: 0;
+    -webkit-transition: all 0.2s linear;
+    transition: all 1s linear;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    position: absolute;  
+    top:50%;
+    left: 50%;
+}
+.rhombus__text:hover h2{
+    opacity: 1;
+    transition: all 1s linear;
+   
+}
+.rhombus__text:hover {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%);
+}
 
 /* when hover image -end */
 @media (max-width: 575.98px) {

@@ -115,13 +115,14 @@
 
 /* btn plus */
       .vsi-third-paty-bg{
+          margin-top: 100px;
           padding: 123px 0 127px 0;
           position: relative;
           height: 100%;
           width: 100%;
           display: flex;
           align-items: center;
-          background-image: url(../images/home/home-1\ 1.png);
+          background-image: url(../images/home/home-1/home-1\ 1.png);
           z-index: 0;
       }
       .vsi-third-paty-bg::before{
