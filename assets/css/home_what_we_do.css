@@ -1,9 +1,80 @@
+.vsi-fe2-what-we-do {
+    background: linear-gradient(180deg, #111111 0%, #333333 100%);
+    margin: 0 100px;
+}
 .image-box {
     width: 130px;
     height: 130px;
 }
+.box1{
+    background-image: url('../images/home/what-we-do/wp.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+.box2{
+    background-image: url('../images/home/what-we-do/vuejs.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+.box3{
+    background-image: url('../images/home/what-we-do/magento.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+.box4{
+    background-image: url('../images/home/what-we-do/reactjs.png');
+    background-position: center;
+    background-size: cover;
+}
+.box5{
+    background-image: url('../images/home/what-we-do/redux-saga.png');
+    background-position: center;
+    background-size: cover;
+}
+.box6{
+    background-image: url('../images/home/what-we-do/nodejs.png');
+    background-position: center;
+    background-size: cover;
+}
+.box7{
+    background-image: url('../images/home/what-we-do/php.png');
+    background-position: center;
+    background-size: cover;
+}
+.box8{
+    background-image: url('../images/home/what-we-do/gcp.png');
+    background-position: center;
+    background-size: cover;
+}
+.box9{
+    background-image: url('../images/home/what-we-do/elementor.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.box10{
+    background-image: url('../images/home/what-we-do/edm.png');
+    background-position: center;
+    background-size: cover;
+}
+.box11{
+    background-image: url('../images/home/what-we-do/angularjs.png');
+    background-position: center;
+    background-size: cover;
+}
 .row2 {
     margin-left: 100px;
+}
+.vsi-fe2-what-we-do-content .text-center h4 {
+    font-size: 32px;
+    color: var(--yellow);
+}
+.vsi-fe2-what-we-do-content .text-center p {
+    line-height: 20px;
+    font-size: 16px;
+    color: white;
 }
 .rhombus-wrap {
     width: 183px;
@@ -13,13 +84,29 @@
     background: linear-gradient(180deg, #000000 0%, #333333 100%);
 }
 .rhombus-wrap .image-box {
-    -webkit-transform: rotate(-45deg);
     text-align: center;
     line-height: 183px;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
-.vsi-fe2-what-we-do-content {
-    background-color: linear-gradient(180deg, #111111 0%, #333333 100%);
+.inner-content {
+    background: linear-gradient(180deg, #111111 0%, #333333 100%);
+    padding: 50px 170px;
+    color: white;
+    margin-top: 100px;
 }
+.inner-content h2{
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+.inner-content p{
+    font-size: 16px;
+}
+/* when hover image -start */
+
+/* when hover image -end */
 @media (max-width: 575.98px) {
 }
 @media (min-width: 576px) and (max-width: 767.98px) {

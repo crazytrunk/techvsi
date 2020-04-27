@@ -38,6 +38,9 @@
     -ms-transform: translateY(-3px);
     transform: translateY(-3px);
 }
+.vsi-fe2-our-project__items:hover .vsi-fe2-our-project__items__inner h3{
+    font-weight: bold;
+}
 .vsi-fe1-working-hours {
     background-color: #323940;
     padding: 56px 0 40px;
