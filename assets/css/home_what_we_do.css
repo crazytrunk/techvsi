@@ -125,6 +125,8 @@
     position: absolute;  
     top:50%;
     left: 50%;
+    width: 100%;
+    text-align: center;
 }
 .rhombus__text:hover h2{
     opacity: 1;
@@ -133,14 +135,62 @@
 }
 .rhombus__text:hover {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%);
-}
+    cursor: pointer;
+    }
 
 /* when hover image -end */
 @media (max-width: 575.98px) {
+    .rhombus-wrap{
+        margin: 100px auto;
+    }
+    .row2 {
+        margin-left: 0;
+    }
+    .inner-content {
+        background: linear-gradient(180deg, #111111 0%, #333333 100%);
+        padding: 50px 30px;
+        color: white;
+        margin-top: 100px;
+    }
+    .vsi-fe2-what-we-do {
+        background: linear-gradient(180deg, #111111 0%, #333333 100%);
+        margin: 0;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+        .rhombus-wrap{
+            margin: 100px auto;
+        }
+        .row2 {
+            margin-left: 0;
+        }
+        .inner-content {
+            background: linear-gradient(180deg, #111111 0%, #333333 100%);
+            padding: 50px 30px;
+            color: white;
+            margin-top: 100px;
+        }
+        .vsi-fe2-what-we-do {
+            background: linear-gradient(180deg, #111111 0%, #333333 100%);
+            margin: 0;
+        }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .rhombus-wrap{
+        margin: 100px auto;
+    }
+    .row2 {
+       margin-left: 0;
+    }
+    .inner-content {
+        background: linear-gradient(180deg, #111111 0%, #333333 100%);
+        padding: 50px 30px;
+        color: white;
+        margin-top: 100px;
+    }
+    .vsi-fe2-what-we-do {
+        margin: 0 ;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
 }
