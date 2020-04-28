@@ -156,6 +156,28 @@
         background: linear-gradient(180deg, #111111 0%, #333333 100%);
         margin: 0;
     }
+    .vsi-fe1-img-team-top{
+        padding-left: 30px;
+    }
+    .vsi-fe1-img-team-bottom{
+        padding-right: 33px;
+    }
+    .vsi-fe1-load {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        position: unset;
+        display: block;
+        height: 500px;
+    }
+    .vsi-fe1-load-right {
+        top: 91% !important;
+        transition: all 0.5s linear;
+    }.vsi-fe1-mt {
+        display: block !important;
+     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
         .rhombus-wrap{
@@ -174,6 +196,7 @@
             background: linear-gradient(180deg, #111111 0%, #333333 100%);
             margin: 0;
         }
+        
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .rhombus-wrap{
@@ -190,6 +213,9 @@
     }
     .vsi-fe2-what-we-do {
         margin: 0 ;
+    }
+    .rhombus-wrap6{
+        margin-left: 100px;
     }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {

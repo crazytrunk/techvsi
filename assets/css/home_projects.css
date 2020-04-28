@@ -59,7 +59,7 @@
 .vsi-fe2-our-project__items__inner h3 {
     font-size: 56px;
     font-weight: 500;
-    color: var(--yellow);
+    color: var(--vsi-color-3);
 }
 .vsi-fe2-our-project__items__inner p {
     font-size: 25px;
@@ -71,7 +71,7 @@
 /* filter start */
 .gallery-title {
     font-size: 36px;
-    color: var(--yellow);
+    color: var(--vsi-color-3);
     text-align: center;
     font-weight: 500;
     margin-top: 30px;
@@ -157,7 +157,7 @@
     width: 30%;
     margin: 0 auto;
     height: 1px;
-    background-color: var(--yellow);
+    background-color: var(--vsi-color-3);
     display: block;
     opacity: 0;
     position: relative;
@@ -179,7 +179,7 @@
     margin: 0 auto;
     position: relative;
     height: 1px;
-    background-color: var(--yellow);
+    background-color: var(--vsi-color-3);
     display: block;
     opacity: 0;
     top: 24px;
@@ -216,7 +216,7 @@
     width: 34%;
     margin: 0 auto;
     height: 1px;
-    background-color: var(--yellow);
+    background-color: var(--vsi-color-3);
     display: block;
     position: relative;
     opacity: 0;
@@ -241,7 +241,7 @@
 }
 .vsi-fe2-our-project-button-view-all .btn{
     background-color: white;
-    border: 1px solid #FDEE30;
+    border: 1px solid var(--vsi-color-3);
     border-radius: 0px 20px 20px 0;
     color:black;
 }
@@ -281,7 +281,7 @@
         width: 27%;
         margin: 0 auto;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         opacity: 0;
         position: relative;
@@ -319,7 +319,7 @@
         width: 20%;
         margin: 0 auto;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         opacity: 0;
         position: relative;
@@ -335,7 +335,7 @@
         margin: 0 auto;
         position: relative;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         opacity: 0;
         top: 15px;
@@ -349,7 +349,7 @@
         width: 56%;
         margin: 0 auto;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         position: relative;
         opacity: 0;
@@ -414,7 +414,7 @@
         width: 26%;
         margin: 0 auto;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         opacity: 0;
         position: relative;
@@ -430,7 +430,7 @@
         margin: 0 auto;
         position: relative;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         opacity: 0;
         top: 13px;
@@ -444,7 +444,7 @@
         width: 54%;
         margin: 0 auto;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         position: relative;
         opacity: 0;
@@ -461,7 +461,7 @@
         width: 20%;
         margin: 0 auto;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         opacity: 0;
         position: relative;
@@ -501,7 +501,7 @@
         margin: 0 auto;
         position: relative;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         opacity: 0;
         top: 24px;
@@ -515,7 +515,7 @@
         width: 32%;
         margin: 0 auto;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         position: relative;
         opacity: 0;
@@ -532,7 +532,7 @@
         width: 26%;
         margin: 0 auto;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         opacity: 0;
         position: relative;
@@ -548,7 +548,7 @@
         margin: 0 auto;
         position: relative;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         opacity: 0;
         top: 24px;
@@ -562,7 +562,7 @@
         width: 32%;
         margin: 0 auto;
         height: 1px;
-        background-color: var(--yellow);
+        background-color: var(--vsi-color-3);
         display: block;
         position: relative;
         opacity: 0;
