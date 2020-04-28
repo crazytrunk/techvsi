@@ -74,7 +74,7 @@
 .vsi-fe2-what-we-do-content .text-center p {
     line-height: 20px;
     font-size: 16px;
-    color: white;
+    color: var(--vsi-color-2);
 }
 .rhombus-wrap {
     width: 183px;
@@ -94,7 +94,7 @@
 .inner-content {
     background: linear-gradient(180deg, #111111 0%, #333333 100%);
     padding: 50px 170px;
-    color: white;
+    color: var(--vsi-color-2);
     margin-top: 100px;
 }
 .inner-content h2{
@@ -114,7 +114,7 @@
     left: 0;
     text-align: right;
     padding: 30px 25px;
-    color: white;
+    color: var(--vsi-color-2);
     /* #3085a3 */
 }
 .rhombus__text h2{
@@ -127,6 +127,12 @@
     left: 50%;
     width: 100%;
     text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    background-color: var(--vsi-color-1);
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 5px;
 }
 .rhombus__text:hover h2{
     opacity: 1;
@@ -134,7 +140,7 @@
    
 }
 .rhombus__text:hover {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(34, 34, 34, 0.5) 100%);
+    background: rgba(0, 0, 0, 0.75);
     cursor: pointer;
     }
 
@@ -149,7 +155,7 @@
     .inner-content {
         background: linear-gradient(180deg, #111111 0%, #333333 100%);
         padding: 50px 30px;
-        color: white;
+        color: var(--vsi-color-2);
         margin-top: 100px;
     }
     .vsi-fe2-what-we-do {
@@ -162,16 +168,7 @@
     .vsi-fe1-img-team-bottom{
         padding-right: 33px;
     }
-    .vsi-fe1-load {
-        width: 100%;
-        max-width: 100%;
-        height: 100%;
-        padding: 0;
-        margin: 0;
-        position: unset;
-        display: block;
-        height: 500px;
-    }
+   
     .vsi-fe1-load-right {
         top: 91% !important;
         transition: all 0.5s linear;
@@ -189,14 +186,19 @@
         .inner-content {
             background: linear-gradient(180deg, #111111 0%, #333333 100%);
             padding: 50px 30px;
-            color: white;
+            color: var(--vsi-color-2);
             margin-top: 100px;
         }
         .vsi-fe2-what-we-do {
             background: linear-gradient(180deg, #111111 0%, #333333 100%);
             margin: 0;
         }
-        
+        .rhombus-wrap6{
+            margin-left: 35px;
+        }
+        .rhombus-wrap5{
+            margin-right: 35px;
+        }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .rhombus-wrap{
@@ -208,7 +210,7 @@
     .inner-content {
         background: linear-gradient(180deg, #111111 0%, #333333 100%);
         padding: 50px 30px;
-        color: white;
+        color: var(--vsi-color-2);
         margin-top: 100px;
     }
     .vsi-fe2-what-we-do {

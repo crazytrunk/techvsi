@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/fontawesome-free-5.13.0-web/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/aos/css/aos.css">
-	
+
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home_header.css">
@@ -37,7 +37,6 @@
 	<script type="text/javascript" src="assets/lib/typed-js/typed.min.js"></script>
 	<script type="text/javascript" src="assets/lib/jquery.countup.min.js"></script>
 	<script type="text/javascript" src="assets/lib/jquery.waypoints.js"></script>
-
 </head>
 <body>
 	<header>

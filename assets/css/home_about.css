@@ -369,6 +369,36 @@
     display: none;
 }
 @media (max-width: 575.98px) {
+   
+    .vsi-fe1-our .mb-hide{
+        display: none !important;
+    }
+    .vsi-fe1-all-our{
+        margin-top: 550px;
+    }
+    .vsi-fe1-our-value {
+        width: 100%;
+        max-width: 100%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        color: var(--yellow);
+    }
+    .vsi-fe1-load {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        position: unset;
+        display: block;
+        height: 500px;
+    }
 	.vsi-fe1-tech-vsi, .vsi-fe1-redmore{
         display: none !important;
     }
@@ -416,18 +446,16 @@
         transition: all 0.5s linear;
 
     }
-    .vsi-fe1-mt{
-        display: none !important;
-    }
+
     /* CSS show mobile start */
     .vsi-fe1-show-bml{
         display: block !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        position: absolute;
-        top: auto;
-        transform: translateY(31%);
-        height: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
+    position: relative;
+    top: 0;
+    transform: translateY(31%);
+    height: 500px;
     }
     .vsi-fe1-join-mbl{
         width: 100%;
@@ -456,11 +484,24 @@
 
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-fe1-load {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        position: unset;
+        height: 500px;
+    }
+    .vsi-fe1-team-bottom {
+        padding: 0 !important;
+        padding-right: 61px !important;
+    }
+    .vsi-fe1-img-team-top{
+        padding-left: 53px !important;  
+    }
 	.vsi-fe1-tech-vsi, .vsi-fe1-redmore{
         display: none !important;
-    }
-    .vsi-fe1-team-bottom{
-        padding: 10px 0 !important;
     }
     .vsi-fe1-img-team-bottom, .vsi-fe1-img-team-top{
         width: 100% !important;
@@ -487,26 +528,46 @@
         left: 33% !important;
     }
     .vsi-fe1-load-left{
-        top: 100% !important;
-        transition: all 0.5s linear;
+        top: 57% !important;
+    transition: all 0.5s linear;
     }
     .vsi-fe1-load-right{
-        top: 200% !important;
+        top: 83% !important;
         transition: all 0.5s linear;
     }
-    .vsi-fe1-mt{
-        display: none !important;
+    .mb-hide{
+        display: none;
     }
+    .vsi-fe1-none-mg .col-sm-6{
+        flex: 0;
+        max-width: 100%;
+    }
+   
     .vsi-fe1-show-bml{
         display: block !important;
     }
       /* CSS show mobile start */
-      .vsi-fe1-show-bml{
+      .vsi-fe1-show-bml {
         display: block !important;
-        position: absolute;
-        top: auto;
-        transform: translateY(31%);
+        position: unset;
         height: 100%;
+        margin-top: 100px;
+    }
+    .vsi-fe1-text-our {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 20px 0;
+        height: auto;
+        display: block;
+    }
+    .vsi-fe1-our-value {
+        width: 100%;
+        max-width: 100%;
+        font-size: 26px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
     }
     .vsi-fe1-join-mbl{
         width: 100%;
@@ -537,9 +598,7 @@
 	.vsi-fe1-tech-vsi, .vsi-fe1-redmore{
         display: none !important;
     }
-    .vsi-fe1-team-bottom{
-        padding: 10px 0 !important;
-    }
+  
     .vsi-fe1-img-team-bottom, .vsi-fe1-img-team-top{
         width: 100% !important;
         max-width: 100% !important;
@@ -552,9 +611,9 @@
     .vsi-fe1-text-wl{
         text-align: center !important;
     }
-    .vsi-fe1-none-mg{
-        margin: 0 !important;
-    }
+   .vsi-fe1-mt {
+       margin-top: 50%;
+   }
     .vsi-fe1-btn{
         justify-content: center !important;
     }
@@ -571,6 +630,27 @@
     .vsi-fe1-load-right{
         left: 0%;
         top: 65%;
+    }
+    .vsi-fe1-our div:nth-child(4) {
+        border: 1px solid #000000;
+        background: linear-gradient(180deg, #000000 0%, #111111 0.01%, #333333 100%);
+        box-sizing: border-box;
+        top: 210px;
+        right: 25px;
+    }
+    .vsi-fe1-text-our {
+        display: block !important;
+    }
+    .vsi-fe1-our-value {
+       width: 100% !important;
+       max-width: 100% !important;
+    }
+    .vsi-fe1-team-bottom {
+        padding: 0 !important;
+        padding-right: 40px !important;
+    }
+    .vsi-fe1-img-team-top{
+        padding-left: 40px;
     }
  
 }
