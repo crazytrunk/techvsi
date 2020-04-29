@@ -13,7 +13,10 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/fontawesome-free-5.13.0-web/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/aos/css/aos.css">
-	
+	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/animate/animate.css">
+
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home_header.css">
@@ -29,6 +32,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/home_address.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home_footer.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
+
 	<!-- import JS -->
 	<script type="text/javascript" src="assets/lib/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
@@ -37,42 +41,46 @@
 	<script type="text/javascript" src="assets/lib/typed-js/typed.min.js"></script>
 	<script type="text/javascript" src="assets/lib/jquery.countup.min.js"></script>
 	<script type="text/javascript" src="assets/lib/jquery.waypoints.js"></script>
+	<script type="text/javascript" src="assets/lib/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="assets/lib/wow/WOW.js" ></script>
+	<script type="text/javascript" src="assets/lib/parallax/parallax.js" ></script>
+
 
 </head>
 <body>
 	<header>
-		<?php require_once("home_header.html")?>
+		<?php //require_once("home_header.html")?>
 	</header>
 	<main>
 		<article class="vsi-banner" id="vsi-banner">
-			<?php require_once("home_banner.html")?>
+			<?php //require_once("home_banner.html")?>
 		</article>
 		<article class="vsi-about" id="vsi-about">
-			<?php require_once("home_about.html")?>
+			<?php //require_once("home_about.html")?>
 		</article>
 		<article class="vsi-home-1" id="vsi-home-1">
 			<?php require_once("home_home-1.html")?>
 		</article>
 		<article class="vsi-projects" id="vsi-projects">
-			<?php require_once("home_projects.html")?>
+			<?php //require_once("home_projects.html")?>
 		</article>
 		<article class="vsi-home-2" id="vsi-home-2">
-			<?php require_once("home_home-2.html")?>
+			<?php //require_once("home_home-2.html")?>
 		</article>
 		<article class="vsi-services" id="vsi-services">
-			<?php require_once("home_services.html")?>
+			<?php //require_once("home_services.html")?>
 		</article>
 		<article class="vsi-home-3" id="vsi-home-3">
-			<?php require_once("home_home-3.html")?>
+			<?php //require_once("home_home-3.html")?>
 		</article>
 		<article class="vsi-team" id="vsi-team">
-			<?php require_once("home_team.html")?>
+			<?php //require_once("home_team.html")?>
 		</article>
 		<article class="vsi-home_what_we_do" id="vsi-home_what_we_do">
-			<?php require_once("home_what_we_do.html")?>
+			<?php //require_once("home_what_we_do.html")?>
 		</article>
 		<article class="vsi-address" id="vsi-address">
-			<?php require_once("home_address.html")?>
+			<?php //require_once("home_address.html")?>
 		</article>
 	</main>
 	<footer>

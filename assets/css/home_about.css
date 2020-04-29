@@ -116,7 +116,7 @@
     margin: 0;
     position: absolute;
     top: 18%;
-    left: 13%;
+    left: 10%;
 }
 .vsi-fe1-img-team-top{
     width: 443px;
@@ -210,6 +210,18 @@
     left: 15%;
     top: 85%;
 }
+.vsi-fe1-load-left:hover{
+    font-weight: bold;
+    background: linear-gradient(180deg, #000000 0%, #222222 100%);
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
 .vsi-fe1-load-center{
     position: absolute;
     background: linear-gradient(180deg, #000000 0%, #222222 100%);
@@ -221,6 +233,18 @@
     margin: 0;
     border-radius: 50%;
     left: 33%;
+}
+.vsi-fe1-load-center:hover{
+    font-weight: bold;
+    background: linear-gradient(180deg, #000000 0%, #222222 100%);
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
 }
 .vsi-fe1-load-right{
     position: absolute;
@@ -235,11 +259,26 @@
     right: 15%;
     top: 85%;
 }
+.vsi-fe1-load-right:hover{
+    font-weight: bold;
+    background: linear-gradient(180deg, #000000 0%, #222222 100%);
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
 .vsi-fe1-text-load{
     position: absolute;
-    top: 25%;
-    left: 7%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+    width: 100%;
+    max-width: 100%;
 }
 .vsi-fe1-h2-load{
     font-style: normal;
@@ -323,9 +362,9 @@
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
-    text-align: left;
+    text-align: right;
     padding: 0;
-    margin: 0;
+    margin: 10px;
     font-family: 'Roboto', sans-serif;
     color: var(--yellow);
 }
@@ -348,6 +387,19 @@
     position: absolute;
     padding: 0;
     margin: 0;
+    transition: all 0.3s linear;
+}
+.vsi-fe1-icon-our:hover{
+    font-weight: bold;
+    background: linear-gradient(180deg, #000000 0%, #222222 100%);
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
 }
 .vsi-fe1-p-our{
     font-style: normal;
@@ -441,6 +493,7 @@
         transition: all 0.5s linear;
 
     }
+   
     .vsi-fe1-load-right{
         top: 130% !important;
         transition: all 0.5s linear;
