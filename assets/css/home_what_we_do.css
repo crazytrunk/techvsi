@@ -6,6 +6,21 @@
     width: 130px;
     height: 130px;
 }
+.row2 .col-lg-1{
+    flex: 0 0 12.499999995%;
+    max-width: 12.499999995%;
+}
+.row1{
+    margin-left: -2%;
+}
+.row2{
+    margin-top: -4%;
+    margin-left: -2%;
+}
+.row3{
+    margin-top: -4%;
+    margin-left: -2%;
+}
 .box1{
     background-image: url('../images/home/what-we-do/wp.png');
     background-position: center;
@@ -64,9 +79,7 @@
     background-position: center;
     background-size: cover;
 }
-.row2 {
-    margin-left: 100px;
-}
+
 .vsi-fe2-what-we-do-content .text-center h4 {
     font-size: 32px;
     color: var(--yellow);
@@ -79,9 +92,10 @@
 .rhombus-wrap {
     width: 183px;
     height: 183px;
-    border: 1px solid #f1f1f1;
+    outline: 5px solid rgba(255, 255, 255, 0.1);
     -webkit-transform: rotate(45deg);
     background: linear-gradient(180deg, #000000 0%, #333333 100%);
+    margin: auto;
 }
 .rhombus-wrap .image-box {
     text-align: center;
@@ -177,6 +191,9 @@
      }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .row2 .col-lg-1{
+        display: none !important;
+    }
         .rhombus-wrap{
             margin: 100px auto;
         }
@@ -201,6 +218,9 @@
         }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .row2 .col-lg-1{
+        display: none !important;
+    }
     .rhombus-wrap{
         margin: 100px auto;
     }
