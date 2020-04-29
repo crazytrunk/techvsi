@@ -16,6 +16,7 @@
     width: 100%;
     height: 100%;
     opacity: 1;
+    transition: all 0.5s ease;
 }
 .vsi-fe3-team__list-item--info{
     margin-top: 0;
@@ -86,10 +87,14 @@
     background-color: var(--vsi-color-2);
     border: 1px solid var(--vsi-color-3);
     margin-right: 5px;
+    /* transform: scale(0); */
 }
 .vsi-fe3-team__info--social-fa:hover{
     background-color: #3b5999;
     border: none;
+    /* transform: scale(1);
+    transition: all 1s ease; */
+
 }
 .vsi-fe3-team__info--social-fa:hover .fa-facebook-f{
     color:var(--vsi-color-3) ;
@@ -169,6 +174,7 @@
 .vsi-btn-plus:hover{
     background: #F1F1F1;
     color: #999999;
+    
 }
 .vsi-btn-plus:hover::before{
     background: #F1F1F1;
