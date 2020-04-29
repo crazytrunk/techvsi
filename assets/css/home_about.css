@@ -116,7 +116,7 @@
     margin: 0;
     position: absolute;
     top: 18%;
-    left: 13%;
+    left: 10%;
 }
 .vsi-fe1-img-team-top{
     width: 443px;
@@ -238,7 +238,7 @@
 .vsi-fe1-text-load{
     position: absolute;
     top: 25%;
-    left: 7%;
+    left: 10%;
     text-align: center;
 }
 .vsi-fe1-h2-load{
@@ -348,6 +348,19 @@
     position: absolute;
     padding: 0;
     margin: 0;
+    transition: all 0.3s linear;
+}
+.vsi-fe1-icon-our:hover{
+    font-weight: bold;
+    background: linear-gradient(180deg, #000000 0%, #222222 100%);
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    -webkit-box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 21px 41px 0 rgba(0, 0, 0, 0.3);
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
 }
 .vsi-fe1-p-our{
     font-style: normal;

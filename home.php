@@ -13,6 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/fontawesome-free-5.13.0-web/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/aos/css/aos.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.theme.default.min.css">
 
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -29,6 +31,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/home_address.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home_footer.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
+
 	<!-- import JS -->
 	<script type="text/javascript" src="assets/lib/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
@@ -37,6 +40,7 @@
 	<script type="text/javascript" src="assets/lib/typed-js/typed.min.js"></script>
 	<script type="text/javascript" src="assets/lib/jquery.countup.min.js"></script>
 	<script type="text/javascript" src="assets/lib/jquery.waypoints.js"></script>
+	<script type="text/javascript" src="assets/lib/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
 </head>
 <body>
 	<header>
