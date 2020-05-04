@@ -61,8 +61,8 @@
         background-color: white;
         display: flex;
         flex-direction: column;
-        padding: 10px;
-        border-radius: 0px 16px 16px 0px;
+        padding: 5px;
+        border-radius: 0px ;
         margin-top: 40px;
     }
     .vsi-fe3-services__item-details-right{
@@ -76,6 +76,9 @@
     .vsi-fe3-services__content-item-details-right{
         flex-direction: column-reverse;
     }
+    .vsi-fe3-services__item-details-right{
+        border-radius: 0px ;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.vsi-fe3-services__content-item-details{
@@ -84,9 +87,12 @@
         background-color: white;
         display: flex;
         flex-direction: column;
-        padding: 10px;
-        border-radius: 0px 16px 16px 0px;
+        padding: 5px;
+        border-radius: 0px ;
         margin-top: 40px;
+    }
+    .vsi-fe3-services__item-details-right{
+        border-radius: 0px ;
     }
     .vsi-fe3-services__item-details-right{
         width: 100%;
