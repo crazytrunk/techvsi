@@ -152,7 +152,7 @@ a.vsi-icon-address:hover{
 }
 .vsi-maps{
     position: relative;
-    height: 100%;
+    height: 380px;
     width: 100%;
     padding: 0px;
     border-width: 0px;
@@ -224,6 +224,9 @@ a.vsi-icon-address:hover{
     }
     a.vsi-icon-address{
         margin: 7px !important;
+    }
+    .vsi-info{
+        padding: 0;
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {

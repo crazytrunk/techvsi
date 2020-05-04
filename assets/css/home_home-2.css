@@ -179,6 +179,29 @@
     transform: translate(-50%,-50%);
     font-size: 50px;
 }
+.vsi-fe3-features__banner--center{
+    position: relative;
+    top: 80px;
+}
+.vsi-fe3-features__banner--center img:first-child{
+    width: 85px;
+    position: absolute;
+    top: 13%;
+    left: -2%;
+}
+.vsi-fe3-features__banner--center img:last-child{
+    width: 85px;
+    position: absolute;
+    top: 64%;
+    right: 22%;
+}
+.vsi-fe3-features__banner--center img:nth-child(2){
+    width: 85px;
+    position: absolute;
+    top: 24%;
+    right: -6%;
+}
+ 
 /* Reponsive - Start */
 @media (max-width: 575.98px) {
     .vsi-fe3-features__banner{
@@ -232,6 +255,7 @@
         margin-bottom: 0;
     }
   }
+ 
 @media (min-width: 576px) and (max-width:767.98px) { 
     .vsi-fe3-features__banner{
         padding-bottom: 30px;
@@ -394,6 +418,17 @@
         left: 50%;
         transform: translate(-50%,-50%);
         font-size: 30px;
+    }
+    .vsi-fe3-features__banner--center img:first-child{
+      display: none;
+    }
+    .vsi-fe3-features__banner--center img:last-child{
+        display: none;
+
+    }
+    .vsi-fe3-features__banner--center img:nth-child(2){
+        display: none;
+
     }
 }
 @media (min-width: 992px) and (max-width:1199.98px) { 

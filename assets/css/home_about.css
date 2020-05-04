@@ -648,7 +648,7 @@
     /* CSS show mobile end */
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	.vsi-fe1-tech-vsi, .vsi-fe1-redmore{
+	/* .vsi-fe1-tech-vsi, .vsi-fe1-redmore{
         display: none !important;
     }
   
@@ -704,8 +704,126 @@
     }
     .vsi-fe1-img-team-top{
         padding-left: 40px;
+    } */
+    .vsi-fe1-load {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        position: unset;
+        height: 500px;
     }
- 
+    .vsi-fe1-team-bottom {
+        padding: 0 !important;
+        padding-right: 27px !important;
+    }
+    .vsi-fe1-img-team-top{
+        padding-left: 53px !important;  
+        height: 100%;
+    }
+	.vsi-fe1-tech-vsi, .vsi-fe1-redmore{
+        display: none !important;
+    }
+    .vsi-fe1-img-team-bottom, .vsi-fe1-img-team-top{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .vsi-fe1-text-value{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .vsi-fe1-text-wl, .vsi-fe1-title-about, .vsi-fe1-p-about{
+        text-align: center !important;
+    }
+    .vsi-fe1-none-mg{
+        margin: 0 !important;
+    }
+    .vsi-fe1-btn{
+        justify-content: center !important;
+        padding: 0 !important;
+    }
+    .vsi-fe1-about-us{
+        margin-left: 0px !important;
+    }
+    .vsi-fe1-load-center{
+    top: 60%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+    .vsi-fe1-load-left{
+            top: 90% !important;
+            left: -50%;
+            transform: translate(-50%, -50%) !important;
+            transition: all 0.5s linear;
+    }
+    .vsi-fe1-load-right{
+        top: 90% !important;
+        right: 0;
+        transition: all 0.5s linear;
+        transform: translate(-50%, -50%) !important;
+    }
+    .vsi-fe1-text-value{
+        text-align: center;
+    }
+    .mb-hide{
+        display: none;
+    }
+    .vsi-fe1-none-mg .col-sm-6{
+        flex: 0;
+        max-width: 100%;
+    }
+   
+    .vsi-fe1-show-bml{
+        display: block !important;
+    }
+      /* CSS show mobile start */
+      .vsi-fe1-show-bml {
+        display: block !important;
+        position: unset;
+        height: 100%;
+        margin-top: 100px;
+    }
+    .vsi-fe1-text-our {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 20px 0;
+        height: auto;
+        display: block;
+    }
+    .vsi-fe1-our-value {
+        width: 100%;
+        max-width: 100%;
+        font-size: 26px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .vsi-fe1-join-mbl{
+        width: 100%;
+        max-width: 100%;
+        padding: 50px 0;
+        margin: 15px 0;
+        text-align: center;
+        background: linear-gradient(180deg, #000000 0%, #222222 100%);
+        border: 1px solid #000000;
+        box-sizing: border-box;
+    }
+    .vsi-fe1-join-mbl img{
+        text-align: center;
+    }
+    .vsi-fe1-text-mbl{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #F1F1F1;
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+    /* CSS show mobile end */
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .vsi-fe1-load-left{

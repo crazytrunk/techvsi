@@ -1,6 +1,6 @@
 
 .vsi-third-paty-bg{
-    margin-top: 200%;
+   
     padding: 80px;
     position: relative;
     height: 100%;
@@ -73,7 +73,9 @@
 .vsi-third-paty-sub-logo .vsi-third-paty-sub-logo-img:last-child{
     margin-right: 0;
 }
-
+.vsi-home-1{
+    margin-top: 100px;
+}
       
 @media (max-width: 575.98px) {
     /* .vsi-third-paty-sub-logo .vsi-third-paty-sub-logo-img:last-child{
@@ -125,7 +127,6 @@
         
 .vsi-third-paty-bg{
     padding: 80px;
-    margin-top: 200%;
     padding: 80px;
     position: relative;
     height: 100%;
@@ -140,4 +141,9 @@
 
 
 
-
+.box{
+    width:400px;
+    height:400px;
+    background-color:#aaaa00;
+    margin:150px auto;
+}

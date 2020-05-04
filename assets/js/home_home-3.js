@@ -9,11 +9,11 @@ $('.owl-carousel').owlCarousel({
   responsive:{
         0:{
             items:1,
-            stagePadding: 60
+            stagePadding: 10
         },
         600:{
             items:1,
-            stagePadding: 100
+            stagePadding: 30
         },
         1000:{
             items:1,

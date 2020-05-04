@@ -16,7 +16,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.theme.default.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/animate/animate.css">
-
+	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake-slow.min.css">
+	
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home_header.css">
@@ -44,43 +46,45 @@
 	<script type="text/javascript" src="assets/lib/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="assets/lib/wow/WOW.js" ></script>
 	<script type="text/javascript" src="assets/lib/parallax/parallax.js" ></script>
+	<script type="text/javascript" src="assets/lib/vendorlibrary/js/three.r95.min.js"></script>
+	<script type="text/javascript" src="assets/lib/vendorlibrary/js/vanta.net.min.js"></script>
 
 
 </head>
 <body>
 	<header>
-		<?php //require_once("home_header.html")?>
+		<?php require_once("home_header.html")?>
 	</header>
 	<main>
 		<article class="vsi-banner" id="vsi-banner">
-			<?php //require_once("home_banner.html")?>
+			<?php require_once("home_banner.html")?>
 		</article>
 		<article class="vsi-about" id="vsi-about">
-			<?php //require_once("home_about.html")?>
+			<?php require_once("home_about.html")?>
 		</article>
 		<article class="vsi-home-1" id="vsi-home-1">
 			<?php require_once("home_home-1.html")?>
 		</article>
 		<article class="vsi-projects" id="vsi-projects">
-			<?php //require_once("home_projects.html")?>
+			<?php require_once("home_projects.html")?>
 		</article>
 		<article class="vsi-home-2" id="vsi-home-2">
-			<?php //require_once("home_home-2.html")?>
+			<?php require_once("home_home-2.html")?>
 		</article>
 		<article class="vsi-services" id="vsi-services">
-			<?php //require_once("home_services.html")?>
+			<?php require_once("home_services.html")?>
 		</article>
 		<article class="vsi-home-3" id="vsi-home-3">
-			<?php //require_once("home_home-3.html")?>
+			<?php require_once("home_home-3.html")?>
 		</article>
 		<article class="vsi-team" id="vsi-team">
-			<?php //require_once("home_team.html")?>
+			<?php require_once("home_team.html")?>
 		</article>
 		<article class="vsi-home_what_we_do" id="vsi-home_what_we_do">
-			<?php //require_once("home_what_we_do.html")?>
+			<?php require_once("home_what_we_do.html")?>
 		</article>
 		<article class="vsi-address" id="vsi-address">
-			<?php //require_once("home_address.html")?>
+			<?php require_once("home_address.html")?>
 		</article>
 	</main>
 	<footer>
