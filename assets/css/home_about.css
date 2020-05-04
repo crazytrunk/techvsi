@@ -1,3 +1,6 @@
+section{
+    position: relative;
+}
 .vsi-fe1-none-pad{
     padding: 0 !important;
 }
