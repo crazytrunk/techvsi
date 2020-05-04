@@ -130,11 +130,12 @@
     padding: 30px 25px;
     color: var(--vsi-color-2);
     /* #3085a3 */
+    transition: all 1.5s linear;
 }
 .rhombus__text h2{
     opacity: 0;
     -webkit-transition: all 0.2s linear;
-    transition: all 1s linear;
+   
     transform: translate(-50%, -50%) rotate(-45deg);
     position: absolute;  
     top:50%;
@@ -150,12 +151,13 @@
 }
 .rhombus__text:hover h2{
     opacity: 1;
-    transition: all 1s linear;
+  
    
 }
 .rhombus__text:hover {
     background: rgba(0, 0, 0, 0.75);
     cursor: pointer;
+    transition: all 1.5s linear;
     }
 
 /* when hover image -end */
