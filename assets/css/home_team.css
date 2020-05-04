@@ -12,6 +12,9 @@
     overflow: hidden;
     position: relative;
 }
+.vsi-fe3-team__list-item--img img{
+    width: 100%;
+}
 .vsi-fe3-team__list-item--img:hover .vsi-fe3-team__list-item--info{
     width: 100%;
     height: 100%;
@@ -88,13 +91,16 @@
     border: 1px solid var(--vsi-color-3);
     margin-right: 5px;
     /* transform: scale(0); */
+    /* transition: all 0.5s; */
 }
+
 .vsi-fe3-team__info--social-fa:hover{
     background-color: #3b5999;
+    transform: scale(1);
     border: none;
-    /* transform: scale(1);
-    transition: all 1s ease; */
-
+}
+.vsi-fe3-team__info--social-fa:hover::before{
+    transform: scale(1);
 }
 .vsi-fe3-team__info--social-fa:hover .fa-facebook-f{
     color:var(--vsi-color-3) ;
@@ -189,16 +195,151 @@
     transform: translate(-50%,-50%);
 }
 @media (max-width: 575.98px) {
-	
+	.vsi-fe3-team__info--social{
+        margin-top: 50px;
+    }
+    .vsi-fe3-team__info--position::after{
+        content: "";
+        width: 75px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
+    .vsi-fe3-team__info--position::before{
+        content: "";
+        width: 100px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .vsi-fe3-team__info--desc::after{
+        content: "";
+        width: 50px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 54%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+	.vsi-fe3-team__list-item{
+        max-width: 300px;   
+    }
+    .vsi-fe3-team-sm{
+        display: flex;
+        justify-content: center;
+    }
+    .vsi-fe3-team__info--position::after{
+        content: "";
+        width: 75px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .vsi-fe3-team__info--position::before{
+        content: "";
+        width: 100px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .vsi-fe3-team__info--desc::after{
+        content: "";
+        width: 50px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 44%;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+	.vsi-fe3-team__info--social{
+        margin-top: 40px;
+    }
+    .vsi-fe3-team__info--position::after{
+        content: "";
+        width: 75px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
+    .vsi-fe3-team__info--position::before{
+        content: "";
+        width: 100px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .vsi-fe3-team__info--desc::after{
+        content: "";
+        width: 50px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
-	
+	.vsi-fe3-team__info--position::after{
+        content: "";
+        width: 75px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
+    .vsi-fe3-team__info--position::before{
+        content: "";
+        width: 100px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 54%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .vsi-fe3-team__info--desc::after{
+        content: "";
+        width: 50px;
+        height: 1px;
+        background-color:var(--vsi-color-3) ;
+        position: absolute;
+        top: 56%;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
 }
 @media (min-width: 1200px) {
 	
