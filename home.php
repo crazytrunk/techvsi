@@ -16,6 +16,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.theme.default.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake-slow.min.css">
 
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -46,8 +48,6 @@
 	<script type="text/javascript" src="assets/lib/parallax/parallax.js" ></script>
 	<script type="text/javascript" src="assets/lib/vendorlibrary/js/three.r95.min.js"></script>
 	<script type="text/javascript" src="assets/lib/vendorlibrary/js/vanta.net.min.js"></script>
-
-
 </head>
 <body>
 	<header>
@@ -104,7 +104,7 @@
 	<script type="text/javascript" src="assets/js/home_footer.js"></script>
 	<script type="text/javascript" src="assets/js/home.js"></script>
 	<script>
- 	 AOS.init();
+		AOS.init();
 	</script>
 </body>
 </html>
