@@ -85,31 +85,47 @@
 }
 .filter-button {
     font-size: 18px;
-    border: 1px solid #42b32f;
+    background: var(--vsi-color-2);
+    border: 3px solid var(--vsi-color-3);
+    color: var(--black);
     border-radius: 5px;
     text-align: center;
-    color: #42b32f;
     margin-bottom: 30px;
     margin-right: 20px;
+    position: relative;
+    z-index: 1;
 }
+.filter-button::before{
+    content: "";
+	position: absolute;
+	width: 0%;
+	height: 0%;
+	top: 0;
+	left: 0;
+	background-color: var(--vsi-color-3);
+	z-index: -1;
+}
+.filter-button::after{
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 0%;
+	right: 0;
+	bottom: 0;
+	background-color: var(--vsi-color-3);
+	z-index: -1;
+}
+.filter-button:focus,
 .filter-button:hover {
-    font-size: 18px;
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: center;
-    color: black;
-    background-color: white;
+	outline: none;
 }
-.btn-default:active .filter-button:active {
-    background-color: #42b32f;
-    color: white;
-}
-.btn.focus,
-.btn:focus {
-    box-shadow: none;
-    outline: 0px;
-    background-color: white;
-    color: black;
+.filter-button:focus::before,
+.filter-button:hover::before,
+.filter-button:focus::after,
+.filter-button:hover::after {
+	width: 100%;
+	height: 50%;
+	transition: all 0.25s ease;
 }
 .port-image {
     width: 100%;
@@ -195,6 +211,42 @@
     border: 1px solid var(--vsi-color-3);
     border-radius: 0px 20px 20px 0;
     color: black;
+    position: relative;
+    z-index: 1;
+}
+.vsi-fe2-our-project-button-view-all .btn::before{
+    content: "";
+	position: absolute;
+	width: 0%;
+	height: 0%;
+	left: 0;
+	top: 0;
+    background-color: var(--vsi-color-3);
+    border-top-right-radius: 1.5rem;
+	z-index: -1;
+}
+.vsi-fe2-our-project-button-view-all .btn::after{
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 0%;
+	left: 0;
+	bottom: 0;
+	background-color: var(--vsi-color-3);
+	border-bottom-right-radius: 1.5rem;
+	z-index: -1;
+}
+.vsi-fe2-our-project-button-view-all .btn:focus,
+.vsi-fe2-our-project-button-view-all .btn:hover {
+	outline: none;
+}
+.vsi-fe2-our-project-button-view-all .btn:focus::before,
+.vsi-fe2-our-project-button-view-all .btn:hover::before,
+.vsi-fe2-our-project-button-view-all .btn:focus::after,
+.vsi-fe2-our-project-button-view-all .btn:hover::after {
+	width: 100%;
+	height: 50%;
+	transition: all 0.25s ease;
 }
 .vsi-fe2-our-project-button-view-all span {
     padding-left: 10px;
