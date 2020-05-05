@@ -181,24 +181,11 @@
     transform: translate(-50%, -50%);
 }
 /* modal bootrap when click image-start */
-.vsi-fe3-team .modal {
-    background-color: #E5E5E5;
-    width: 100%;
-    overflow: hidden;
+.vsi-fe3-team .modal-dialog{
+    max-width: 1000px;
+    height: auto;
 }
-.vsi-fe3-team .modal .modal-content {
-    border: none;
-    background-color: inherit;
-}
-.vsi-fe3-team .modal-dialog {
-    text-align: center !important;
-}
-.vsi-fe3-team .modal-head {
-    padding: 20px 0;
-    border-bottom: 1px solid #f3f3f3;
-    position: relative;
-}
-.vsi-fe3-team .modal a.close {
+.modal-content .close{
     cursor: pointer;
     font-size: 20px;
     width: 40px;
@@ -211,46 +198,28 @@
     border-radius: 100%;
     opacity: 1;
     background: #bdbdbd;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    position: absolute;
+    right: -4%;
+    top: -4%;
 }
-.vsi-fe3-team .modal .member-name {
+.modal-body .member-name{
+    text-align: center;
     font-size: 50px;
     margin-top: 0;
     padding-top: 0;
-    text-transform: uppercase;
     color: var(--vsi-color-1);
+    margin-bottom: 25px;
 }
-.vsi-fe3-team .modal .member-position {
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
-    color: #d71818;
+.modal-body .member-position{
+    text-align: center;
+    font-size: 24px;
+    color:#d71818;
+    margin-bottom: 25px;
 }
-.vsi-fe3-team .modal .modal-dialog {
-    margin: 10% auto 0;
-    width: 90%;
-    max-width: 1000px;
-    border-bottom: 1px solid #f3f3f3;
-    max-height: 80%;
-    overflow: auto;
-}
-.modal-img {
+.modal-image {
     width: 100%;
     max-width: 100%;
     height: auto;
-}
-.modal .modal-left {
-    padding-left: 0;
-    height: auto;
-    margin: 20px auto;
-}
-.modal .modal-right {
-    font-size: 15px;
-    padding-left: 0;
-    height: auto;
-    margin: 20px auto;
 }
 .modal .modal-dialog h4 {
     margin-top: 0;
@@ -276,6 +245,7 @@
     height: 34px;
     font-size: 21px;
     background-color: #373737;
+    text-align: left;
 }
 .modal .progress-bar span {
     margin: 0 8px;
@@ -288,9 +258,6 @@
 }
 .white {
     color: var(--vsi-color-2);
-}
-.modal-open {
-  overflow: inherit;
 }
 /* modal bootrap when click image-end */
 @media (max-width: 575.98px) {
