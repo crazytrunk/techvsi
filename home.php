@@ -7,7 +7,8 @@
 	<title>TechVSI - Top of Software Outsourcing Company In Vietnam</title>
     <meta name="description" content="Description" />
     <meta name="keywords" content="Keywords" />
-    <meta name="author" content="Author" />
+	<meta name="author" content="Author" />
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 	<!-- import CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/lib/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
