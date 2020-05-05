@@ -18,9 +18,6 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/animate/animate.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake-slow.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/normalize/normalize.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/hamburger-animation.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/menu-mobile.css">
 
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -37,7 +34,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/home_address.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home_footer.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
-	
+
 	<!-- import JS -->
 	<script type="text/javascript" src="assets/lib/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
@@ -49,50 +46,10 @@
 	<script type="text/javascript" src="assets/lib/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="assets/lib/wow/WOW.js" ></script>
 	<script type="text/javascript" src="assets/lib/parallax/parallax.js" ></script>
-	<!-- <script type="text/javascript" src="assets/lib/css3-animation/js/css3-animate-it.js" ></script> -->
-
-
-
+	<script type="text/javascript" src="assets/lib/vendorlibrary/js/three.r95.min.js"></script>
+	<script type="text/javascript" src="assets/lib/vendorlibrary/js/vanta.net.min.js"></script>
 </head>
 <body>
-<label class="menuBtn">
-	
-	<div class="menuLines toggle">
-		<input type="checkbox">
-		<div>
-			<div>
-				<span></span>
-				<span></span>
-			</div>
-			<svg>
-				<use xlink:href="#path">
-			</svg>
-			<svg>
-				<use xlink:href="#path">
-			</svg>
-		</div>
-	</div>
-</label>
-
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" id="path">
-		<path d="M22,22 L2,22 C2,11 11,2 22,2 C33,2 42,11 42,22"></path>
-	</symbol>
-</svg>
-
-<div class="mainContainer">
-	<ul class="mainMenu">
-		<li><a href="#" data-page="1" class="active"><i class="fa fa-newspaper-o"></i><span>News</span></a></li>
-		<li><a href="#" data-page="2"><i class="fa fa-anchor"></i><span>Services</span></a></li>
-		<li><a href="#" data-page="3"><i class="fa fa-home"></i><span>Krds</span></a></li>
-		<li><a href="#" data-page="4"><i class="fa fa-users"></i><span>Clients</span></a></li>
-		<li><a href="#" data-page="5"><i class="fa fa-male"></i><span>Jobs</span></a></li>
-		<li><a href="#" data-page="6"><i class="fa fa-file-video-o"></i><span>Press</span></a></li>
-		<li><a href="#" data-page="7"><i class="fa fa-link"></i><span>Contact</span></a></li>
-		<li><a href="#" data-page="8"><i class="fa fa-user"></i><span>Help</span></a></li>
-	</ul>
-
-	<div class="body-container">
 	<header>
 		<?php require_once("home_header.html")?>
 	</header>
@@ -131,9 +88,6 @@
 	<footer>
 		<?php require_once("home_footer.html")?>
 	</footer>
-	</div>
-</div>
-	
 	
 	<script type="text/javascript" src="assets/js/script.js"></script>
 	<script type="text/javascript" src="assets/js/home_header.js"></script>
@@ -149,10 +103,8 @@
 	<script type="text/javascript" src="assets/js/home_address.js"></script>
 	<script type="text/javascript" src="assets/js/home_footer.js"></script>
 	<script type="text/javascript" src="assets/js/home.js"></script>
-	<script type="text/javascript" src="assets/js/menu-mobile.js"></script>
-
 	<script>
- 	 AOS.init();
+		AOS.init();
 	</script>
 </body>
 </html>
