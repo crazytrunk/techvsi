@@ -1,6 +1,6 @@
 .vsi-fe1-banner{
     width: 100%;
-    max-width: 100%;
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -28,7 +28,6 @@
     background: rgba(0, 0, 0, 0.5);
     border: 3px solid #000000;
     border-radius: 16px;
-    font-family: 'Roboto', sans-serif;
     margin: 5rem auto;
     min-height: 300px;
 }
