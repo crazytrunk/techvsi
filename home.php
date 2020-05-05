@@ -54,36 +54,36 @@
 		<?php require_once("home_header.html")?>
 	</header>
 	<main>
-		<article class="vsi-banner" id="vsi-banner">
+		<section class="vsi-banner" id="vsi-banner">
 			<?php require_once("home_banner.html")?>
-		</article>
-		<article class="vsi-about" id="vsi-about">
+		</section>
+		<section class="vsi-about" id="vsi-about">
 			<?php require_once("home_about.html")?>
-		</article>
-		<article class="vsi-home-1" id="vsi-home-1">
+		</section>
+		<section class="vsi-home-1" id="vsi-home-1">
 			<?php require_once("home_home-1.html")?>
-		</article>
-		<article class="vsi-projects" id="vsi-projects">
+		</section>
+		<section class="vsi-projects" id="vsi-projects">
 			<?php require_once("home_projects.html")?>
-		</article>
-		<article class="vsi-home-2" id="vsi-home-2">
+		</section>
+		<section class="vsi-home-2" id="vsi-home-2">
 			<?php require_once("home_home-2.html")?>
-		</article>
-		<article class="vsi-services" id="vsi-services">
+		</section>
+		<section class="vsi-services" id="vsi-services">
 			<?php require_once("home_services.html")?>
-		</article>
-		<article class="vsi-home-3" id="vsi-home-3">
+		</section>
+		<section class="vsi-home-3" id="vsi-home-3">
 			<?php require_once("home_home-3.html")?>
-		</article>
-		<article class="vsi-team" id="vsi-team">
+		</section>
+		<section class="vsi-team" id="vsi-team">
 			<?php require_once("home_team.html")?>
-		</article>
-		<article class="vsi-home_what_we_do" id="vsi-home_what_we_do">
+		</section>
+		<section class="vsi-home_what_we_do" id="vsi-home_what_we_do">
 			<?php require_once("home_what_we_do.html")?>
-		</article>
-		<article class="vsi-address" id="vsi-address">
+		</section>
+		<section class="vsi-address" id="vsi-address">
 			<?php require_once("home_address.html")?>
-		</article>
+		</section>
 	</main>
 	<footer>
 		<?php require_once("home_footer.html")?>
