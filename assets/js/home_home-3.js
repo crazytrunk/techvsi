@@ -2,6 +2,8 @@ $('.owl-carousel').owlCarousel({
     stagePadding: 200,
     loop:true,
     margin:10,
+    autoplay:true,
+    autoplayTimeout:2000,
     nav:false,
     items:1,
     lazyLoad: true,

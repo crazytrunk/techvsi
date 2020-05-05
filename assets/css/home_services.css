@@ -5,7 +5,6 @@
     max-width: unset !important; 
     width: 400px;
     height: 300px;
-    
 }
 .vsi-fe3-services__item-details-right{
     padding: 30px 0;
@@ -16,7 +15,7 @@
     text-align: center;
 }
 .vsi-fe3-services__content-item-details{
-    margin-left: 5%;
+    /* margin-left: 5%; */
     max-width: 880px;
     background-color: white;
     display: flex;
@@ -27,7 +26,7 @@
 }
 
 .vsi-fe3-services__content-item-details-right{
-    margin-left: 15%;
+    /* margin-left: 15%; */
     border-radius: 16px 0px 0px 16px;
 
 }
@@ -44,17 +43,85 @@
 }
 .vsi-fe3-services__item-details-right-2{
     border-radius: 16px 0px 0px 16px;
-    
-
 }
+.vsi-fe3-services__content-item:nth-child(2){
+    margin-left: auto;
+}
+/* .vsi-right{
+    margin: auto;
+}
+
+.vsi-test-left{
+    margin: auto;
+} */
 @media (max-width: 575.98px) {
-	
+	.vsi-fe3-services__content-item-details{
+        /* margin-left: 5%; */
+        max-width: 880px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        border-radius: 0px ;
+        margin-top: 40px;
+    }
+    .vsi-fe3-services__item-details-right{
+        width: 100%;
+    }
+    .vsi-fe3-services__item-details-left img{
+        max-width: unset !important; 
+        width: 100%;
+        height: 100%;
+    }
+    .vsi-fe3-services__content-item-details-right{
+        flex-direction: column-reverse;
+    }
+    .vsi-fe3-services__item-details-right{
+        border-radius: 0px ;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+	.vsi-fe3-services__content-item-details{
+        /* margin-left: 5%; */
+        max-width: 880px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        border-radius: 0px ;
+        margin-top: 40px;
+    }
+    .vsi-fe3-services__item-details-right{
+        border-radius: 0px ;
+    }
+    .vsi-fe3-services__item-details-right{
+        width: 100%;
+    }
+    .vsi-fe3-services__item-details-left img{
+        max-width: unset !important; 
+        width: 100%;
+        height: 100%;
+    }
+    .vsi-fe3-services__content-item-details-right{
+        flex-direction: column-reverse;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+    .vsi-fe3-services__item-details-left img{
+        max-width: unset !important; 
+        width: 250px;
+        height: 200px;
+    }
+    .vsi-fe3-services__item-details-right{
+        padding:10px 0 5px 0;
+    }
+    .vsi-fe3-services__item-details-right-desc{
+       font-size: 14px;
+       text-align: left;
+    }
+    .vsi-fe3-services__item-details-right-title{
+        margin-bottom: 0;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
 	
