@@ -93,6 +93,21 @@
     /* transform: scale(0); */
     /* transition: all 0.5s; */
 }
+.vsi-fe3-team__info--social-fa::before{
+    position: relative;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+.vsi-fe3-team__info--social-fa:hover::before{
+    
+    background-color: red;
+    transform: scale(1);
+}
 
 .vsi-fe3-team__info--social-fa:hover{
     background-color: #3b5999;
@@ -193,6 +208,85 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+/* modal bootrap when click image-start */
+.vsi-fe3-team .modal-dialog{
+    max-width: 1000px;
+    height: auto;
+}
+.modal-content .close{
+    cursor: pointer;
+    font-size: 20px;
+    width: 40px;
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 40px;
+    color: white;
+    line-height: 38px;
+    border-radius: 100%;
+    opacity: 1;
+    background: #bdbdbd;
+    position: absolute;
+    right: -4%;
+    top: -4%;
+}
+.modal-body .member-name{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 0;
+    color: var(--vsi-color-1);
+    margin-bottom: 25px;
+}
+.modal-body .member-position{
+    text-align: center;
+    font-size: 24px;
+    color:#d71818;
+    margin-bottom: 25px;
+}
+.modal-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.modal .modal-dialog h4 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.modal .modal-dialog p {
+    margin: 0 0 20px;
+}
+.modal .progress {
+    height: auto;
+    border-radius: 1px;
+    background-color: #f8f8f8;
+    box-shadow: none;
+    position: relative;
+    margin-top: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.modal .progress .progress-bar {
+    height: 34px;
+    font-size: 21px;
+    background-color: #373737;
+    text-align: left;
+}
+.modal .progress-bar span {
+    margin: 0 8px;
+    padding: 0;
+    font-size: 16px;
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.white {
+    color: var(--vsi-color-2);
 }
 @media (max-width: 575.98px) {
 	.vsi-fe3-team__info--social{
@@ -338,7 +432,9 @@
         top: 56%;
         left: 50%;
         transform: translateX(-50%);
-    
+    }
+    .vsi-fe3-team__info--name{
+        padding-top: 0;
     }
 }
 @media (min-width: 1200px) {
