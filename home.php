@@ -18,6 +18,10 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/animate/animate.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake-slow.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/normalize/normalize.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/hamburger-animation.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/menu-mobile.css">
+
 
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -48,8 +52,46 @@
 	<script type="text/javascript" src="assets/lib/parallax/parallax.js" ></script>
 	<script type="text/javascript" src="assets/lib/vendorlibrary/js/three.r95.min.js"></script>
 	<script type="text/javascript" src="assets/lib/vendorlibrary/js/vanta.net.min.js"></script>
+	<script type="text/javascript" src="assets/js/menu-mobile.js"></script>
+
 </head>
-<body>
+<body >
+	
+<label class="menuBtn">
+	
+	<div class="menuLines toggle">
+		<input type="checkbox">
+		<div>
+			<div>
+				<span></span>
+				<span></span>
+			</div>
+			<svg>
+				<use xlink:href="#path">
+			</svg>
+			<svg>
+				<use xlink:href="#path">
+			</svg>
+		</div>
+	</div>
+</label>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" id="path">
+		<path d="M22,22 L2,22 C2,11 11,2 22,2 C33,2 42,11 42,22"></path>
+	</symbol>
+</svg>
+
+<div class="mainContainer">
+	<ul class="mainMenu">
+		<li><a href="#" data-page="1" class="active"><span>HOME</span></a></li>
+		<li><a href="#" data-page="2"><span>ABOUT</span></a></li>
+		<li><a href="#" data-page="3"><span>PROJECT</span></a></li>
+		<li><a href="#" data-page="4"><span>TEAM</span></a></li>
+		<li><a href="#" data-page="5"><span>CONTACT</span></a></li>
+	</ul>
+
+	<div class="body-container">
 	<header>
 		<?php require_once("home_header.html")?>
 	</header>
@@ -88,6 +130,9 @@
 	<footer>
 		<?php require_once("home_footer.html")?>
 	</footer>
+	</div>
+</div>
+	
 	
 	<script type="text/javascript" src="assets/js/script.js"></script>
 	<script type="text/javascript" src="assets/js/home_header.js"></script>

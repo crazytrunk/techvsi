@@ -7,7 +7,7 @@
             transform: translateZ(-100px);
   }
   .mainContainer > .mainMenu,
-  .mainContainer .container {
+  .mainContainer .body-container {
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     min-height: 100%;
