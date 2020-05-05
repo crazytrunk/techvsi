@@ -20,7 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake-slow.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/normalize/normalize.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/hamburger-animation.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/menu-mobile.css">
+	<link rel="stylesheet" type="text/css" href="assets/lib/menu-mobile/menu-mobile.css">
 
 
 	<link rel="stylesheet" type="text/css" href="assets/css/root_var.css">
@@ -52,7 +52,7 @@
 	<script type="text/javascript" src="assets/lib/parallax/parallax.js" ></script>
 	<script type="text/javascript" src="assets/lib/vendorlibrary/js/three.r95.min.js"></script>
 	<script type="text/javascript" src="assets/lib/vendorlibrary/js/vanta.net.min.js"></script>
-	<script type="text/javascript" src="assets/js/menu-mobile.js"></script>
+	<script type="text/javascript" src="assets/lib/menu-mobile/menu-mobile.js"></script>
 
 </head>
 <body >
