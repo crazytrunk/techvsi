@@ -144,12 +144,12 @@
 /* Menu Mobile - Start */
 .vsi-menu-mobile{
 	position: fixed;
-	height: 64px;
+	height: 80px;
 	width: 100%;
 	top: -1px;
 	left: 0;
 	z-index: 2;
-	background-color:var(--gray) ;	
+	background-color:var(--gray);
 }
 .vsi-menu-mobile-hide{
 	display: none;

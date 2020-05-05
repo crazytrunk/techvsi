@@ -17,15 +17,7 @@
   z-index: 0;
   width: 100%;
 }
-/* header */
-header {
-  height: 75px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  background-color: #f1f1f1;
-}
+
 /* menu */
 .menuBtn {
   border: 24px solid #333;
@@ -71,7 +63,8 @@ header {
   -webkit-transform: rotateY(0deg) translateZ(100px);
           transform: rotateY(0deg) translateZ(100px);
 }
-.mainMenu.flip li {
+.mainMenu.flip li,
+.shake {
   -webkit-animation: shake 300ms linear;
           animation: shake 300ms linear;
   -webkit-transform-origin: 50% 50%;
@@ -235,6 +228,13 @@ header {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+}
+.menu-mobile-logo{
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 2%;
+  left: 5%;
 }
 
 @media (max-width: 575.98px) {

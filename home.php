@@ -84,6 +84,7 @@
 
 <div class="mainContainer">
 	<ul class="mainMenu">
+		<img src="assets/images/logo.png" alt="" class="menu-mobile-logo">
 		<li><a href="#" data-page="1" class="active"><span>HOME</span></a></li>
 		<li><a href="#" data-page="2"><span>ABOUT</span></a></li>
 		<li><a href="#" data-page="3"><span>PROJECT</span></a></li>

@@ -1,6 +1,10 @@
 
 .vsi-third-paty-bg{
-   
+    background-image: url("../images/home/home-1/home-1-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 80px;
     position: relative;
     height: 100%;

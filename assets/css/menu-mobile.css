@@ -169,7 +169,6 @@
   }
   /* container */
   .body-container {
-    background: linear-gradient(90deg, #232526 0%, #232526 0.01%, #414345 100%, #414345 100%);
     -webkit-transform: translateZ(100px);
             transform: translateZ(100px);
     -webkit-transition: -webkit-transform 500ms;
@@ -178,7 +177,7 @@
     transition: transform 500ms, -webkit-transform 500ms;
     padding: 80px 0 10px;
   }
-  /* .body-container.flip {
+  .body-container.flip {
     -webkit-transform: rotateY(90deg) translateZ(288px);
             transform: rotateY(90deg) translateZ(288px);
   }
@@ -211,7 +210,7 @@
   .body-container p {
     font-size: 15px;
     margin: 5px 0 0;
-  } */
+  }
   /* animation */
   .fade {
     -webkit-animation: fade 3000ms;
