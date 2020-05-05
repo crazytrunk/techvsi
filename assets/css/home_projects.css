@@ -198,10 +198,11 @@
     left: 50%;
     transform: translateX(-50%);
 }
-
+/* button view all-start */
 .vsi-fe2-our-project-button-view-all {
     margin-left: auto;
     margin-bottom: 30px;
+    position: relative;
 }
 .vsi-fe2-our-project-button-view-all .btn-primary {
     border: none;
@@ -213,6 +214,7 @@
     color: black;
     position: relative;
     z-index: 1;
+    padding-right: 40px;
 }
 .vsi-fe2-our-project-button-view-all .btn::before{
     content: "";
@@ -248,9 +250,7 @@
 	height: 50%;
 	transition: all 0.25s ease;
 }
-.vsi-fe2-our-project-button-view-all span {
-    padding-left: 10px;
-}
+
 .vsi-fe2-our-project-button-view-all .btn-primary:active {
     background-color: white !important;
     border: 1px solid var(--orange) !important;
@@ -260,13 +260,49 @@
 .vsi-fe2-our-project-button-view-all .btn-primary:focus {
     box-shadow: none !important;
 }
-.vsi-fe2-our-project-button-view-all span .svg-inline--fa {
-    position: unset;
-}
 .vsi-fe2-our-project-button-view-all {
     margin-left: auto;
     margin-top: auto;
 }
+/* button view all-end */
+/* animation arrow -start */
+.vsi-fe2-our-project-button-view-all span{
+    position: absolute;
+    top:50%;
+    right: 0;
+    transform: translate(-50%,-50%) rotate(-45deg);
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid var(--vsi-color-1);
+    border-right: 2px solid var(--vsi-color-1);
+    animation: animate2 2s infinite;
+    z-index: 2;
+}
+.vsi-fe2-our-project-button-view-all span:nth-child(1){
+    animation-delay: -0.2s;
+}
+.vsi-fe2-our-project-button-view-all span:nth-child(2){
+    animation-delay: -0.6s;
+}
+@keyframes animate2 {
+    0%{
+        opacity: 0;
+        transform: translate(-50%,-50%) rotate(-45deg) ;
+        right:15%;
+
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(-50%,-50%) rotate(-45deg);
+        right:0;
+
+    }
+}
+/* animation arrow -end */
 @media (max-width: 575.98px) {
     .gallery__items .gallery__text h3 {
         font-size: 2rem;
