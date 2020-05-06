@@ -110,6 +110,12 @@
         </div>
     </div> 
 
+    <!-- croll top -->
+    <button id="back-to-top-btn">
+        <span></span> 
+        <span></span>
+    </button>
+
 
     <!-- Modal -->
     <div class="modal" data-backdrop="static" tabindex="-1" id="member1" role="dialog"

@@ -32,3 +32,9 @@ $(document).ready(function(){
 })
 
 //countup -end
+// trigger click -start
+$( ".event-type-select" ).change(function() {
+   var tmp = $(this).val();
+   $( "#filter_"+ tmp).trigger( "click" );
+  });
+  // trigger click -end
