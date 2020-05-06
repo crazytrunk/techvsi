@@ -147,9 +147,9 @@
 /* Menu Mobile - Start */
 .vsi-menu-mobile{
 	position: fixed;
-	height: 75px;
+	height: 85px;
 	width: 100%;
-	top: -1px;
+	top: 0px;
 	left: 0;
 	z-index: 2;
 	background-color:var(--vsi-color-2);
@@ -164,11 +164,11 @@
 
 .vsi-menu__mobile-logo{
 	width: 100px;
-    height: 48px;
+	height: 48px;
 	z-index: -1;
-    position: absolute;
-    top: 10px;
-    left: 20px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
 }
 .vsi-menu__mobile-logo-none{
     display: none;

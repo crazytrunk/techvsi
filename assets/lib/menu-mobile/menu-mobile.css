@@ -18,14 +18,14 @@
   width: 100%;
 }
 /* header */
-header {
+/* header {
   height: 75px;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   background-color: #f1f1f1;
-}
+} */
 /* menu */
 .menuBtn {
   border: 24px solid #f1f1f1;
@@ -39,13 +39,14 @@ header {
   position: absolute;
   right: 25px;
   top: 15px;
-  z-index: 1;
+  z-index: 10;
 }
 .menuBtn .menuLines {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
 .menuBtn.clicked {
+  z-index: 10;
     border: 24px solid #515151;
   border-radius: 8px;
   -webkit-transform: rotate(0deg);

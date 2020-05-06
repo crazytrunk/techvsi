@@ -13,13 +13,12 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/fontawesome-free-5.13.0-web/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/aos/css/aos.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/OwlCarousel2-2.3.4/css/owl.theme.default.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/animate/animate.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake-slow.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/lib/normalize/normalize.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/lib/normalize/normalize.css"> -->
 	<link rel="stylesheet" type="text/css" href="assets/lib/menu-mobile/menu-mobile.css">
 
 
@@ -43,7 +42,6 @@
 	<script type="text/javascript" src="assets/lib/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/lib/fontawesome-free-5.13.0-web/js/all.min.js"></script>
-	<script type="text/javascript" src="assets/lib/aos/js/aos.js"></script>
 	<script type="text/javascript" src="assets/lib/typed-js/typed.min.js"></script>
 	<script type="text/javascript" src="assets/lib/jquery.countup.min.js"></script>
 	<script type="text/javascript" src="assets/lib/jquery.waypoints.js"></script>
@@ -83,19 +81,18 @@
 <div class="mainContainer">
 	<ul class="mainMenu">
 		<img src="assets/images/logo.png" alt="" class="vsi-menu-mobile-logo"> 
-		<li><a href="#" data-page="1" class="active"><span>HOME</span></a></li>
-		<li><a href="#" data-page="2"><span>ABOUT</span></a></li>
-		<li><a href="#" data-page="3"><span>PROJECT</span></a></li>
-		<li><a href="#" data-page="4"><span>TEAM</span></a></li>
-		<li><a href="#" data-page="5"><span>CONTACT</span></a></li>
-
+		<li><a href="#" class="active"><span>HOME</span></a></li>
+		<li><a href="#"><span>ABOUT</span></a></li>
+		<li><a href="#"><span>PROJECT</span></a></li>
+		<li><a href="#"><span>TEAM</span></a></li>
+		<li><a href="#"><span>CONTACT</span></a></li>
 	</ul>
 
 	<div class="body-container">
-	<header>
+	    <header>
 		<?php require_once("home_header.html")?>
-	</header>
-	<main>
+	    </header>
+	    <main>
 		<section class="vsi-banner" id="vsi-banner">
 			<?php require_once("home_banner.html")?>
 		</section>
@@ -126,12 +123,16 @@
 		<section class="vsi-address" id="vsi-address">
 			<?php require_once("home_address.html")?>
 		</section>
-	</main>
-	<footer>
-		<?php require_once("home_footer.html")?>
-	</footer>
+	    </main>
+	    <footer>
+		    <?php require_once("home_footer.html")?>
+	    </footer>
 	</div>
 </div>
+
+
+
+
 <!-- Modal -->
 <div class="modal" data-backdrop="static" tabindex="-1" id="member1" role="dialog"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -525,8 +526,6 @@
 	<script type="text/javascript" src="assets/js/home_address.js"></script>
 	<script type="text/javascript" src="assets/js/home_footer.js"></script>
 	<script type="text/javascript" src="assets/js/home.js"></script>
-	<script>
-		AOS.init();
-	</script>
+	
 </body>
 </html>
