@@ -15,7 +15,7 @@
     width: 250px;
     height: 250px;
     text-align: center;
-    border: 1px solid var(--black);
+    border: 1px solid var(--vsi-color-1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@
 /* hover box end */
 .vsi-fe2-our-project-boxnumber h2 {
     font-size: 30px;
-    color: white;
+    color: var(--white);
     padding-top: 50px;
     font-weight: 400;
 }
@@ -66,7 +66,7 @@
     font-weight: 400;
     text-transform: uppercase;
     padding-top: 20px;
-    color: var(--white-gray);
+    color: var(--vsi-color-2);
 }
 /* filter start */
 .gallery-title {
@@ -81,13 +81,13 @@
     margin: 30px auto;
     width: 386px;
     text-align: center;
-    color: white;
+    color: var(--white);
 }
 .filter-button {
     font-size: 18px;
     background: var(--vsi-color-2);
     border: 3px solid var(--vsi-color-3);
-    color: var(--black);
+    color: var(--vsi-color-1);
     border-radius: 5px;
     text-align: center;
     margin-bottom: 30px;
@@ -147,7 +147,7 @@
     left: 0;
     text-align: right;
     padding: 30px 25px;
-    color: white;
+    color: var(--white);
     /* #3085a3 */
     opacity: 0;
     -webkit-transition: all 1s linear;
@@ -200,21 +200,24 @@
 }
 /* button view all-start */
 .vsi-fe2-our-project-button-view-all {
-    margin-left: auto;
     margin-bottom: 30px;
-    position: relative;
+    
 }
+
 .vsi-fe2-our-project-button-view-all .btn-primary {
     border: none;
 }
 .vsi-fe2-our-project-button-view-all .btn {
-    background-color: white;
+    background-color: var(--white);
     border: 1px solid var(--vsi-color-3);
     border-radius: 0px 20px 20px 0;
     color: black;
     position: relative;
     z-index: 1;
     padding-right: 40px;
+    margin-left: auto;
+    display: block;
+    white-space: nowrap;
 }
 .vsi-fe2-our-project-button-view-all .btn::before{
     content: "";
@@ -252,7 +255,7 @@
 }
 
 .vsi-fe2-our-project-button-view-all .btn-primary:active {
-    background-color: white !important;
+    background-color: var(--white) !important;
     border: 1px solid var(--orange) !important;
     color: black !important;
     border-color: none;
@@ -260,10 +263,7 @@
 .vsi-fe2-our-project-button-view-all .btn-primary:focus {
     box-shadow: none !important;
 }
-.vsi-fe2-our-project-button-view-all {
-    margin-left: auto;
-    margin-top: auto;
-}
+
 /* button view all-end */
 /* animation arrow -start */
 .vsi-fe2-our-project-button-view-all span{
@@ -276,7 +276,7 @@
     height: 10px;
     border-bottom: 2px solid var(--vsi-color-1);
     border-right: 2px solid var(--vsi-color-1);
-    animation: animate2 2s infinite;
+    animation: animate1 2s infinite;
     z-index: 2;
 }
 .vsi-fe2-our-project-button-view-all span:nth-child(1){
@@ -285,7 +285,7 @@
 .vsi-fe2-our-project-button-view-all span:nth-child(2){
     animation-delay: -0.6s;
 }
-@keyframes animate2 {
+@keyframes animate1 {
     0%{
         opacity: 0;
         transform: translate(-50%,-50%) rotate(-45deg) ;
@@ -301,8 +301,9 @@
         right:0;
 
     }
-}
+} 
 /* animation arrow -end */
+
 @media (max-width: 575.98px) {
     .gallery__items .gallery__text h3 {
         font-size: 2rem;
@@ -315,6 +316,13 @@
     .vsi-fe2-our-project__items {
         margin: 20px auto;
     }
+    .mb-show-only{
+        display: block;
+    }
+    .pc-show-only{
+        display: none;
+    }
+ 
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -328,18 +336,62 @@
     .vsi-fe2-our-project__items {
         margin-bottom: 20px;
     }
+    .mb-show-only{
+        display: block;
+    }
+    .pc-show-only{
+        display: none;
+    }
+
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .gallery__items .gallery__text h3 {
         font-size: 1rem;
         margin: 0;
     }
-    .vsi-fe2-our-project__items {
-        margin: 20px auto;
+   
+    .mb-show-only{
+        display: block;
     }
+    .pc-show-only{
+        display: none;
+    }
+   .vsi-fe2-our-project__items{
+       margin-left: auto;
+       margin-top: 30px;
+   }
+   .project__2{
+    margin-left: 0;
+    margin-right: auto;
+}
+.project__4{
+    margin-left: 0;
+    margin-right: auto;
+}
+  
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .mb-show-only{
+        display: none;
+    }
+    .vsi-fe2-our-project__items {
+      margin-left: auto;
+      margin-top: 30px;
+    }
+    .project__2{
+        margin-left: 0;
+        margin-right: auto;
+    }
+    .project__4{
+        margin-left: 0;
+        margin-right: auto;
+    }
+  
 }
 @media (min-width: 1200px) {
+    .mb-show-only{
+        display: none;
+    }
+   
 }
 /* filter end */
