@@ -10,7 +10,7 @@ var typed = new Typed(".typed-words", {
     "React Native",
     "PHP ZEND &amp; Magento"
   ],
-  typeSpeed: 30,
+  typeSpeed: 20,
   backSpeed: 30,
   backDelay: 2000,
   startDelay: 1000,
@@ -27,9 +27,9 @@ VANTA.NET({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  points: 12.00,
-  maxDistance: 30.00,
-  color: 0xfffe3f,  
-  backgroundColor: 0x1,
-  spacing: 18.00
+  points: 8.00,
+  maxDistance: 25.00,
+  spacing: 20.00,
+  color: 0xfffe3f,
+  backgroundColor: 0x0
 })

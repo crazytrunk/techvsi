@@ -153,6 +153,7 @@
 
 .card{
     background-color: transparent;
+    border: none;
 }
 .card-body{
     padding: 20px 0;
