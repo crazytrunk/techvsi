@@ -177,7 +177,7 @@ header {
   transition: -webkit-transform 500ms;
   transition: transform 500ms;
   transition: transform 500ms, -webkit-transform 500ms;
-  padding: 80px 0 10px;
+  /* padding: 80px 0 10px; */
 }
 .body-container.flip {
   -webkit-transform: rotateY(90deg) translateZ(288px);
