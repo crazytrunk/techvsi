@@ -20,7 +20,6 @@
 	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/shake/csshake-slow.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/normalize/normalize.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/hamburger-animation.css">
 	<link rel="stylesheet" type="text/css" href="assets/lib/menu-mobile/menu-mobile.css">
 
 
@@ -50,16 +49,14 @@
 	<script type="text/javascript" src="assets/lib/jquery.waypoints.js"></script>
 	<script type="text/javascript" src="assets/lib/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="assets/lib/wow/WOW.js" ></script>
-	<script type="text/javascript" src="assets/lib/parallax/parallax.js" ></script>
 	<script type="text/javascript" src="assets/lib/vendorlibrary/js/three.r95.min.js"></script>
 	<script type="text/javascript" src="assets/lib/vendorlibrary/js/vanta.net.min.js"></script>
 	<script type="text/javascript" src="assets/lib/menu-mobile/menu-mobile.js"></script>
 
 </head>
 <body >
-	
+
 <label class="menuBtn">
-	
 	<div class="menuLines toggle">
 		<input type="checkbox">
 		<div>
@@ -85,12 +82,13 @@
 
 <div class="mainContainer">
 	<ul class="mainMenu">
-		<img src="assets/images/logo.png" alt="" class="menu-mobile-logo">
+		<img src="assets/images/logo.png" alt="" class="vsi-menu-mobile-logo"> 
 		<li><a href="#" data-page="1" class="active"><span>HOME</span></a></li>
 		<li><a href="#" data-page="2"><span>ABOUT</span></a></li>
 		<li><a href="#" data-page="3"><span>PROJECT</span></a></li>
 		<li><a href="#" data-page="4"><span>TEAM</span></a></li>
 		<li><a href="#" data-page="5"><span>CONTACT</span></a></li>
+
 	</ul>
 
 	<div class="body-container">

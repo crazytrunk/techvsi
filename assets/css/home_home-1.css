@@ -13,7 +13,6 @@
     justify-content: center;
     align-items: center;
     z-index: 0;
-    padding: 80px;
 }
 .vsi-third-paty-bg::before{
     padding: 80px;
@@ -69,11 +68,7 @@
   flex-wrap: wrap;
   margin: auto;
 }
-.vsi-third-paty-sub-logo .vsi-third-paty-sub-logo-img{
-    /* padding-top: 50px;
-    margin-right: 40px;
-    margin-left: 40px; */
-}
+
 .vsi-third-paty-sub-logo .vsi-third-paty-sub-logo-img:last-child{
     margin-right: 0;
 }
