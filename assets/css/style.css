@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 
 *, body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Nanum Myeongjo', serif;
+}
+body, .body-container{
+    background: linear-gradient(90deg, #232526 0%, #232526 0.01%, #414345 100%, #414345 100%);
+    position: relative;
+    width: 100%;
+    max-width: 100vw;
+    height: auto;
+	overflow-x: hidden;
 }
 a {
 	color: inherit;
