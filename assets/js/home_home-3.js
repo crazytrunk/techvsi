@@ -6,6 +6,7 @@ $('.owl-carousel').owlCarousel({
     autoplayTimeout:2000,
     nav:false,
     items:1,
+    
     lazyLoad: true,
     nav:true,
   responsive:{
@@ -36,6 +37,17 @@ $('.owl-carousel').owlCarousel({
         1800:{
             items:1,
             stagePadding: 400
+        },
+        3000:{
+            items:2,
         }
     }
 })
+var owlCarousel = $('.owl-carousel');
+owlCarousel.mouseover(function(){
+  owlCarousel.trigger('stop.owl.autoplay');
+});
+
+owlCarousel.mouseleave(function(){
+  owlCarousel.trigger('play.owl.autoplay',[2000]);
+});

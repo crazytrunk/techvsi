@@ -53,11 +53,11 @@
 
 </head>
 <body >
-    <header class="headerWrapper">
+    <div class="headerWrapper">
             <a href="#" class="menuBtn">
                 <span class="menuLines"></span>
             </a>
-    </header>
+    </div>
     <div class="mainContainer">
         <ul class="mainMenu">
             <img src="assets/images/logo.png" alt="" class="vsi-menu-mobile-logo"> 
@@ -70,7 +70,7 @@
 
         <div class="body-container">
             <header>
-            <?php require_once("home_header.html")?>
+                <?php require_once("home_header.html")?>
             </header>
             <main>
             <section class="vsi-banner" id="vsi-banner">

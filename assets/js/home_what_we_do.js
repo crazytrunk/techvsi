@@ -23,3 +23,6 @@ function scrollToContent() {
   var elmnt = document.getElementById("languageContent");
   elmnt.scrollIntoView({ block: 'nearest',  behavior: 'smooth' });
 }
+// custom color select menu-start/
+
+// custom color select menu-end/

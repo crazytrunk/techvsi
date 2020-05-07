@@ -289,6 +289,13 @@
     color: var(--vsi-color-2);
 }
 @media (max-width: 575.98px) {
+    .modal .modal-dialog h4 {
+        margin: 25px 0;
+        font-size: 18px;
+    }
+    .modal-body .member-name {
+        font-size: 40px;
+    }
 	.vsi-fe3-team__info--social{
         margin-top: 50px;
     }

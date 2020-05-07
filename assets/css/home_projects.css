@@ -245,15 +245,18 @@
 .vsi-fe2-our-project-button-view-all .btn:hover {
 	outline: none;
 }
-.vsi-fe2-our-project-button-view-all .btn:focus::before,
+
 .vsi-fe2-our-project-button-view-all .btn:hover::before,
-.vsi-fe2-our-project-button-view-all .btn:focus::after,
 .vsi-fe2-our-project-button-view-all .btn:hover::after {
 	width: 100%;
 	height: 50%;
 	transition: all 0.25s ease;
 }
-
+.vsi-fe2-our-project-button-view-all .btn:focus::before,
+.vsi-fe2-our-project-button-view-all .btn:focus::after,
+{
+    background-color: var(--white);
+}
 .vsi-fe2-our-project-button-view-all .btn-primary:active {
     background-color: var(--white) !important;
     border: 1px solid var(--orange) !important;
@@ -351,10 +354,10 @@
     }
    
     .mb-show-only{
-        display: block;
+        display: none;
     }
     .pc-show-only{
-        display: none;
+        display: block;
     }
    .vsi-fe2-our-project__items{
        margin-left: auto;
