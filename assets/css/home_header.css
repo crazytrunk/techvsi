@@ -98,7 +98,6 @@
 	border: outset 3px var(--vsi-color-3);
 	border-bottom-right-radius: 1.5rem;
 	color: var(--vsi-color-1);
-	background-color: var(--vsi-color-4);
 	box-shadow: none;
 	position: absolute;
 	top: 5px;
@@ -131,9 +130,9 @@
 .vsi-btn-1:hover {
 	outline: none;
 }
-.vsi-btn-1:focus::before,
+/* .vsi-btn-1:focus::before, */
 .vsi-btn-1:hover::before,
-.vsi-btn-1:focus::after,
+/* .vsi-btn-1:focus::after, */
 .vsi-btn-1:hover::after {
 	width: 0%;
 	height: 0%;

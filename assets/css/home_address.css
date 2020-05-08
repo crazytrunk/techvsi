@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 50% -26px;
+    background-position: 50% 0;
 }
 .vsi-inner{
     width: 100%;
@@ -225,7 +225,10 @@ a.vsi-icon-address:hover{
         margin: 7px !important;
     }
     .vsi-info{
-        padding: 0;
+        padding: 30px 0;
+    }
+    .vsi-address{
+        background-attachment: unset;      
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -237,6 +240,9 @@ a.vsi-icon-address:hover{
     }
     a.vsi-icon-address{
         margin: 7px !important;
+    }
+    .vsi-address{
+        background-attachment: unset;      
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
