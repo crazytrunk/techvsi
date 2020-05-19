@@ -79,7 +79,7 @@
 
 .vsi-fe2-what-we-do-content .text-center h4 {
     font-size: 32px;
-    color: var(--yellow);
+    color: var(--vsi-color-3);
 }
 .vsi-fe2-what-we-do-content .text-center p {
     line-height: 20px;
@@ -172,9 +172,7 @@
         height: 80%;
         line-height: 80%;
     }
-    .row2 {
-        margin-left: 0;
-    }
+ 
     .inner-content {
         background: linear-gradient(180deg, #111111 0%, #333333 100%);
         padding: 50px 30px;
@@ -205,13 +203,13 @@
     .vsi-fe1-mt {
         display: block !important;
     }
-    .row2 .col-lg-1 {
-        display: none !important;
+    .pc-show{
+        display: none;
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
     .rhombus-wrap {
-        margin: 40px auto;
+        margin: 60px auto;
         width: 150px;
         height: 150px;
     }
@@ -228,12 +226,6 @@
     .row2 .col-lg-1 {
         display: none !important;
     }
-    .rhombus-wrap {
-        margin: 100px auto;
-    }
-    .row2 {
-        margin-left: 0;
-    }
     .inner-content {
         background: linear-gradient(180deg, #111111 0%, #333333 100%);
         padding: 50px 30px;
@@ -244,11 +236,8 @@
         background: linear-gradient(180deg, #111111 0%, #333333 100%);
         margin: 0;
     }
-    .rhombus-wrap6 {
-        margin-left: 35px;
-    }
-    .rhombus-wrap5 {
-        margin-right: 35px;
+    .pc-show{
+        display: none;
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -270,8 +259,9 @@
     .vsi-fe2-what-we-do {
         margin: 0;
     }
-    .rhombus-wrap6 {
-        margin-left: 100px;
+
+    .pc-show{
+        display: none;
     }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -294,7 +284,16 @@
     .inner-content {
         padding: 50px 50px;
     }
-   
+    .mb-show{
+        display: none;
+    }
+    .box9 {
+        width: 70% !important;
+        height: 70% !important;
+    }
 }
 @media (min-width: 1200px) {
+    .mb-show{
+        display: none;
+    }
 }

@@ -9,8 +9,15 @@ body, .body-container{
     width: 100%;
     max-width: 100vw;
     height: auto;
-	overflow-x: hidden;
+    overflow-x: hidden;
+   
 }
+
+::selection {
+    color: var(--vsi-color-3);
+    background:var(--vsi-color-1);
+
+  }
 a {
 	color: inherit;
 }

@@ -14,6 +14,7 @@
 }
 .vsi-fe3-team__list-item--img img{
     width: 100%;
+    border-radius: 8px;
 }
 .vsi-fe3-team__list-item--img:hover .vsi-fe3-team__list-item--info{
     width: 100%;
@@ -82,70 +83,73 @@
     justify-content: center;
 
 }
-.vsi-fe3-team__info--social-fa, .vsi-fe3-team__info--social-twitter, .vsi-fe3-team__info--social-pinterest, .vsi-fe3-team__info--social-linked, .vsi-fe3-team__info--social-youtube{
+.vsi-btn-plus-mobile,.vsi-fe3-team__info--social-fa, .vsi-fe3-team__info--social-twitter, .vsi-fe3-team__info--social-pinterest, .vsi-fe3-team__info--social-linked, .vsi-fe3-team__info--social-youtube{
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 25px;
     height: 25px;
     border-radius: 50%;
     background-color: var(--vsi-color-2);
     border: 1px solid var(--vsi-color-3);
     margin-right: 5px;
-    /* transform: scale(0); */
-    /* transition: all 0.5s; */
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.5s; 
 }
-.vsi-fe3-team__info--social-fa::before{
-    position: relative;
+
+.vsi-fe3-team__info--social-fa::before,.vsi-fe3-team__info--social-twitter::before,.vsi-fe3-team__info--social-pinterest::before,.vsi-fe3-team__info--social-linked::before,.vsi-fe3-team__info--social-youtube::before{
     content: "";
+    position: absolute;
+    color: var(--vsi-color-3);
     width: 25px;
     height: 25px;
+    border: none;
     border-radius: 50%;
-    background-color: yellow;
     transform: scale(0);
     transition: all 0.5s;
 }
 .vsi-fe3-team__info--social-fa:hover::before{
-    
-    background-color: red;
-    transform: scale(1);
+    background-color: #3b5999;
+    transform: scale(1);   
 }
 
-.vsi-fe3-team__info--social-fa:hover{
-    background-color: #3b5999;
-    transform: scale(1);
-    border: none;
-}
-.vsi-fe3-team__info--social-fa:hover::before{
-    transform: scale(1);
-}
 .vsi-fe3-team__info--social-fa:hover .fa-facebook-f{
     color:var(--vsi-color-3) ;
 }
-.vsi-fe3-team__info--social-twitter:hover{
+.vsi-fe3-team__info--social-twitter:hover::before{
     background-color: #55acee;
-    border: none;
+    transform: scale(1);   
 }
+
 .vsi-fe3-team__info--social-twitter:hover .fa-twitter{
     color:var(--vsi-color-3) ;
+
 }
-.vsi-fe3-team__info--social-pinterest:hover{
+.vsi-fe3-team__info--social-pinterest:hover::before{
     background-color:#bd081c ;
-    border: none;
+    transform: scale(1);   
+
 }
 .vsi-fe3-team__info--social-pinterest:hover .fa-pinterest-p{
     color:var(--vsi-color-3) ;
  
 }
-.vsi-fe3-team__info--social-linked:hover{
+.vsi-fe3-team__info--social-linked:hover::before{
     border: none;
     background-color: #0077B5;
+    transform: scale(1);   
+
 }
 .vsi-fe3-team__info--social-linked:hover .fa-linkedin-in{
     color:var(--vsi-color-3) ;
 
 }
-.vsi-fe3-team__info--social-youtube:hover{
+.vsi-fe3-team__info--social-youtube:hover::before{
     border: none;
     background-color:#cd201f ;
+    transform: scale(1);   
 }
 .vsi-fe3-team__info--social-youtube:hover .fa-youtube{
     color:var(--vsi-color-3) ;
@@ -163,46 +167,45 @@
 }
 .vsi-btn-plus{
     margin-top: 20px;
-    position: relative;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 35px;
     height: 35px;
     color: #F1F1F1;
-    border: 1px solid #FDEE30;
-    background: #FDEE30;
-    border-radius: 100%;
-    transition: all 0.5s;
+    border: 1px solid var(--vsi-color-3);
+    background-color: var(--vsi-color-3);
+    border-radius: 50%;
     font-size: 24px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.5s;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .vsi-btn-plus::before{
     content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     position: absolute;
-    background: #F1F1F1;
     color: #999999;
     border-radius: 100%;
     transition: all 0.5s;
-    transform: scale(1);
+    transform: scale(0);
     width: 35px;
     height: 35px;
-    opacity: 0;
+}
+.vsi-btn-plus:hover::before{
+    transform: scale(1);
+    background-color: var(--vsi-color-2);
+    
 }
 .vsi-btn-plus:focus{
     outline: none;
 }
-.vsi-btn-plus:hover{
-    background: #F1F1F1;
+.vsi-btn-plus:hover .vsi-btn-plus-icon{
     color: #999999;
-    
 }
-.vsi-btn-plus:hover::before{
-    background: #F1F1F1;
-    opacity: 1;
-    transition: all 0.5s;
-    transform: scale(0);
-}
+
 .vsi-btn-plus-icon{
     position: absolute;
     top: 50%;
@@ -215,6 +218,7 @@
     height: auto;
 }
 .modal-content .close{
+    z-index: 2;
     cursor: pointer;
     font-size: 20px;
     width: 40px;
@@ -288,10 +292,35 @@
 .white {
     color: var(--vsi-color-2);
 }
+.vsi-btn-plus-mobile{
+    display: none;
+}
 @media (max-width: 575.98px) {
-	.vsi-fe3-team__info--social{
-        margin-top: 50px;
+    .vsi-fe3-team__info--name{
+        padding-top: 15px;
     }
+    .vsi-fe3-team__list-item--img img{
+        border-radius: 8px 8px 0 0;
+    }
+    .vsi-btn-plus-mobile{
+        display: block;
+    }
+    .vsi-btn-plus{
+        display: none;
+    }
+    .vsi-fe3-team__list-item--info{
+        opacity: 1;
+        position: relative;
+        /* margin-top: 10px; */
+        padding-bottom: 20px;
+        border-radius: 0 0 10px 10px;
+    }
+    .vsi-fe3-team__info--position{
+        margin-bottom: 40px;
+    }
+	/* .vsi-fe3-team__info--social{
+        margin-top: 50px;
+    } */
     .vsi-fe3-team__info--position::after{
         content: "";
         width: 75px;
@@ -330,6 +359,9 @@
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .vsi-fe3-team__info--desc{
+        margin-top: 30px;
+    }
 	.vsi-fe3-team__list-item{
         max-width: 300px;   
     }
@@ -371,6 +403,11 @@
         position: absolute;
         right: -4%;
         top: -2%;
+    }
+    .vsi-fe3-team__info--name {
+        margin-bottom: 0;
+        padding-top: 20px;
+        font-size: 24px;
     }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -421,7 +458,7 @@
         height: 1px;
         background-color:var(--vsi-color-3) ;
         position: absolute;
-        top: 52%;
+        top: 32%;
         left: 50%;
         transform: translateX(-50%);
     
@@ -432,7 +469,7 @@
         height: 1px;
         background-color:var(--vsi-color-3) ;
         position: absolute;
-        top: 54%;
+        top: 34%;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -442,7 +479,7 @@
         height: 1px;
         background-color:var(--vsi-color-3) ;
         position: absolute;
-        top: 56%;
+        top: 36%;
         left: 50%;
         transform: translateX(-50%);
     }

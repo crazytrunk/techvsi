@@ -79,6 +79,9 @@
     .vsi-fe3-services__item-details-right{
         border-radius: 0px ;
     }
+    .vsi-fe3-services {
+        margin-top: 20px;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.vsi-fe3-services__content-item-details{
@@ -105,6 +108,9 @@
     .vsi-fe3-services__content-item-details-right{
         flex-direction: column-reverse;
     }
+    .vsi-fe3-services {
+        margin-top: 20px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
     .vsi-fe3-services__item-details-left img{
@@ -121,6 +127,9 @@
     }
     .vsi-fe3-services__item-details-right-title{
         margin-bottom: 0;
+    }
+    .vsi-fe3-services {
+        margin-top: 20px;
     }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {

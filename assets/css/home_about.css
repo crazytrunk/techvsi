@@ -237,15 +237,12 @@ section {
     height: 10px;
     border-bottom: 2px solid var(--vsi-color-1);
     border-right: 2px solid var(--vsi-color-1);
-
     animation: animate 2s infinite;
 }
 .vsi-fe1-redmore span:nth-child(2) {
-    animation-delay: -0.2s;
-}
-.vsi-fe1-redmore span:nth-child(3) {
     animation-delay: -0.4s;
 }
+
 @keyframes animate {
     0% {
         opacity: 0;
@@ -272,7 +269,7 @@ section {
     border-radius: 50%;
     top: 0;
     left: 0;
-    animation: down-effect 1s ease-in-out 0.1s infinite;
+    animation: down-effect 2s ease-in-out 0.1s infinite;
 }
 .vsi-fe1-redmore:focus {
     outline: none;
@@ -285,7 +282,7 @@ section {
     0% {
         opacity: 0.3;
     }
-    40% {
+    20% {
         opacity: 0.5;
         box-shadow: 0 0 0 1px #fff, 0 0 4px 4px #fff, 0 0 0 1px #fff;
     }
@@ -629,7 +626,7 @@ section {
         transition: all 0.5s linear;
     }
     .vsi-fe1-load-left {
-        top: 64% !important;
+        top: 65% !important;
         transition: all 0.5s linear;
     }
 

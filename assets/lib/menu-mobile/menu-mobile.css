@@ -10,25 +10,26 @@
 .mainContainer > .mainMenu,
 .mainContainer .body-container {
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   min-height: 100%;
   position: absolute;
   left: 0;
   top: 0;
   z-index: 0;
   width: 100%;
+  background: linear-gradient(90deg, #232526 0%, #232526 0.01%, #414345 100%, #414345 100%);
 }
 
 /* menu */
 .menuBtn {
-  border: 24px solid #000;
+  border: 24px solid #515151;
   border-radius: 5px;
   height: 0;
   width: 0;
   -webkit-transition: all 300ms;
   transition: all 300ms;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   position: absolute;
   right: 15px;
   top: 15px;
@@ -66,7 +67,7 @@
   border-color: #515151;
   border-radius: 10px;
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 .menuBtn.clicked .menuLines {
   height: 0;
@@ -90,12 +91,13 @@
   background-color: var(--vsi-color-2);
   height: 100vh;
   -webkit-transform: rotateY(-90deg) translateZ(288px);
-          transform: rotateY(-90deg) translateZ(288px);
+  transform: rotateY(-90deg) translateZ(288px);
   -webkit-transition: -webkit-transform 500ms;
   transition: -webkit-transform 500ms;
   transition: transform 500ms;
   transition: transform 500ms, -webkit-transform 500ms;
-  padding: 80px 0 0;
+  padding: 0;
+  margin-top: 85px;
 }
 .mainMenu.flip {
   -webkit-transform: rotateY(0deg) translateZ(100px);
@@ -153,11 +155,16 @@
   opacity: 0;
   text-decoration: none;
   background: linear-gradient(180deg, #111111 0%, #333333 100%);
+  transition: all 0.5s;
 }
 .mainMenu li:hover {
   text-decoration: none;
  
   background: linear-gradient(180deg, #000000 0%, #222222 100%);
+  color: #fff;
+  font-weight: bold;
+  padding-left: 1rem;
+  transition: all 0.5s;
 }
 .mainMenu li a {
   color: #fff;
@@ -165,14 +172,13 @@
   padding: 25px 0 25px 25px;
   text-align: left;
   text-transform: uppercase;
-  transition: all 0.5s;
+
   
 }
 .mainMenu li a:hover, .mainMenu li a:focus {
   color: #fff;
   font-weight: bold;
-  margin-left: 1rem;
-  transition: all 0.5s;
+
 }
 .mainMenu li a i,
 .mainMenu li a span {
@@ -245,7 +251,12 @@
   position: absolute;
   top: 15px;
   left: 3%;
+  z-index: 2;
+  background-color: var(--vsi-color-2);
 }
+/* .vsi-menu-mobile{
+  height: 85px;
+} */
 @media (max-width: 575.98px) {
 	
 }

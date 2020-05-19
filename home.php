@@ -54,13 +54,16 @@
 </head>
 <body >
     <header class="headerWrapper">
+        <div class="vsi-menu-mobile">
+        <img src="assets/images/logo.png" alt="" class="vsi-menu-mobile-logo"> 
             <a href="#" class="menuBtn">
                 <span class="menuLines"></span>
             </a>
+        </div>
+          
     </header>
     <div class="mainContainer">
         <ul class="mainMenu">
-            <img src="assets/images/logo.png" alt="" class="vsi-menu-mobile-logo"> 
             <li><a href="#" class="active"><span>HOME</span></a></li>
             <li><a href="#"><span>ABOUT</span></a></li>
             <li><a href="#"><span>PROJECT</span></a></li>
@@ -109,11 +112,13 @@
             </footer>
         </div>
     </div> 
-<!-- croll top -->
-<button id="back-to-top-btn">
-    <span></span> 
-    <span></span>
-</button>
+
+    <!-- croll top -->
+    <button id="back-to-top-btn">
+        <span></span> 
+        <span></span>
+    </button>
+
 
     <!-- Modal -->
     <div class="modal" data-backdrop="static" tabindex="-1" id="member1" role="dialog"

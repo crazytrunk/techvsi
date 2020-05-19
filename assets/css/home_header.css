@@ -39,19 +39,42 @@
 	flex-wrap: nowrap;
 	/* justify-content: flex-end; */
 }
-.vsi-header_nav > ul > li:not(.vsi-btn-1) {
+/* Mới sửa lại*/
+.vsi-header_nav > ul > li {
 	/* margin: 0 1rem 0 0; */
+	padding: 0px 1rem;
+	line-height: 2.5rem;
+	/* color: white; */
+	background:#fff;
+	opacity: 0px;
+	width: 130px;
+	opacity: 1;
+	margin-left:2px;
+	transition: all 0.3s linear;
+	position: relative;
+}
+.vsi-header_nav>ul>li:hover a
+{
+		font-weight: bold;
+		color:#404040;
+		width: 130px;
+		transition:all 1s;
+		margin-left:10px;
+		
+}
+/*.vsi-header_nav > ul > li:not(.vsi-btn-1) {
+	/* margin: 0 1rem 0 0; 
 	padding: 0 1rem;
 	line-height: 3rem;
 	position: relative;
 }
-
+*/
 .vsi-header_nav > ul > li:not(.vsi-btn-1) > a {
 	text-transform: uppercase;
-	color: var(--vsi-color-1);
+	/*color: var(--vsi-color-1);*/
+	color:#000;
 	font-family: var(--vsi-font-1);
 	font-size: 1.25rem;
-	font-weight: bold;
 	white-space: nowrap;
 }
 .vsi-header_nav > ul > li:not(.vsi-btn-1)::after,
@@ -60,12 +83,54 @@
 .vsi-header_nav > ul > li:not(.vsi-btn-1).active::before {
 	content: "";
 	width: 0%;
-	height: 1px;
+	/*height: 1px;*/
 	position: absolute;
 	left: 0;
 	background-color: var(--vsi-color-1);
 	margin: 0 auto;
 }
+/* Mơi them vao*/
+.vsi-header_nav >ul>li
+{
+	-webkit-animation: shake 300ms linear;
+          animation: shake 300ms linear;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+.vsi-header_nav >ul>li:nth-child(1)
+{
+	opacity: 1;
+	-webkit-animation-delay: 100ms;
+			animation-delay: 100ms;
+}
+.vsi-header_nav>ul>li:nth-child(2)
+{
+	opacity: 1;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+.vsi-header_nav>ul>li:nth-child(3)
+{
+	opacity: 1;
+	-webkit-animation-delay: 300ms;
+			animation-delay: 300ms;
+}
+.vsi-header_nav>ul>li:nth-child(4)
+{
+	opacity: 1;
+	-webkit-animation-delay: 400ms;
+			animation-delay: 400ms;
+}
+.vsi-header_nav>ul>li:nth-child(5)
+{
+	opacity: 1;
+	-webkit-animation-delay: 500ms;
+			animation-delay: 500ms;
+}
+
+
 .vsi-header_nav > ul > li:not(.vsi-btn-1)::after,
 .vsi-header_nav > ul > li:not(.vsi-btn-1).active::after {
 	bottom: 0;
@@ -79,29 +144,32 @@
 }
 .vsi-header_nav > ul > li:not(.vsi-btn-1)::before,
 .vsi-header_nav > ul > li:not(.vsi-btn-1).active::before {
-	top: 0;
+	/*top: 0;*/
+	left:0;
 	width: 0%;
 }
 .vsi-header_nav > ul > li:not(.vsi-btn-1):hover::before,
 .vsi-header_nav > ul > li:not(.vsi-btn-1).active::before {
-	top: 0.5rem;
+	/*top: 0.5rem;*/
+	left:0.5rem;
 	width: 100%;
 	transition: all 0.5s ease;
 }
+/* có sửa*/
 .vsi-btn-1 {
 	text-transform: uppercase;
 	font-family: var(--vsi-font-1);
 	white-space: nowrap;
 	font-weight: bold;
 	margin: 0;
-	padding: 0.5rem 1.5rem 0.5rem 1rem;
+	padding: 0.5rem 1.5rem 0.5rem 0.2rem;
 	border: outset 3px var(--vsi-color-3);
 	border-bottom-right-radius: 1.5rem;
 	color: var(--vsi-color-1);
-	background-color: var(--vsi-color-4);
+	
 	box-shadow: none;
 	position: absolute;
-	top: 5px;
+	top: 0px;
 	z-index: 1;
 	/* left: 100%; */
 	right: -35px;
@@ -139,10 +207,10 @@
 	height: 0%;
 	transition: all 0.25s ease;
 }
-.active{
+/*.active{
     font-weight: bold;
 }
-
+*/
 
 /* Menu Mobile - Start */
 .vsi-menu-mobile{
